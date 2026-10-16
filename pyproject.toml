@@ -1,0 +1,50 @@
+[project]
+name = "foosball-tracking"
+version = "0.1.0"
+description = "Table and ball detection in foosball videos."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "json-with-comments>=1.2,<2",
+    "numpy>=2.2,<3",
+    "opencv-python>=4.11,<5",
+    "pydantic>=2.10,<3",
+]
+
+[project.scripts]
+foosball = "foosball_tracking.cli:main"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.400,<2",
+    "ruff>=0.11,<1",
+]
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv]
+no-build = false
+
+[tool.ruff]
+target-version = "py313"
+line-length = 79
+extend-exclude = ["archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ANN", "D", "RUF"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.pyright]
+include = ["src"]
+exclude = [".venv", "archive"]
+pythonVersion = "3.13"
+typeCheckingMode = "strict"
+venvPath = "."
+venv = ".venv"
