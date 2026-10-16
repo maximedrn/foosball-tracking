@@ -41,33 +41,34 @@ flowchart LR
 
 On every frame, detection is restricted to the field polygon. After Gaussian blur, a HSV mask identifies possible balls. Small gaps are closed before extracting contours.
 
-Candidates are filtered by area (\(A \in [30, 400]\,\mathrm{px}^2\)), radius (\(r \in [4, 18]\,\mathrm{px}\)), aspect ratio, and circularity.
+Candidates are filtered by area ($`A \in [30, 400]\,\mathrm{px}^2`$), radius ($`r \in [4, 18]\,\mathrm{px}`$), aspect ratio, and circularity.
 
 Circularity measures how closely a contour resembles a circle:
 
-\[
+$$
 C = \frac{4\pi A}{P^2}
-\]
+$$
 
 where:
-- \(A\) is the contour area (px²).
-- \(P\) is the contour perimeter (px).
-- \(C\) is the circularity score (dimensionless).
 
-A perfect circle has \(C = 1\), while lower values indicate increasingly irregular or elongated shapes.
+- $`A`$ is the contour area (px²).
+- $`P`$ is the contour perimeter (px).
+- $`C`$ is the circularity score (dimensionless).
+
+A perfect circle has $`C = 1`$, while lower values indicate increasingly irregular or elongated shapes.
 
 Valid candidates are ranked using a weighted score:
 
-\[
+$$
 S = 4C + 3F + 2\max\left(0, 1 - \frac{|r-10|}{10}\right)
-\]
+$$
 
 where:
 
-- \(C\) is the circularity score.
-- \(F = \dfrac{A}{\pi r^2}\) is the fraction of the minimum enclosing circle occupied by the contour.
-- \(A\) is the contour area (px²).
-- \(r\) is the radius of the enclosing circle (px).
+- $`C`$ is the circularity score.
+- $`F = \dfrac{A}{\pi r^2}`$ is the fraction of the minimum enclosing circle occupied by the contour.
+- $`A`$ is the contour area (px²).
+- $`r`$ is the radius of the enclosing circle (px).
 
 The score favors circular contours (weight 4), contours that fill their enclosing circle (weight 3), and candidates with a radius close to 10 px (weight 2).
 
