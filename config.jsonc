@@ -1,0 +1,96 @@
+{
+    // Source video to process.
+    "video_path": "video.mp4",
+    // Annotated MP4 destination; an existing file is never overwritten.
+    "output_path": "output/tracking.mp4",
+    // Maximum number of frames to process; null processes the entire video.
+    "max_frames": null,
+
+    // Detect the table from its playing surface.
+    "table": {
+        // OpenCV HSV bounds: H in [0, 179], S and V in [0, 255].
+        "hsv": {
+            // Inclusive lower bound: hue, saturation, brightness.
+            "lower": [55, 40, 40],
+            // Inclusive upper bound: hue, saturation, brightness.
+            "upper": [75, 220, 230]
+        },
+        // Run table detection every N frames; reuse its last position between runs.
+        "detection_every": 15,
+        // Resize factor for table detection; 0.5 halves both image dimensions.
+        "scale": 0.5,
+        // Minimum fraction of the image occupied by the playing surface.
+        "minimum_area_ratio": 0.05,
+        // Width and height of the morphological closing kernel, in pixels.
+        "close_kernel_size": 11,
+        // Number of closing operations used to fill gaps in the mask.
+        "close_iterations": 2,
+        // Expand the playfield rectangle by this factor to outline the table.
+        "box_expansion": 1.18
+    },
+
+    // Detect the ball within the playing surface on each frame.
+    "ball": {
+        // OpenCV HSV interval used to isolate pixels.
+        "hsv": {
+            // Inclusive lower bound: hue, saturation, brightness.
+            "lower": [24, 80, 100],
+            // Inclusive upper bound: hue, saturation, brightness.
+            "upper": [38, 255, 255]
+        },
+        // Minimum accepted contour area, in square pixels.
+        "minimum_area": 30.0,
+        // Maximum accepted contour area, in square pixels; greater than minimum_area.
+        "maximum_area": 400.0,
+        // Minimum accepted enclosing-circle radius, in pixels.
+        "minimum_radius": 4.0,
+        // Maximum accepted radius, in pixels; greater than minimum_radius.
+        "maximum_radius": 18.0,
+        // Minimum circularity in [0, 1]; a perfect circle has circularity 1.
+        "minimum_circularity": 0.4,
+        // Maximum ratio of the longer bounding-box side to the shorter side.
+        "maximum_aspect_ratio": 2.3,
+        // Minimum contour area divided by its enclosing-circle area, in [0, 1].
+        "minimum_fill_ratio": 0.3,
+        // Preferred radius, in pixels, used to rank accepted ball candidates.
+        "expected_radius": 10.0,
+        // Gaussian blur kernel width and height; a positive odd number of pixels.
+        "blur_kernel_size": 3,
+        // Closing kernel width and height; a positive odd number of pixels.
+        "close_kernel_size": 3
+    },
+
+    // Estimate short occlusions using velocity from real ball observations.
+    "tracking": {
+        // Maximum prediction duration in seconds; 0 disables prediction.
+        "maximum_prediction_seconds": 0.4,
+        // Latest velocity measurement weight in (0, 1]; higher reacts faster.
+        "velocity_smoothing": 0.7
+    },
+
+    // Live preview and console progress; output video keeps every processed frame.
+    "preview": {
+        // Open a preview window; Q or Escape stops processing.
+        "enabled": false,
+        // Refresh the preview every N processed frames.
+        "every_n_frames": 3,
+        // Maximum preview width in pixels; the output resolution is unchanged.
+        "width": 1000,
+        // Print console progress every N processed frames.
+        "progress_every": 20
+    },
+
+    // Overlay colors use OpenCV BGR order: [blue, green, red].
+    "drawing": {
+        // Cyan outline around the detected table.
+        "table_color": [255, 255, 0],
+        // Yellow outline around the visually detected ball.
+        "ball_color": [0, 255, 255],
+        // Orange outlines around secondary ball candidates.
+        "candidate_color": [0, 165, 255],
+        // Red marker at the detected ball center.
+        "center_color": [0, 0, 255],
+        // Magenta outline and arrow for estimated positions during occlusions.
+        "prediction_color": [255, 0, 255]
+    }
+}
