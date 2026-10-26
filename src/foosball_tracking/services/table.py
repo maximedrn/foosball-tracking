@@ -6,7 +6,7 @@ from typing import Self, cast
 
 from cv2 import (
     CHAIN_APPROX_SIMPLE,
-    COLOR_BGR2HSV,
+    COLOR_BGR2RGB,
     INTER_AREA,
     MORPH_CLOSE,
     MORPH_ELLIPSE,
@@ -51,7 +51,7 @@ class TableDetector:
         """Detect the baby-foot in one video frame.
 
         The frame is first downscaled for performance. The green playing
-        surface is segmented in HSV space, the largest green contour is
+        surface is segmented in RGB space, the largest green contour is
         retained, and ``cv2.minAreaRect`` estimates its orientation.
 
         :param frame: BGR input image.
@@ -63,13 +63,13 @@ class TableDetector:
         """
         # Detect the large field at lower resolution to reduce processing cost.
         small_frame: Image = self._resize_for_detection(frame)
-        hsv: Image = cast(Image, cvtColor(small_frame, COLOR_BGR2HSV))
+        rgb: Image = cast(Image, cvtColor(small_frame, COLOR_BGR2RGB))
         mask: Image = cast(
             Image,
             inRange(
-                hsv,
-                self.config.hsv.lower_array(),
-                self.config.hsv.upper_array(),
+                rgb,
+                self.config.rgb.lower_array(),
+                self.config.rgb.upper_array(),
             ),
         )
         # Join green regions separated by thin lines, then keep the largest

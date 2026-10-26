@@ -8,52 +8,52 @@
 
     // Detect the table from its playing surface.
     "table": {
-        // OpenCV HSV bounds: H in [0, 179], S and V in [0, 255].
-        "hsv": {
-            // Inclusive lower bound: hue, saturation, brightness.
-            "lower": [55, 40, 40],
-            // Inclusive upper bound: hue, saturation, brightness.
-            "upper": [75, 220, 230]
+        // RGB bounds calibrated for video1.mp4; each channel is in [0, 255].
+        "rgb": {
+            // Inclusive lower bound: red, green, blue.
+            "lower": [30, 160, 95],
+            // Inclusive upper bound: red, green, blue.
+            "upper": [165, 245, 200]
         },
         // Run table detection every N frames; reuse its last position between runs.
-        "detection_every": 15,
+        "detection_every": 60,
         // Resize factor for table detection; 0.5 halves both image dimensions.
         "scale": 0.5,
         // Minimum fraction of the image occupied by the playing surface.
-        "minimum_area_ratio": 0.05,
+        "minimum_area_ratio": 0.15,
         // Width and height of the morphological closing kernel, in pixels.
-        "close_kernel_size": 11,
+        "close_kernel_size": 7,
         // Number of closing operations used to fill gaps in the mask.
         "close_iterations": 2,
         // Expand the playfield rectangle by this factor to outline the table.
-        "box_expansion": 1.18
+        "box_expansion": 1.10
     },
 
     // Detect the ball within the playing surface on each frame.
     "ball": {
-        // OpenCV HSV interval used to isolate pixels.
-        "hsv": {
-            // Inclusive lower bound: hue, saturation, brightness.
-            "lower": [24, 80, 100],
-            // Inclusive upper bound: hue, saturation, brightness.
-            "upper": [38, 255, 255]
+        // RGB bounds calibrated for the yellow ball in video1.mp4.
+        "rgb": {
+            // Inclusive lower bound: red, green, blue.
+            "lower": [200, 220, 0],
+            // Inclusive upper bound: red, green, blue.
+            "upper": [255, 255, 170]
         },
         // Minimum accepted contour area, in square pixels.
-        "minimum_area": 30.0,
+        "minimum_area": 40.0,
         // Maximum accepted contour area, in square pixels; greater than minimum_area.
-        "maximum_area": 400.0,
+        "maximum_area": 1400.0,
         // Minimum accepted enclosing-circle radius, in pixels.
-        "minimum_radius": 4.0,
+        "minimum_radius": 4.5,
         // Maximum accepted radius, in pixels; greater than minimum_radius.
-        "maximum_radius": 18.0,
+        "maximum_radius": 28.0,
         // Minimum circularity in [0, 1]; a perfect circle has circularity 1.
-        "minimum_circularity": 0.4,
+        "minimum_circularity": 0.3,
         // Maximum ratio of the longer bounding-box side to the shorter side.
-        "maximum_aspect_ratio": 2.3,
+        "maximum_aspect_ratio": 4.5,
         // Minimum contour area divided by its enclosing-circle area, in [0, 1].
-        "minimum_fill_ratio": 0.3,
+        "minimum_fill_ratio": 0.15,
         // Preferred radius, in pixels, used to rank accepted ball candidates.
-        "expected_radius": 10.0,
+        "expected_radius": 14.0,
         // Gaussian blur kernel width and height; a positive odd number of pixels.
         "blur_kernel_size": 3,
         // Closing kernel width and height; a positive odd number of pixels.
@@ -86,6 +86,8 @@
         "table_color": [255, 255, 0],
         // Yellow outline around the visually detected ball.
         "ball_color": [0, 255, 255],
+        // Whether to draw all valid ball candidates, not just the best one.
+        "draw_candidates": false,
         // Orange outlines around secondary ball candidates.
         "candidate_color": [0, 165, 255],
         // Red marker at the detected ball center.

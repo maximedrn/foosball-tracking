@@ -7,7 +7,7 @@ from typing import Self, cast
 
 from cv2 import (
     CHAIN_APPROX_SIMPLE,
-    COLOR_BGR2HSV,
+    COLOR_BGR2RGB,
     MORPH_CLOSE,
     MORPH_ELLIPSE,
     RETR_EXTERNAL,
@@ -78,7 +78,7 @@ class BallDetector:
             color_mask, x, y
         )
         # Keep every valid candidate, then select the best geometric match.
-        candidates.sort(key=BallDetector._candidate_priority, reverse=True)
+        candidates.sort(key=self._candidate_priority, reverse=True)
         ball: BallCandidate | None = candidates[0] if candidates else None
         return BallDetection(ball=ball, candidates=candidates, mask=color_mask)
 
@@ -138,18 +138,18 @@ class BallDetector:
         :return: Morphologically cleaned yellow segmentation mask.
         :rtype: Image
         """
-        # Smooth compression noise before applying the configured HSV range.
+        # Smooth compression noise before applying the configured RGB range.
         kernel_size: int = self.config.blur_kernel_size
         blurred: Image = cast(
             Image, GaussianBlur(roi, (kernel_size, kernel_size), 0)
         )
-        hsv: Image = cast(Image, cvtColor(blurred, COLOR_BGR2HSV))
+        rgb: Image = cast(Image, cvtColor(blurred, COLOR_BGR2RGB))
         mask: Image = cast(
             Image,
             inRange(
-                hsv,
-                self.config.hsv.lower_array(),
-                self.config.hsv.upper_array(),
+                rgb,
+                self.config.rgb.lower_array(),
+                self.config.rgb.upper_array(),
             ),
         )
         # A pixel must match the ball color and belong to the playing field.
@@ -281,13 +281,18 @@ class BallDetector:
         )
         return 4.0 * circularity + 3.0 * fill_ratio + 2.0 * radius_score
 
-    @staticmethod
-    def _candidate_priority(candidate: BallCandidate) -> float:
+    def _candidate_priority(
+        self, candidate: BallCandidate
+    ) -> tuple[float, float]:
         """Expose the candidate score for descending sorting.
 
         :param candidate: Candidate to rank.
         :type candidate: BallCandidate
-        :return: The geometric candidate score.
-        :rtype: float
+        :return: The geometric candidate score and the negative radius
+            error for tie-breaking.
+        :rtype: tuple[float, float]
         """
-        return candidate.score
+        return (
+            candidate.score,
+            -abs(self.config.expected_radius - candidate.radius),
+        )

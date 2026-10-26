@@ -78,12 +78,12 @@ class FrameRenderer:
         :return: Annotated BGR frame.
         :rtype: Image
         """
-        # Keep drawing separate from detection: overlays must not enter HSV
+        # Keep drawing separate from detection: overlays must not enter RGB
         # masks.
         result: Image = frame.copy()
         if table is not None:
             self._draw_table(result, table)
-        if ball_detection is not None:
+        if self.config.draw_candidates and ball_detection is not None:
             self._draw_candidates(result, ball_detection.candidates)
         if track.ball is not None:
             self._draw_ball(result, track.ball)

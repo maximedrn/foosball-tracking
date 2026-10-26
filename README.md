@@ -25,13 +25,13 @@ uv run foosball --config config.jsonc
 
 ### 1. Field detection
 
-The frame is resized to 50% for faster processing and converted from BGR to HSV. A color mask isolates the playing surface. Morphological closing connects separated regions, and the largest contour is kept if it covers at least 5% of the frame.
+The frame is resized to 50% for faster processing and converted from BGR to RGB. A color mask isolates the playing surface. Morphological closing connects separated regions, and the largest contour is kept if it covers at least 5% of the frame.
 
 `cv2.minAreaRect` then fits a rotated rectangle around the contour, preserving the field's orientation. The original coordinates are restored, and the field is re-detected every 15 frames by default.
 
 ```mermaid
 flowchart LR
-    A[Video frame] --> B[Green HSV mask]
+    A[Video frame] --> B[Green RGB mask]
     B --> C[Morphological closing]
     C --> D[Largest valid contour]
     D --> E[Rotated field rectangle]
@@ -39,7 +39,7 @@ flowchart LR
 
 ### 2. Ball detection
 
-On every frame, detection is restricted to the field polygon. After Gaussian blur, a HSV mask identifies possible balls. Small gaps are closed before extracting contours.
+On every frame, detection is restricted to the field polygon. After Gaussian blur, an RGB mask identifies possible balls. Small gaps are closed before extracting contours.
 
 Candidates are filtered by area ($`A \in [30, 400]\,\mathrm{px}^2`$), radius ($`r \in [4, 18]\,\mathrm{px}`$), aspect ratio, and circularity.
 
@@ -76,7 +76,7 @@ The candidate with the highest score is selected as the ball.
 
 ```mermaid
 flowchart LR
-    A[Field region] --> B[Yellow HSV mask]
+    A[Field region] --> B[Yellow RGB mask]
     B --> C[Contour extraction]
     C --> D[Size and shape filtering]
     D --> E[Candidate scoring]

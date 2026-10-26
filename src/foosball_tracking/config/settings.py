@@ -8,52 +8,51 @@ from typing import Self
 from numpy import asarray, uint8
 from pydantic import BaseModel, Field, model_validator
 
-from foosball_tracking.models import BGRColor, HSVColor, Image
+from foosball_tracking.models import BGRColor, Image, RGBColor
 from foosball_tracking.utils.messages import (
     AREA_BOUNDS_ERROR,
-    HSV_BOUNDS_ERROR,
     KERNEL_SIZE_ERROR,
     RADIUS_BOUNDS_ERROR,
+    RGB_BOUNDS_ERROR,
 )
 
 
-class HSVRange(BaseModel):
-    """Bound a color interval in OpenCV's 8-bit HSV space.
+class RGBRange(BaseModel):
+    """Bound a color interval in 8-bit RGB space.
 
-    :param lower: Inclusive lower HSV coordinates.
-    :type lower: HSVColor
-    :param upper: Inclusive upper HSV coordinates.
-    :type upper: HSVColor
+    :param lower: Inclusive lower red, green and blue values.
+    :type lower: RGBColor
+    :param upper: Inclusive upper red, green and blue values.
+    :type upper: RGBColor
     """
 
-    lower: HSVColor
-    upper: HSVColor
+    lower: RGBColor
+    upper: RGBColor
 
     @model_validator(mode="after")
     def validate_bounds(self: Self) -> Self:
-        """Reject invalid or inverted HSV bounds before array conversion.
+        """Reject invalid or inverted RGB bounds before array conversion.
 
-        :return: The validated HSV interval.
+        :return: The validated RGB interval.
         :rtype: Self
         """
-        # OpenCV stores hue in [0, 179], saturation and brightness in [0, 255].
-        for channel, limit in enumerate((179, 255, 255)):
-            if not 0 <= self.lower[channel] <= self.upper[channel] <= limit:
-                raise ValueError(HSV_BOUNDS_ERROR)
+        for channel in range(3):
+            if not 0 <= self.lower[channel] <= self.upper[channel] <= 255:
+                raise ValueError(RGB_BOUNDS_ERROR)
         return self
 
     def lower_array(self: Self) -> Image:
-        """Return the HSV bound as an unsigned 8-bit array.
+        """Return the RGB bound as an unsigned 8-bit array.
 
-        :return: Lower HSV bound as an unsigned 8-bit array.
+        :return: Lower RGB bound as an unsigned 8-bit array.
         :rtype: Image
         """
         return asarray(self.lower, dtype=uint8)
 
     def upper_array(self: Self) -> Image:
-        """Return the HSV bound as an unsigned 8-bit array.
+        """Return the RGB bound as an unsigned 8-bit array.
 
-        :return: Upper HSV bound as an unsigned 8-bit array.
+        :return: Upper RGB bound as an unsigned 8-bit array.
         :rtype: Image
         """
         return asarray(self.upper, dtype=uint8)
@@ -66,8 +65,8 @@ class TableDetectorConfig(BaseModel):
     playing surface, then expands the detected rectangle to
     approximate the complete table.
 
-    :param hsv: HSV interval used to segment the green playfield.
-    :type hsv: HSVRange
+    :param rgb: RGB interval used to segment the green playfield.
+    :type rgb: RGBRange
     :param detection_every: Number of frames between two table detections.
     :type detection_every: int
     :param scale: Scale factor used during table detection.
@@ -79,14 +78,13 @@ class TableDetectorConfig(BaseModel):
     :param close_iterations: Number of morphological closing iterations.
     :type close_iterations: int
     :param box_expansion: Expansion applied around the detected playfield to
-        approximate
-        the complete baby-foot.
+        approximate the complete baby-foot.
     :type box_expansion: float
     """
 
     # Segment the green surface; detect it periodically because the table moves
     # much less than the ball.
-    hsv: HSVRange = HSVRange(lower=(55, 40, 40), upper=(75, 220, 230))
+    rgb: RGBRange = RGBRange(lower=(0, 140, 0), upper=(160, 230, 160))
     detection_every: int = Field(default=15, ge=1)
     scale: float = Field(default=0.5, gt=0.0, le=1.0)
     minimum_area_ratio: float = Field(default=0.05, gt=0.0, lt=1.0)
@@ -98,8 +96,8 @@ class TableDetectorConfig(BaseModel):
 class BallDetectorConfig(BaseModel):
     """Configure yellow ball detection.
 
-    :param hsv: HSV interval corresponding to the yellow ball.
-    :type hsv: HSVRange
+    :param rgb: RGB interval corresponding to the yellow ball.
+    :type rgb: RGBRange
     :param minimum_area: Minimum accepted contour area in pixels.
     :type minimum_area: float
     :param maximum_area: Maximum accepted contour area in pixels.
@@ -122,9 +120,8 @@ class BallDetectorConfig(BaseModel):
     :type close_kernel_size: int
     """
 
-    # Keep the notebook's yellow interval until automatic color learning is
-    # added.
-    hsv: HSVRange = HSVRange(lower=(24, 80, 100), upper=(38, 255, 255))
+    # Initial yellow thresholds; adjust them for the video's lighting.
+    rgb: RGBRange = RGBRange(lower=(100, 100, 0), upper=(255, 255, 120))
     minimum_area: float = Field(default=30.0, ge=0.0)
     maximum_area: float = Field(default=400.0, gt=0.0)
     minimum_radius: float = Field(default=4.0, ge=0.0)
@@ -208,9 +205,10 @@ class DrawingConfig(BaseModel):
     :type prediction_color: BGRColor
     """
 
-    # These are drawing colors in BGR order, not detector thresholds in HSV.
+    # Drawing colors use BGR order; detector thresholds use RGB order.
     table_color: BGRColor = (255, 255, 0)
     ball_color: BGRColor = (0, 255, 255)
+    draw_candidates: bool = True
     candidate_color: BGRColor = (0, 165, 255)
     center_color: BGRColor = (0, 0, 255)
     prediction_color: BGRColor = (255, 0, 255)

@@ -9,13 +9,13 @@ from typing import Self
 from numpy import int32, uint8
 from numpy.typing import NDArray
 
-# Images are either BGR frames (height, width, 3) or masks (height, width).
+# Images are BGR/RGB frames (height, width, 3) or masks (height, width).
 type Image = NDArray[uint8]
 # OpenCV uses signed coordinates, including after a crop-origin translation.
 type Contour = NDArray[int32]
 type Box = NDArray[int32]
 type Point = tuple[int, int]
-type HSVColor = tuple[int, int, int]
+type RGBColor = tuple[int, int, int]
 type BGRColor = tuple[int, int, int]
 type RotatedRectangle = tuple[Sequence[float], Sequence[float], float]
 

@@ -28,7 +28,6 @@ from foosball_tracking.utils.messages import (
     EMPTY_VIDEO_ERROR,
     INPUT_NOT_FOUND_ERROR_TEMPLATE,
     INPUT_OUTPUT_PATH_ERROR,
-    OUTPUT_EXISTS_ERROR_TEMPLATE,
     PROCESSING_PROGRESS_TEMPLATE,
     UNKNOWN_FRAME_COUNT,
     VIDEO_METADATA_ERROR,
@@ -74,11 +73,7 @@ class VideoProcessor:
         ):
             raise ValueError(INPUT_OUTPUT_PATH_ERROR)
         if self.config.output_path.exists():
-            raise FileExistsError(
-                OUTPUT_EXISTS_ERROR_TEMPLATE.format(
-                    path=self.config.output_path
-                )
-            )
+            self.config.output_path.unlink()
         capture: VideoCapture = self._open_capture()
         writer: VideoWriter | None = None
         try:
@@ -240,7 +235,7 @@ class VideoProcessor:
         fps: float = capture.get(CAP_PROP_FPS)
         width: int = int(capture.get(CAP_PROP_FRAME_WIDTH))
         height: int = int(capture.get(CAP_PROP_FRAME_HEIGHT))
-        if not isfinite(fps) or fps <= 0.0 or width <= 0 or height <= 0:
+        if not isfinite(fps) or fps <= 0 or width <= 0 or height <= 0:
             raise RuntimeError(VIDEO_METADATA_ERROR)
         return VideoMetadata(
             frame_count=max(0, int(capture.get(CAP_PROP_FRAME_COUNT))),

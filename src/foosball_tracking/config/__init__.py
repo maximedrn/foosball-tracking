@@ -5,8 +5,8 @@ from foosball_tracking.config.settings import (
     BallDetectorConfig,
     BallTrackerConfig,
     DrawingConfig,
-    HSVRange,
     PreviewConfig,
+    RGBRange,
     TableDetectorConfig,
 )
 
@@ -15,7 +15,7 @@ __all__ = [
     "BallDetectorConfig",
     "BallTrackerConfig",
     "DrawingConfig",
-    "HSVRange",
     "PreviewConfig",
+    "RGBRange",
     "TableDetectorConfig",
 ]
