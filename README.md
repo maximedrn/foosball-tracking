@@ -19,7 +19,16 @@ uv run foosball video.mp4 --output output/preview.mp4 --preview
 
 # Use a custom configuration.
 uv run foosball --config config.jsonc
+
+# Choose the number of concurrent ball detection workers.
+uv run foosball --config config.jsonc --workers 4
 ```
+
+Frames are read ahead in small batches bounded by `processing.buffer_size`
+and assigned to the detection workers in turn. Every worker receives frames when the video is
+long enough. Tracking, JSON export and video encoding preserve source order.
+Progress includes the current worker's native thread ID and the number of
+workers used so far. Decoding and encoding can still limit overall throughput.
 
 ## How it works
 
@@ -123,6 +132,12 @@ uv run ruff check .
 
 # Check types.
 uv run pyright
+
+# Check types with MyPy.
+uv run mypy
+
+# Check Pylint errors.
+uv run pylint --errors-only src
 
 # Build the package.
 uv build

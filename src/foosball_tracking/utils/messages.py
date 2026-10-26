@@ -26,6 +26,7 @@ CLI_VIDEO_HELP: Final[str] = "vidéo source (video.mp4 par défaut)"
 CLI_OUTPUT_HELP: Final[str] = "MP4 de sortie (output/tracking.mp4 par défaut)"
 CLI_PREVIEW_HELP: Final[str] = "ouvre un aperçu ; Échap arrête le traitement"
 CLI_MAX_FRAMES_HELP: Final[str] = "nombre maximal d'images à traiter"
+CLI_WORKERS_HELP: Final[str] = "nombre de threads de détection (4 par défaut)"
 CLI_CONFIG_HELP: Final[str] = (
     "lit les paramètres de détection et d'affichage dans un fichier JSON "
     "ou JSONC"
@@ -47,16 +48,23 @@ COVERAGE_SUMMARY_TEMPLATE: Final[str] = (
     "Balle détectée ou estimée : {coverage_rate:.1f} %"
 )
 OUTPUT_VIDEO_TEMPLATE: Final[str] = "Vidéo de sortie : '{path}'."
+OUTPUT_JSON_TEMPLATE: Final[str] = "Résultats JSON : '{path}'."
 PROCESSING_PROGRESS_TEMPLATE: Final[str] = (
     "Images : {current}/{total} | balle : {detected_frames} "
     "({detection_rate:.1f} %) | estimation : {predicted_frames} "
-    "({prediction_rate:.1f} %) | suivi : {coverage_rate:.1f} %"
+    "({prediction_rate:.1f} %) | suivi : {coverage_rate:.1f} % "
+    "| thread : {thread_id} "
+    "| workers utilisés : {workers_used}/{worker_count}"
 )
 UNKNOWN_FRAME_COUNT: Final[str] = "?"
 
 # Video errors are shared by processing exceptions and their CLI presentation.
 INPUT_OUTPUT_PATH_ERROR: Final[str] = (
     "Les chemins des vidéos source et de sortie doivent être différents."
+)
+OUTPUT_PATH_COLLISION_ERROR: Final[str] = (
+    "Les chemins de la vidéo source, de la vidéo de sortie et du JSON "
+    "doivent être différents."
 )
 EMPTY_VIDEO_ERROR: Final[str] = (
     "La vidéo source ne contient aucune image décodable."
@@ -68,7 +76,8 @@ VIDEO_OPEN_ERROR_TEMPLATE: Final[str] = (
     "Impossible d'ouvrir la vidéo : '{path}'."
 )
 VIDEO_METADATA_ERROR: Final[str] = (
-    "Les dimensions ou la fréquence d'images de la vidéo source sont invalides."
+    "Les dimensions ou la fréquence d'images de la vidéo source "
+    "sont invalides."
 )
 VIDEO_WRITER_ERROR_TEMPLATE: Final[str] = (
     "Impossible de créer la vidéo de sortie : '{path}'."

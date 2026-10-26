@@ -84,6 +84,29 @@ class BallDetection:
     mask: Image
 
 
+@dataclass(slots=True)
+class FrameDetection:
+    """Keep one source frame and its independently computed detections.
+
+    :param frame_index: Zero-based source frame index.
+    :type frame_index: int
+    :param frame: Unannotated BGR source frame.
+    :type frame: Image
+    :param table: Last valid table detection at this source frame.
+    :type table: TableDetection | None
+    :param ball_detection: Observed ball candidates and their mask.
+    :type ball_detection: BallDetection | None
+    :param worker_thread_id: Native identifier of the detection worker.
+    :type worker_thread_id: int | None
+    """
+
+    frame_index: int
+    frame: Image
+    table: TableDetection | None
+    ball_detection: BallDetection | None
+    worker_thread_id: int | None = None
+
+
 @dataclass(slots=True, frozen=True)
 class BallPrediction:
     """Estimate the ball position during a short visual occlusion.

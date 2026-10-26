@@ -10,24 +10,33 @@ from cv2 import (
     CAP_PROP_FRAME_WIDTH,
     VideoCapture,
     VideoWriter,
+    getNumThreads,
+    setNumThreads,
 )
 
 from foosball_tracking.config import ApplicationConfig
 from foosball_tracking.models import (
     BallDetection,
     BallTrack,
+    FrameDetection,
     Image,
     RunSummary,
-    TableDetection,
     VideoMetadata,
 )
+from foosball_tracking.models.export import StopReason
 from foosball_tracking.services.ball import BallDetector
+from foosball_tracking.services.export import detection_export
+from foosball_tracking.services.pipeline import (
+    DetectionPipeline,
+    buffered_video_writer,
+)
 from foosball_tracking.services.table import TableDetector
 from foosball_tracking.services.tracking import BallTracker
 from foosball_tracking.utils.messages import (
     EMPTY_VIDEO_ERROR,
     INPUT_NOT_FOUND_ERROR_TEMPLATE,
     INPUT_OUTPUT_PATH_ERROR,
+    OUTPUT_PATH_COLLISION_ERROR,
     PROCESSING_PROGRESS_TEMPLATE,
     UNKNOWN_FRAME_COUNT,
     VIDEO_METADATA_ERROR,
@@ -61,7 +70,6 @@ class VideoProcessor:
         :return: Counts of written frames and frames with a detected ball.
         :rtype: RunSummary
         :raises ValueError: If input and output refer to the same file.
-        :raises FileExistsError: If the output file already exists.
         :raises FileNotFoundError: If the input file does not exist.
         :raises RuntimeError: If the video cannot be decoded or encoded.
         """
@@ -72,21 +80,31 @@ class VideoProcessor:
             == self.config.output_path.resolve()
         ):
             raise ValueError(INPUT_OUTPUT_PATH_ERROR)
-        if self.config.output_path.exists():
-            self.config.output_path.unlink()
+        if self.config.detections_path.resolve() in (
+            self.config.video_path.resolve(),
+            self.config.output_path.resolve(),
+        ):
+            raise ValueError(OUTPUT_PATH_COLLISION_ERROR)
         capture: VideoCapture = self._open_capture()
         writer: VideoWriter | None = None
         try:
             metadata: VideoMetadata = self._read_metadata(capture)
             # Decode once before creating an output for a possibly empty
             # source.
-            success, frame = cast(tuple[bool, Image], capture.read())
+            success, decoded_frame = capture.read()
             if not success:
                 raise RuntimeError(EMPTY_VIDEO_ERROR)
+            frame: Image = cast(Image, decoded_frame)
             writer = self._create_writer(metadata)
-            summary: RunSummary = self._process_frames(
-                capture, writer, metadata, frame
-            )
+            previous_threads: int = getNumThreads()
+            setNumThreads(self.config.processing.opencv_threads)
+            try:
+                summary: RunSummary = self._process_frames(
+                    capture, writer, metadata, frame
+                )
+            finally:
+                # Restore the caller's process-wide OpenCV thread setting.
+                setNumThreads(previous_threads)
         finally:
             # Releasing the writer also finalizes the MP4 container on
             # interruption.
@@ -116,10 +134,10 @@ class VideoProcessor:
         :return: Counts collected during the processing loop.
         :rtype: RunSummary
         """
-        table: TableDetection | None = None
-        frame_index: int = 0
         detected_frames: int = 0
         predicted_frames: int = 0
+        worker_ids: set[int] = set()
+        summary: RunSummary = RunSummary(0, 0)
         # A fresh tracker prevents motion leaking between separate runs.
         tracker: BallTracker = BallTracker(self.config.tracking, metadata.fps)
         # The requested limit affects progress; decoding still stops at actual
@@ -131,75 +149,90 @@ class VideoProcessor:
                 if total > 0
                 else self.config.max_frames
             )
-        while True:
-            # Reuse the last valid field between scheduled table detections.
-            if (
-                table is None
-                or frame_index % self.config.table.detection_every == 0
+        pipeline: DetectionPipeline = DetectionPipeline(
+            capture,
+            frame,
+            self.config,
+            self.table_detector,
+            self.ball_detector,
+        )
+        # Export outlives both queues, so encoder failures mark it incomplete.
+        with detection_export(self.config, metadata) as exporter:
+            with (
+                pipeline.frames() as frames,
+                buffered_video_writer(
+                    writer, self.config.processing.buffer_size
+                ) as write_frame,
             ):
-                new_table: TableDetection | None = self.table_detector.detect(
-                    frame
-                )
-                if new_table is not None:
-                    table = new_table
-            # Ball detection runs on every frame with a known playing surface.
-            ball_detection: BallDetection | None = None
-            if table is not None:
-                ball_detection = self.ball_detector.detect(
-                    frame, table.playfield_box
-                )
-            # Predict only after a visual disappearance; real detections keep
-            # priority and are counted separately from estimated positions.
-            track: BallTrack = tracker.update(
-                ball_detection.ball if ball_detection is not None else None,
-                table.playfield_box if table is not None else None,
-            )
-            if track.ball is not None:
-                detected_frames += 1
-            elif track.prediction is not None:
-                predicted_frames += 1
-            summary: RunSummary = RunSummary(
-                processed_frames=frame_index + 1,
-                detected_frames=detected_frames,
-                predicted_frames=predicted_frames,
-            )
-            # Draw on a copy, leaving the source pixels available to the
-            # detectors.
-            result: Image = self.renderer.render(
-                frame, table, ball_detection, track, summary, total
-            )
-            writer.write(result)
-            # Skipping preview refreshes never skips frames in the output
-            # video.
-            should_stop: bool = False
-            if (
-                self.config.preview.enabled
-                and frame_index % self.config.preview.every_n_frames == 0
-            ):
-                should_stop = self.preview.update(result)
-            frame_index += 1
-            if frame_index % self.config.preview.progress_every == 0:
-                print(
-                    PROCESSING_PROGRESS_TEMPLATE.format(
-                        current=frame_index,
-                        total=total or UNKNOWN_FRAME_COUNT,
+                packet: FrameDetection
+                for packet in frames:
+                    if packet.worker_thread_id is not None:
+                        worker_ids.add(packet.worker_thread_id)
+                    ball_detection: BallDetection | None = (
+                        packet.ball_detection
+                    )
+                    track: BallTrack = tracker.update(
+                        ball_detection.ball if ball_detection else None,
+                        packet.table.playfield_box if packet.table else None,
+                    )
+                    if track.ball is not None:
+                        detected_frames += 1
+                    elif track.prediction is not None:
+                        predicted_frames += 1
+                    summary = RunSummary(
+                        processed_frames=packet.frame_index + 1,
                         detected_frames=detected_frames,
-                        detection_rate=summary.detection_rate,
                         predicted_frames=predicted_frames,
-                        prediction_rate=summary.prediction_rate,
-                        coverage_rate=summary.coverage_rate,
-                    ),
-                    flush=True,
-                )
-            if should_stop or (
-                self.config.max_frames is not None
-                and frame_index >= self.config.max_frames
-            ):
-                break
-            # Read the next frame only after processing the current one.
-            success, frame = cast(tuple[bool, Image], capture.read())
-            if not success:
-                break
+                    )
+                    # Only this thread updates motion, rendering and exports.
+                    result: Image = self.renderer.render(
+                        packet.frame,
+                        packet.table,
+                        ball_detection,
+                        track,
+                        summary,
+                        total,
+                    )
+                    write_frame(result)
+                    exporter.write_frame(packet, track, summary)
+                    should_stop: bool = False
+                    if (
+                        self.config.preview.enabled
+                        and packet.frame_index
+                        % self.config.preview.every_n_frames
+                        == 0
+                    ):
+                        should_stop = self.preview.update(result)
+                    if (
+                        summary.processed_frames
+                        % self.config.preview.progress_every
+                        == 0
+                    ):
+                        print(
+                            PROCESSING_PROGRESS_TEMPLATE.format(
+                                current=summary.processed_frames,
+                                total=total or UNKNOWN_FRAME_COUNT,
+                                detected_frames=detected_frames,
+                                detection_rate=summary.detection_rate,
+                                predicted_frames=predicted_frames,
+                                prediction_rate=summary.prediction_rate,
+                                coverage_rate=summary.coverage_rate,
+                                thread_id=packet.worker_thread_id,
+                                workers_used=len(worker_ids),
+                                worker_count=self.config.processing.workers,
+                            ),
+                            flush=True,
+                        )
+                    if should_stop:
+                        exporter.stop_reason = StopReason.PREVIEW_CLOSED
+                        break
+                else:
+                    exporter.stop_reason = (
+                        StopReason.MAX_FRAMES
+                        if self.config.max_frames is not None
+                        and summary.processed_frames >= self.config.max_frames
+                        else StopReason.END_OF_VIDEO
+                    )
         return summary
 
     def _open_capture(self: Self) -> VideoCapture:
@@ -245,7 +278,7 @@ class VideoProcessor:
         )
 
     def _create_writer(self: Self, metadata: VideoMetadata) -> VideoWriter:
-        """Create the MP4 writer without replacing an existing file.
+        """Create the MP4 writer, replacing the previous output if present.
 
         :param metadata: Validated source-video properties.
         :type metadata: VideoMetadata
@@ -253,6 +286,8 @@ class VideoProcessor:
         :rtype: VideoWriter
         """
         self.config.output_path.parent.mkdir(parents=True, exist_ok=True)
+        if self.config.output_path.exists():
+            self.config.output_path.unlink()
         # Reserve a new file because OpenCV normally overwrites its
         # destination.
         self.config.output_path.touch(exist_ok=False)

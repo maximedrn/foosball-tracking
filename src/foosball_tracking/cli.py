@@ -19,9 +19,11 @@ from foosball_tracking.utils.messages import (
     CLI_OUTPUT_HELP,
     CLI_PREVIEW_HELP,
     CLI_VIDEO_HELP,
+    CLI_WORKERS_HELP,
     COVERAGE_SUMMARY_TEMPLATE,
     DETECTION_SUMMARY_TEMPLATE,
     ERROR_MESSAGE_TEMPLATE,
+    OUTPUT_JSON_TEMPLATE,
     OUTPUT_VIDEO_TEMPLATE,
     PREDICTION_SUMMARY_TEMPLATE,
     PROCESSED_FRAMES_TEMPLATE,
@@ -47,6 +49,8 @@ class CliArguments(Namespace):
     :type max_frames: int | None
     :param config: Optional JSON or JSONC configuration path.
     :type config: Path | None
+    :param workers: Optional detection thread count overriding the file.
+    :type workers: int | None
     """
 
     video: Path | None
@@ -54,6 +58,7 @@ class CliArguments(Namespace):
     preview: bool
     max_frames: int | None
     config: Path | None
+    workers: int | None
 
 
 def create_parser() -> ArgumentParser:
@@ -84,6 +89,11 @@ def create_parser() -> ArgumentParser:
         "--max-frames",
         type=int,
         help=CLI_MAX_FRAMES_HELP,
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        help=CLI_WORKERS_HELP,
     )
     parser.add_argument(
         "--config",
@@ -123,6 +133,10 @@ def main(argv: list[str] | None = None) -> int:
             config.max_frames = arguments.max_frames
         if arguments.preview:
             config.preview.enabled = True
+        if arguments.workers is not None:
+            config.processing.workers = arguments.workers
+        # Validate command-line overrides as well as values from the file.
+        config = ApplicationConfig.model_validate(config.model_dump())
         summary: RunSummary = VideoProcessor(config).run()
     except (OSError, ValueError, RuntimeError) as failure:
         print(ERROR_MESSAGE_TEMPLATE.format(error=failure), file=stderr)
@@ -152,4 +166,5 @@ def main(argv: list[str] | None = None) -> int:
         COVERAGE_SUMMARY_TEMPLATE.format(coverage_rate=summary.coverage_rate)
     )
     print(OUTPUT_VIDEO_TEMPLATE.format(path=config.output_path))
+    print(OUTPUT_JSON_TEMPLATE.format(path=config.detections_path))
     return EX_OK

@@ -188,6 +188,22 @@ class PreviewConfig(BaseModel):
     progress_every: int = Field(default=20, ge=1)
 
 
+class ProcessingConfig(BaseModel):
+    """Bound concurrent detection and the frames buffered between stages.
+
+    :param workers: Number of concurrent ball detection workers.
+    :type workers: int
+    :param buffer_size: Maximum frames per read-ahead batch and pipeline queue.
+    :type buffer_size: int
+    :param opencv_threads: OpenCV threads per operation during processing.
+    :type opencv_threads: int
+    """
+
+    workers: int = Field(default=4, ge=1)
+    buffer_size: int = Field(default=8, ge=1)
+    opencv_threads: int = Field(default=1, ge=1)
+
+
 class DrawingConfig(BaseModel):
     """Configure colors used for visualization.
 
@@ -223,6 +239,8 @@ class ApplicationConfig(BaseModel):
     :type output_path: Path
     :param max_frames: Optional maximum number of frames to process.
     :type max_frames: int | None
+    :param processing: Thread and buffer limits.
+    :type processing: ProcessingConfig
     :param table: Baby-foot detector configuration.
     :type table: TableDetectorConfig
     :param ball: Ball detector configuration.
@@ -239,8 +257,18 @@ class ApplicationConfig(BaseModel):
     # Use a separate directory to preserve the notebook's historical output.
     output_path: Path = Path("output/tracking.mp4")
     max_frames: int | None = Field(default=None, ge=1)
+    processing: ProcessingConfig = ProcessingConfig()
     table: TableDetectorConfig = TableDetectorConfig()
     ball: BallDetectorConfig = BallDetectorConfig()
     tracking: BallTrackerConfig = BallTrackerConfig()
     preview: PreviewConfig = PreviewConfig()
     drawing: DrawingConfig = DrawingConfig()
+
+    @property
+    def detections_path(self: Self) -> Path:
+        """Name the detection JSON after the source, beside the output video.
+
+        :return: Destination of the frame-by-frame JSON export.
+        :rtype: Path
+        """
+        return self.output_path.parent / f"{self.video_path.stem}.json"

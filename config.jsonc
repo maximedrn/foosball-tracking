@@ -1,11 +1,19 @@
 {
     // Source video to process.
     "video_path": "video.mp4",
-    // Annotated MP4 destination; an existing file is never overwritten.
+    // Annotated MP4 destination; reruns replace this video and its detection JSON.
     "output_path": "output/tracking.mp4",
     // Maximum number of frames to process; null processes the entire video.
     "max_frames": null,
-
+    // Parallel processing; queues bound memory usage on long videos.
+    "processing": {
+        // Ball detection threads; use 1 to compare with serial detection.
+        "workers": 16,
+        // Maximum frames per read-ahead batch and pending frames per queue.
+        "buffer_size": 64,
+        // Avoid multiplying OpenCV's own threads by the worker count.
+        "opencv_threads": 16
+    },
     // Detect the table from its playing surface.
     "table": {
         // RGB bounds calibrated for video1.mp4; each channel is in [0, 255].
@@ -28,7 +36,6 @@
         // Expand the playfield rectangle by this factor to outline the table.
         "box_expansion": 1.10
     },
-
     // Detect the ball within the playing surface on each frame.
     "ball": {
         // RGB bounds calibrated for the yellow ball in video1.mp4.
@@ -59,7 +66,6 @@
         // Closing kernel width and height; a positive odd number of pixels.
         "close_kernel_size": 3
     },
-
     // Estimate short occlusions using velocity from real ball observations.
     "tracking": {
         // Maximum prediction duration in seconds; 0 disables prediction.
@@ -67,7 +73,6 @@
         // Latest velocity measurement weight in (0, 1]; higher reacts faster.
         "velocity_smoothing": 0.7
     },
-
     // Live preview and console progress; output video keeps every processed frame.
     "preview": {
         // Open a preview window; Q or Escape stops processing.
@@ -79,7 +84,6 @@
         // Print console progress every N processed frames.
         "progress_every": 20
     },
-
     // Overlay colors use OpenCV BGR order: [blue, green, red].
     "drawing": {
         // Cyan outline around the detected table.
