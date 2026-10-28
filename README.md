@@ -1,9 +1,24 @@
-
 # Foosball Tracking
 
-Detects the foosball playing field and tracks the ball in video using [OpenCV](https://opencv.org/). No machine learning required.
+Detect the playing field and track the ball with classical [OpenCV](https://opencv.org/) methods.
 
-> [Version française](README.fr.md) de la documentation.
+> [Documentation française](README.fr.md)
+
+**Contents**
+
+- [Foosball Tracking](#foosball-tracking)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Development](#development)
+  - [How it works](#how-it-works)
+    - [1. Field detection](#1-field-detection)
+    - [2. Ball detection](#2-ball-detection)
+    - [3. Ball tracking](#3-ball-tracking)
+  - [Results](#results)
+    - [Parameters](#parameters)
+    - [Annotations vs. code](#annotations-vs-code)
+    - [Code vs. five generic videos](#code-vs-five-generic-videos)
+  - [Discussion and limitations](#discussion-and-limitations)
 
 ## Installation
 
@@ -14,138 +29,154 @@ uv sync --locked
 ## Usage
 
 ```bash
-# Process the first 300 frames without opening a preview.
-uv run foosball video.mp4 --output output/extract.mp4 --max-frames 300
+# Process every frame using the project configuration.
+uv run tracking --config config.jsonc
 
-# Display a live preview while processing.
-uv run foosball video.mp4 --output output/preview.mp4 --preview
+# Display a live preview during processing.
+uv run tracking --config config.jsonc --preview
+```
 
-# Use a custom configuration.
-uv run foosball --config config.jsonc
+[`config.jsonc`](config.jsonc) selects the source video, output and detection settings. Adjust this configuration to the input video before processing it.
 
-# Choose the number of concurrent ball detection workers.
-uv run foosball --config config.jsonc --workers 4
+## Development
+
+```bash
+# Check Python code with Ruff.
+uv run ruff check .
+
+# Check formatting without modifying files.
+uv run ruff format --check .
+
+# Check types with MyPy.
+uv run mypy
+
+# Check types with Pyright.
+uv run pyright
+
+# Check Pylint errors.
+uv run pylint --errors-only src
+
+# Build the Python package.
+uv build
+```
+
+```bash
+# Regenerate all result charts from JSON only.
+uv run poe figures
+
+# Recompute the saved comparison.
+uv run poe evaluate
+
+# Rebuild frame examples and review videos.
+uv run poe review
+
+# Build method illustrations.
+uv run poe diagrams
 ```
 
 ## How it works
 
 ### 1. Field detection
 
-The frame is resized using the `table.scale` factor for faster processing and converted from BGR to RGB. A color mask, bounded by `table.rgb.lower` and `table.rgb.upper`, isolates the playing surface. Morphological closing connects separated regions using `table.close_kernel_size` and `table.close_iterations`. The largest contour is kept if it occupies at least the fraction of the frame specified by `table.minimum_area_ratio`.
+Downscale the frame, segment its green surface in RGB, close small gaps and retain the largest sufficiently large contour. Fit an oriented rectangle, then restore original-image coordinates.
 
-`cv2.minAreaRect` then fits a rotated rectangle around the contour, preserving the field's orientation. The original coordinates are restored, and the rectangle is expanded using `table.box_expansion` to outline the full table. The field is re-detected according to `table.detection_every`.
-
-![Field detection illustration](docs/field-detection.svg)
+![Field detection illustration](docs/diagrams/figures/field-detection.svg)
 
 ### 2. Ball detection
 
-On every frame, detection is restricted to the field polygon. After Gaussian blur (kernel size `ball.blur_kernel_size`), an RGB mask defined by `ball.rgb.lower` and `ball.rgb.upper` identifies possible balls. Small gaps are closed using `ball.close_kernel_size` before extracting contours.
+Segment yellow pixels inside the field. Filter contours by area, radius, aspect ratio, circularity and fill ratio, then select the highest-scoring candidate.
 
-Candidates are filtered by area ($`A \in [A_{\min}, A_{\max}]`$), enclosing-circle radius ($`r \in [r_{\min}, r_{\max}]`$), aspect ratio, circularity, and fill ratio. These limits are defined in `config.jsonc` by `ball.minimum_area`, `ball.maximum_area`, `ball.minimum_radius`, `ball.maximum_radius`, `ball.maximum_aspect_ratio`, `ball.minimum_circularity`, and `ball.minimum_fill_ratio`.
+![Ball geometry illustration](docs/diagrams/figures/ball-geometry.svg)
 
-Circularity measures how closely a contour resembles a circle:
-
-$$
-C = \frac{4\pi A}{P^2}
-$$
-
-where:
-
-- $`A`$ is the contour area (px²).
-- $`P`$ is the contour perimeter (px).
-- $`C`$ is the circularity score (dimensionless).
-
-A perfect circle has $`C = 1`$, while lower values indicate increasingly irregular or elongated shapes.
-
-![Ball geometry illustration](docs/ball-geometry.svg)
-
-Valid candidates are ranked using a weighted score:
+Candidate ranking uses:
 
 $$
-S = 4C + 3F + 2\max\left(0,\ 1-\frac{|r-r_{\mathrm{ref}}|}{r_{\mathrm{ref}}}\right)
+S = 4C + 3F + 2\max\left(0, 1-\frac{|r-r_{\mathrm{ref}}|}{r_{\mathrm{ref}}}\right)
 $$
 
-where:
+Here, $`C=4\pi A/P^2`$ measures circularity, $`F=A/(\pi r^2)`$ measures fill, and $`r_{\mathrm{ref}}`$ is `ball.expected_radius`. Equal scores are resolved by the closest radius.
 
-- $`C`$ is the circularity score.
-- $`F = \dfrac{A}{\pi r^2}`$ is the fraction of the minimum enclosing circle occupied by the contour.
-- $`A`$ is the contour area (px²).
-- $`r`$ is the radius of the enclosing circle (px).
-- $`r_{\mathrm{ref}}`$ is the expected ball radius (px), defined by `ball.expected_radius`.
-
-The score favors circular contours (weight 4), contours that fill their enclosing circle (weight 3), and candidates with a radius close to $`r_{\mathrm{ref}}`$ (weight 2). These weights are fixed in the implementation, while the expected radius is configurable.
-
-The candidate with the highest score is selected as the ball. If scores are tied, the candidate whose radius is closest to $`r_{\mathrm{ref}}`$ takes priority.
-
-![Ball candidate scoring](docs/ball-scoring.svg)
+![Ball candidate scoring](docs/diagrams/figures/ball-scoring.svg)
 
 ### 3. Ball tracking
 
-The tracker estimates velocity from two real ball positions and smooths it to reduce noise:
+Smooth velocity from real observations to reduce measurement noise.
 
-$$
-\mathbf{v}_t = \alpha\,\mathbf{v}_{\text{measured}} + (1-\alpha)\,\mathbf{v}_{t-1}
-$$
+![Velocity smoothing illustration](docs/diagrams/figures/velocity-smoothing.svg)
 
-where:
+During short occlusions, extrapolate from the last observation using the smoothed velocity. A new observation takes priority; predictions are never reused as observations.
 
-- $`\mathbf{v}_t`$ is the smoothed velocity at time $`t`$.
-- $`\mathbf{v}_{\text{measured}}`$ is the velocity calculated from the two latest real ball observations.
-- $`\mathbf{v}_{t-1}`$ is the previous smoothed velocity.
-- $`\alpha`$ is the smoothing factor, defined by `tracking.velocity_smoothing`.
+![Ball position prediction illustration](docs/diagrams/figures/occlusion-prediction.svg)
 
-![Velocity smoothing](docs/velocity-smoothing.svg)
+## Results
 
-When the ball is temporarily hidden, its position is extrapolated from the last observed position using a constant-velocity model:
+### Parameters
 
-$$
-\hat{\mathbf{p}}(\Delta t) = \mathbf{p}_{\text{last}} + \mathbf{v}_t\Delta t
-$$
+One configuration, [`config.jsonc`](config.jsonc), was manually adjusted to the colors in video.
 
-where:
+| Component      | Settings                                                              |
+| -------------- | --------------------------------------------------------------------- |
+| Field color    | RGB `[30, 110, 65]`–`[145, 200, 175]`                                 |
+| Ball color     | RGB `[170, 140, 0]`–`[255, 255, 90]`                                  |
+| Field geometry | Scale `0.5`, minimum area ratio `0.15`, redetection every `60` frames |
+| Ball size      | Area `40–1400 px²`, radius `4.5–28 px`, preferred radius `14 px`      |
+| Ball shape     | Circularity ≥ `0.3`, fill ≥ `0.15`, aspect ratio ≤ `4.5`              |
+| Tracking       | Prediction ≤ `0.4 s`, velocity smoothing `0.7`                        |
 
-- $`\hat{\mathbf{p}}(\Delta t)`$ is the predicted position after elapsed time $`\Delta t`$.
-- $`\mathbf{p}_{\text{last}}`$ is the last visually observed ball position.
-- $`\mathbf{v}_t`$ is the most recently estimated smoothed velocity.
-- $`\Delta t`$ is the time since the last real observation (seconds).
+### Annotations vs. code
 
-Prediction lasts at most `tracking.maximum_prediction_seconds` seconds and stops if the estimated point leaves the field. A new visual detection always takes priority; predictions are never reused as observations.
+Tested video contains 434 frames at 30 fps, 898 × 1322 pixels.
 
-![Ball position prediction](docs/occlusion-prediction.svg)
+- The [annotations](docs/data/annotations.json) contain 378 readable centers, 24 uncertain frames excluded from scoring and 32 frames without a visible target ball.
+- The [provenance](docs/data/provenance.json) records visibility and hashes.
+- The [comparison JSON](docs/data/comparison.json) matches `frame_index` and scores observations separately from predictions.
 
-All thresholds and tracking settings can be adjusted in [`config.jsonc`](config.jsonc).
+| Measurement                                          | Result                |
+| ---------------------------------------------------- | --------------------- |
+| Correct observed locations within 20 px              | 373/378 (98.7%)       |
+| Observation precision / recall / F1                  | 95.4% / 98.7% / 97.0% |
+| Median / mean position error                         | 3.16 px / 7.11 px     |
+| Observed false positives on nonvisible-target frames | 15/32                 |
 
-## Performance results
+The 98.7% recall covers readable centers: 373 correct observations, 3 wrong locations and 2 frames with prediction only. The full plot also includes 21 unscored observations and 15 false detections on frames without a visible ball.
 
-![Performance results](docs/performance.svg)
+![Annotations and code trajectories](docs/figures/trajectories.svg)
 
-## Development
+All 412 observations are retained: red crosses mark errors and gray markers are unscored. The time panel shows error on the 376 observations with a readable reference center; gray bands mark intervals without one.
+
+![Frame examples](docs/figures/examples.svg)
 
 ```bash
-# Format Python files.
-uv run ruff format .
+# Process all of video.
+uv run tracking input/video.mp4 --config config.jsonc
 
-# Lint the codebase.
-uv run ruff check .
+# Save the full per-frame export used by the comparison.
+cp output/video.json docs/data/detections.json
 
-# Check types.
-uv run pyright
+# Compare every frame against the annotations.
+uv run poe evaluate
 
-# Check types with MyPy.
-uv run mypy
+# Regenerate result charts from the saved JSON files.
+uv run poe figures
 
-# Check Pylint errors.
-uv run pylint --errors-only src scripts
-
-# Build the package.
-uv build
-
-# Generate all diagrams.
-uv run poe diagrams
-
-# Delete all diagrams SVGs.
-uv run poe diagrams-clean
-
-# Run performance report on tested videos.
-uv run poe performance <REPORTS...> --output <OUTPUT.svg>
+# Refresh frame examples and the full comparison video.
+uv run poe review
 ```
+
+### Code vs. five generic videos
+
+Five additional videos total 190,351 frames at approximately 59.94 fps and 1920 × 1080 pixels. Their recorded exports give 79.6% coverage: the fraction of frames with an observation or prediction. They have no reference annotations, so this does not measure localization accuracy.
+
+![Coverage across five generic videos](docs/figures/generic-videos.svg)
+
+```bash
+# Recompute counts and timelines from the five original JSON exports.
+uv run reporting coverage output/video[1-5].json \
+  --save-data docs/data/generic-videos.json
+```
+
+## Discussion and limitations
+
+Results depend strongly on the input configuration. RGB bounds must match the video's colors and lighting. If the field mask fails, ball detection cannot start; overly broad bounds admit similarly colored objects. Resolution, camera distance and perspective also change the appropriate area, radius and kernel settings.
+
+The manual configuration gives accurate locations on most readable frames here, but the false observations on nonvisible-target frames show that it still confuses some objects with the ball. Prediction settings must also match game speed and camera motion. Constant-velocity extrapolation cannot account for hidden rebounds.

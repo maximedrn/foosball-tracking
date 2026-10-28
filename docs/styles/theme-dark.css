@@ -1,0 +1,130 @@
+/* GitHub Primer: https://primer.style/product/primitives/color/ */
+@media (prefers-color-scheme: dark) {
+  [style*="fill:#ffffff"] {
+    fill: #0d1117 !important;
+  }
+
+  [style*="stroke:#ffffff"] {
+    stroke: #0d1117 !important;
+  }
+
+  [style*="fill:#bc4c00"] {
+    fill: #db6d28 !important;
+  }
+
+  [style*="stroke:#bc4c00"] {
+    stroke: #db6d28 !important;
+  }
+
+  [style*="fill:#1f2328"] {
+    fill: #f0f6fc !important;
+  }
+
+  [style*="stroke:#1f2328"] {
+    stroke: #f0f6fc !important;
+  }
+
+  [style*="fill:#59636e"] {
+    fill: #9198a1 !important;
+  }
+
+  [style*="stroke:#59636e"] {
+    stroke: #9198a1 !important;
+  }
+
+  [style*="fill:#d1d9e0"] {
+    fill: #3d444d !important;
+  }
+
+  [style*="stroke:#d1d9e0"] {
+    stroke: #3d444d !important;
+  }
+
+  [style*="fill:#f6f8fa"] {
+    fill: #151b23 !important;
+  }
+
+  [style*="stroke:#f6f8fa"] {
+    stroke: #151b23 !important;
+  }
+
+  [style*="fill:#0969da"] {
+    fill: #4493f8 !important;
+  }
+
+  [style*="stroke:#0969da"] {
+    stroke: #4493f8 !important;
+  }
+
+  [style*="fill:#ddf4ff"] {
+    fill: #388bfd1a !important;
+  }
+
+  [style*="stroke:#ddf4ff"] {
+    stroke: #388bfd1a !important;
+  }
+
+  [style*="fill:#1a7f37"] {
+    fill: #3fb950 !important;
+  }
+
+  [style*="stroke:#1a7f37"] {
+    stroke: #3fb950 !important;
+  }
+
+  [style*="fill:#dafbe1"] {
+    fill: #2ea04326 !important;
+  }
+
+  [style*="stroke:#dafbe1"] {
+    stroke: #2ea04326 !important;
+  }
+
+  [style*="fill:#8250df"] {
+    fill: #ab7df8 !important;
+  }
+
+  [style*="stroke:#8250df"] {
+    stroke: #ab7df8 !important;
+  }
+
+  [style*="fill:#fbefff"] {
+    fill: #ab7df826 !important;
+  }
+
+  [style*="stroke:#fbefff"] {
+    stroke: #ab7df826 !important;
+  }
+
+  [style*="fill:#9a6700"] {
+    fill: #d29922 !important;
+  }
+
+  [style*="stroke:#9a6700"] {
+    stroke: #d29922 !important;
+  }
+
+  [style*="fill:#fff8c5"] {
+    fill: #bb800926 !important;
+  }
+
+  [style*="stroke:#fff8c5"] {
+    stroke: #bb800926 !important;
+  }
+
+  [style*="fill:#cf222e"] {
+    fill: #da3633 !important;
+  }
+
+  [style*="stroke:#cf222e"] {
+    stroke: #da3633 !important;
+  }
+
+  [style*="fill:#ffebe9"] {
+    fill: #f851491a !important;
+  }
+
+  [style*="stroke:#ffebe9"] {
+    stroke: #f851491a !important;
+  }
+}

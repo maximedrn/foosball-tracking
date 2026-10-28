@@ -1,0 +1,8179 @@
+{
+  "summary": {
+    "processed_frames": 434,
+    "detected_frames": 378,
+    "predicted_frames": 0,
+    "detection_rate": 87.09677419354838,
+    "prediction_rate": 0.0,
+    "coverage_rate": 87.09677419354838
+  },
+  "completed": true,
+  "stop_reason": "end_of_video",
+  "schema_version": 1,
+  "source_video": "input/video.mp4",
+  "output_video": "output/evaluation/video.reference.mp4",
+  "metadata": {
+    "frame_count": 434,
+    "fps": 30.0,
+    "width": 898,
+    "height": 1322
+  },
+  "configuration": {
+    "video_path": "input/video.mp4",
+    "output_path": "output/video.mp4",
+    "max_frames": null,
+    "processing": {
+      "workers": 16,
+      "buffer_size": 64,
+      "opencv_threads": 16
+    },
+    "table": {
+      "rgb": {
+        "lower": [
+          30,
+          110,
+          65
+        ],
+        "upper": [
+          145,
+          200,
+          175
+        ]
+      },
+      "detection_every": 60,
+      "scale": 0.5,
+      "minimum_area_ratio": 0.15,
+      "close_kernel_size": 7,
+      "close_iterations": 2,
+      "box_expansion": 1.1
+    },
+    "ball": {
+      "rgb": {
+        "lower": [
+          170,
+          140,
+          0
+        ],
+        "upper": [
+          255,
+          255,
+          90
+        ]
+      },
+      "minimum_area": 40.0,
+      "maximum_area": 1400.0,
+      "minimum_radius": 4.5,
+      "maximum_radius": 28.0,
+      "minimum_circularity": 0.3,
+      "maximum_aspect_ratio": 4.5,
+      "minimum_fill_ratio": 0.15,
+      "expected_radius": 14.0,
+      "blur_kernel_size": 3,
+      "close_kernel_size": 3
+    },
+    "tracking": {
+      "maximum_prediction_seconds": 0.4,
+      "velocity_smoothing": 0.7
+    },
+    "preview": {
+      "enabled": false,
+      "every_n_frames": 3,
+      "width": 1000,
+      "progress_every": 20
+    },
+    "drawing": {
+      "table_color": [
+        255,
+        255,
+        0
+      ],
+      "ball_color": [
+        0,
+        255,
+        255
+      ],
+      "draw_candidates": false,
+      "candidate_color": [
+        0,
+        165,
+        255
+      ],
+      "center_color": [
+        0,
+        0,
+        255
+      ],
+      "prediction_color": [
+        255,
+        0,
+        255
+      ]
+    }
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          336,
+          398
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 1,
+      "timestamp_seconds": 0.03333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          342,
+          399
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 2,
+      "timestamp_seconds": 0.06666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          350,
+          399
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 3,
+      "timestamp_seconds": 0.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          362,
+          400
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 4,
+      "timestamp_seconds": 0.13333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          373,
+          401
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 5,
+      "timestamp_seconds": 0.16666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          384,
+          402
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 6,
+      "timestamp_seconds": 0.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          384,
+          404
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 7,
+      "timestamp_seconds": 0.23333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          374,
+          404
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 8,
+      "timestamp_seconds": 0.26666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          362,
+          403
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 9,
+      "timestamp_seconds": 0.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          348,
+          409
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 10,
+      "timestamp_seconds": 0.3333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          335,
+          411
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 11,
+      "timestamp_seconds": 0.36666666666666664,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          322,
+          414
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 12,
+      "timestamp_seconds": 0.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          310,
+          418
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 13,
+      "timestamp_seconds": 0.43333333333333335,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          297,
+          422
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 14,
+      "timestamp_seconds": 0.4666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          283,
+          424
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 15,
+      "timestamp_seconds": 0.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          272,
+          426
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 16,
+      "timestamp_seconds": 0.5333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          259,
+          429
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 17,
+      "timestamp_seconds": 0.5666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          244,
+          431
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 18,
+      "timestamp_seconds": 0.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          232,
+          436
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 19,
+      "timestamp_seconds": 0.6333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          219,
+          439
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 20,
+      "timestamp_seconds": 0.6666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          204,
+          442
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 21,
+      "timestamp_seconds": 0.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          191,
+          462
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 22,
+      "timestamp_seconds": 0.7333333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 23,
+      "timestamp_seconds": 0.7666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          172,
+          518
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 24,
+      "timestamp_seconds": 0.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          168,
+          529
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 25,
+      "timestamp_seconds": 0.8333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          167,
+          531
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 26,
+      "timestamp_seconds": 0.8666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          166,
+          532
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 27,
+      "timestamp_seconds": 0.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          166,
+          532
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 28,
+      "timestamp_seconds": 0.9333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          166,
+          532
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 29,
+      "timestamp_seconds": 0.9666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          166,
+          531
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 30,
+      "timestamp_seconds": 1.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          167,
+          532
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 31,
+      "timestamp_seconds": 1.0333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          168,
+          534
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 32,
+      "timestamp_seconds": 1.0666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          171,
+          530
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 33,
+      "timestamp_seconds": 1.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          172,
+          526
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 34,
+      "timestamp_seconds": 1.1333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          173,
+          528
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 35,
+      "timestamp_seconds": 1.1666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          174,
+          526
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 36,
+      "timestamp_seconds": 1.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          523
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 37,
+      "timestamp_seconds": 1.2333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          525
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 38,
+      "timestamp_seconds": 1.2666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          522
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 39,
+      "timestamp_seconds": 1.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          519
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 40,
+      "timestamp_seconds": 1.3333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          521
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 41,
+      "timestamp_seconds": 1.3666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          520
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 42,
+      "timestamp_seconds": 1.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          516
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 43,
+      "timestamp_seconds": 1.4333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          517
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 44,
+      "timestamp_seconds": 1.4666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          516
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 45,
+      "timestamp_seconds": 1.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          176,
+          514
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 46,
+      "timestamp_seconds": 1.5333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          177,
+          514
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 47,
+      "timestamp_seconds": 1.5666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          179,
+          512
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 48,
+      "timestamp_seconds": 1.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          179,
+          511
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 49,
+      "timestamp_seconds": 1.6333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          180,
+          510
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 50,
+      "timestamp_seconds": 1.6666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          180,
+          509
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 51,
+      "timestamp_seconds": 1.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          180,
+          509
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 52,
+      "timestamp_seconds": 1.7333333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 53,
+      "timestamp_seconds": 1.7666666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 54,
+      "timestamp_seconds": 1.8,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 55,
+      "timestamp_seconds": 1.8333333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 56,
+      "timestamp_seconds": 1.8666666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 57,
+      "timestamp_seconds": 1.9,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 58,
+      "timestamp_seconds": 1.9333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          195,
+          510
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 59,
+      "timestamp_seconds": 1.9666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          208,
+          513
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 60,
+      "timestamp_seconds": 2.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          218,
+          512
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 61,
+      "timestamp_seconds": 2.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          225,
+          514
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 62,
+      "timestamp_seconds": 2.066666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          237,
+          518
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 63,
+      "timestamp_seconds": 2.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          245,
+          520
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 64,
+      "timestamp_seconds": 2.1333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          252,
+          524
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 65,
+      "timestamp_seconds": 2.1666666666666665,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          259,
+          528
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 66,
+      "timestamp_seconds": 2.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          266,
+          530
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 67,
+      "timestamp_seconds": 2.2333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          275,
+          534
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 68,
+      "timestamp_seconds": 2.2666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          283,
+          536
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 69,
+      "timestamp_seconds": 2.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          289,
+          542
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 70,
+      "timestamp_seconds": 2.3333333333333335,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          298,
+          546
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 71,
+      "timestamp_seconds": 2.3666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          304,
+          550
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 72,
+      "timestamp_seconds": 2.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          313,
+          552
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 73,
+      "timestamp_seconds": 2.433333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          320,
+          558
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 74,
+      "timestamp_seconds": 2.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          327,
+          560
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 75,
+      "timestamp_seconds": 2.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          336,
+          564
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 76,
+      "timestamp_seconds": 2.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          341,
+          571
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 77,
+      "timestamp_seconds": 2.566666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          349,
+          576
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 78,
+      "timestamp_seconds": 2.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          351,
+          573
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 79,
+      "timestamp_seconds": 2.6333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          343,
+          574
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 80,
+      "timestamp_seconds": 2.6666666666666665,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          335,
+          574
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 81,
+      "timestamp_seconds": 2.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          324,
+          573
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 82,
+      "timestamp_seconds": 2.7333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          303,
+          574
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 83,
+      "timestamp_seconds": 2.7666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          303,
+          573
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 84,
+      "timestamp_seconds": 2.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          298,
+          573
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 85,
+      "timestamp_seconds": 2.8333333333333335,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          300,
+          573
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 86,
+      "timestamp_seconds": 2.8666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          300,
+          574
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 87,
+      "timestamp_seconds": 2.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          297,
+          571
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 88,
+      "timestamp_seconds": 2.933333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          298,
+          571
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 89,
+      "timestamp_seconds": 2.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          298,
+          571
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 90,
+      "timestamp_seconds": 3.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          296,
+          568
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 91,
+      "timestamp_seconds": 3.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          294,
+          570
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 92,
+      "timestamp_seconds": 3.066666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          294,
+          569
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 93,
+      "timestamp_seconds": 3.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          296,
+          568
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 94,
+      "timestamp_seconds": 3.1333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          293,
+          568
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 95,
+      "timestamp_seconds": 3.1666666666666665,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          293,
+          568
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 96,
+      "timestamp_seconds": 3.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          293,
+          566
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 97,
+      "timestamp_seconds": 3.2333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          292,
+          567
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 98,
+      "timestamp_seconds": 3.2666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          290,
+          567
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 99,
+      "timestamp_seconds": 3.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          291,
+          566
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 100,
+      "timestamp_seconds": 3.3333333333333335,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          298,
+          566
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 101,
+      "timestamp_seconds": 3.3666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          305,
+          564
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 102,
+      "timestamp_seconds": 3.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          315,
+          562
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 103,
+      "timestamp_seconds": 3.433333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          322,
+          559
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 104,
+      "timestamp_seconds": 3.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          330,
+          558
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 105,
+      "timestamp_seconds": 3.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          338,
+          560
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 106,
+      "timestamp_seconds": 3.533333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 107,
+      "timestamp_seconds": 3.566666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 108,
+      "timestamp_seconds": 3.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          364,
+          550
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 109,
+      "timestamp_seconds": 3.6333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          372,
+          547
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 110,
+      "timestamp_seconds": 3.6666666666666665,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          379,
+          544
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 111,
+      "timestamp_seconds": 3.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          384,
+          544
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 112,
+      "timestamp_seconds": 3.7333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          391,
+          542
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 113,
+      "timestamp_seconds": 3.7666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          398,
+          540
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 114,
+      "timestamp_seconds": 3.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          404,
+          537
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 115,
+      "timestamp_seconds": 3.8333333333333335,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          411,
+          538
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 116,
+      "timestamp_seconds": 3.8666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          419,
+          536
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 117,
+      "timestamp_seconds": 3.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          425,
+          530
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 118,
+      "timestamp_seconds": 3.933333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          430,
+          534
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 119,
+      "timestamp_seconds": 3.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          433,
+          533
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 120,
+      "timestamp_seconds": 4.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          434,
+          526
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 121,
+      "timestamp_seconds": 4.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          446,
+          524
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 122,
+      "timestamp_seconds": 4.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          441,
+          519
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 123,
+      "timestamp_seconds": 4.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          420,
+          515
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 124,
+      "timestamp_seconds": 4.133333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          412,
+          504
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 125,
+      "timestamp_seconds": 4.166666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 126,
+      "timestamp_seconds": 4.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          400,
+          478
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 127,
+      "timestamp_seconds": 4.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          386,
+          470
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 128,
+      "timestamp_seconds": 4.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          382,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 129,
+      "timestamp_seconds": 4.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          386,
+          451
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 130,
+      "timestamp_seconds": 4.333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          372,
+          433
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 131,
+      "timestamp_seconds": 4.366666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          368,
+          424
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 132,
+      "timestamp_seconds": 4.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          370,
+          421
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 133,
+      "timestamp_seconds": 4.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          410,
+          423
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 134,
+      "timestamp_seconds": 4.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          446,
+          426
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 135,
+      "timestamp_seconds": 4.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          462,
+          433
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 136,
+      "timestamp_seconds": 4.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          494,
+          429
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 137,
+      "timestamp_seconds": 4.566666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 138,
+      "timestamp_seconds": 4.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          550,
+          436
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 139,
+      "timestamp_seconds": 4.633333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          566,
+          429
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 140,
+      "timestamp_seconds": 4.666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          590,
+          430
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 141,
+      "timestamp_seconds": 4.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          610,
+          436
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 142,
+      "timestamp_seconds": 4.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          634,
+          435
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 143,
+      "timestamp_seconds": 4.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          660,
+          435
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 144,
+      "timestamp_seconds": 4.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          680,
+          437
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 145,
+      "timestamp_seconds": 4.833333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          704,
+          437
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 146,
+      "timestamp_seconds": 4.866666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          722,
+          437
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 147,
+      "timestamp_seconds": 4.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          720,
+          437
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 148,
+      "timestamp_seconds": 4.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          704,
+          441
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 149,
+      "timestamp_seconds": 4.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          686,
+          443
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 150,
+      "timestamp_seconds": 5.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          666,
+          442
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 151,
+      "timestamp_seconds": 5.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          653,
+          444
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 152,
+      "timestamp_seconds": 5.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          642,
+          447
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 153,
+      "timestamp_seconds": 5.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          629,
+          447
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 154,
+      "timestamp_seconds": 5.133333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          618,
+          448
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 155,
+      "timestamp_seconds": 5.166666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          606,
+          451
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 156,
+      "timestamp_seconds": 5.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          594,
+          455
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 157,
+      "timestamp_seconds": 5.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          583,
+          456
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 158,
+      "timestamp_seconds": 5.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          569,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 159,
+      "timestamp_seconds": 5.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          558,
+          458
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 160,
+      "timestamp_seconds": 5.333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          546,
+          460
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 161,
+      "timestamp_seconds": 5.366666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          540,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 162,
+      "timestamp_seconds": 5.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          535,
+          461
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 163,
+      "timestamp_seconds": 5.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          528,
+          460
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 164,
+      "timestamp_seconds": 5.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          526,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 165,
+      "timestamp_seconds": 5.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          526,
+          462
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 166,
+      "timestamp_seconds": 5.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          534,
+          462
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 167,
+      "timestamp_seconds": 5.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          542,
+          458
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 168,
+      "timestamp_seconds": 5.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          551,
+          458
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 169,
+      "timestamp_seconds": 5.633333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          559,
+          454
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 170,
+      "timestamp_seconds": 5.666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          567,
+          448
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 171,
+      "timestamp_seconds": 5.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          575,
+          446
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 172,
+      "timestamp_seconds": 5.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          581,
+          442
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 173,
+      "timestamp_seconds": 5.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          587,
+          438
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 174,
+      "timestamp_seconds": 5.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          595,
+          435
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 175,
+      "timestamp_seconds": 5.833333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          601,
+          431
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 176,
+      "timestamp_seconds": 5.866666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          607,
+          426
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 177,
+      "timestamp_seconds": 5.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          614,
+          421
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 178,
+      "timestamp_seconds": 5.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          622,
+          419
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 179,
+      "timestamp_seconds": 5.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          627,
+          415
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 180,
+      "timestamp_seconds": 6.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          632,
+          412
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 181,
+      "timestamp_seconds": 6.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          637,
+          409
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 182,
+      "timestamp_seconds": 6.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          640,
+          409
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 183,
+      "timestamp_seconds": 6.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          643,
+          407
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 184,
+      "timestamp_seconds": 6.133333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          647,
+          407
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 185,
+      "timestamp_seconds": 6.166666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          650,
+          407
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 186,
+      "timestamp_seconds": 6.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          654,
+          406
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 187,
+      "timestamp_seconds": 6.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          659,
+          406
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 188,
+      "timestamp_seconds": 6.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          659,
+          407
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 189,
+      "timestamp_seconds": 6.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          648,
+          408
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 190,
+      "timestamp_seconds": 6.333333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          639,
+          409
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 191,
+      "timestamp_seconds": 6.366666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          629,
+          410
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 192,
+      "timestamp_seconds": 6.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          618,
+          411
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 193,
+      "timestamp_seconds": 6.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          606,
+          416
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 194,
+      "timestamp_seconds": 6.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          595,
+          417
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 195,
+      "timestamp_seconds": 6.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          586,
+          418
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 196,
+      "timestamp_seconds": 6.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          577,
+          420
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 197,
+      "timestamp_seconds": 6.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          566,
+          422
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 198,
+      "timestamp_seconds": 6.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          556,
+          425
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 199,
+      "timestamp_seconds": 6.633333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          548,
+          428
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 200,
+      "timestamp_seconds": 6.666666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          573,
+          443
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 201,
+      "timestamp_seconds": 6.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          597,
+          456
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 202,
+      "timestamp_seconds": 6.733333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 203,
+      "timestamp_seconds": 6.766666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 204,
+      "timestamp_seconds": 6.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          668,
+          500
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 205,
+      "timestamp_seconds": 6.833333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          700,
+          513
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 206,
+      "timestamp_seconds": 6.866666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          727,
+          530
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 207,
+      "timestamp_seconds": 6.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          722,
+          531
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 208,
+      "timestamp_seconds": 6.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          682,
+          526
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 209,
+      "timestamp_seconds": 6.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          622,
+          522
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 210,
+      "timestamp_seconds": 7.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          559,
+          517
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 211,
+      "timestamp_seconds": 7.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          512,
+          516
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 212,
+      "timestamp_seconds": 7.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          462,
+          510
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 213,
+      "timestamp_seconds": 7.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          414,
+          507
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 214,
+      "timestamp_seconds": 7.133333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          368,
+          504
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 215,
+      "timestamp_seconds": 7.166666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          318,
+          500
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 216,
+      "timestamp_seconds": 7.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          274,
+          496
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 217,
+      "timestamp_seconds": 7.233333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 218,
+      "timestamp_seconds": 7.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          180,
+          489
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 219,
+      "timestamp_seconds": 7.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          177,
+          480
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 220,
+      "timestamp_seconds": 7.333333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 221,
+      "timestamp_seconds": 7.366666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 222,
+      "timestamp_seconds": 7.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          276,
+          478
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 223,
+      "timestamp_seconds": 7.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          305,
+          483
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 224,
+      "timestamp_seconds": 7.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          325,
+          485
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 225,
+      "timestamp_seconds": 7.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          349,
+          480
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 226,
+      "timestamp_seconds": 7.533333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 227,
+      "timestamp_seconds": 7.566666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 228,
+      "timestamp_seconds": 7.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          425,
+          480
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 229,
+      "timestamp_seconds": 7.633333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 230,
+      "timestamp_seconds": 7.666666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 231,
+      "timestamp_seconds": 7.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          485,
+          474
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 232,
+      "timestamp_seconds": 7.733333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 233,
+      "timestamp_seconds": 7.766666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 234,
+      "timestamp_seconds": 7.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          548,
+          465
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 235,
+      "timestamp_seconds": 7.833333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          567,
+          461
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 236,
+      "timestamp_seconds": 7.866666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          588,
+          461
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 237,
+      "timestamp_seconds": 7.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          610,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 238,
+      "timestamp_seconds": 7.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          623,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 239,
+      "timestamp_seconds": 7.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          648,
+          459
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 240,
+      "timestamp_seconds": 8.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          671,
+          452
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 241,
+      "timestamp_seconds": 8.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          684,
+          453
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 242,
+      "timestamp_seconds": 8.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          702,
+          453
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 243,
+      "timestamp_seconds": 8.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          721,
+          451
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 244,
+      "timestamp_seconds": 8.133333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          729,
+          448
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 245,
+      "timestamp_seconds": 8.166666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          718,
+          447
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 246,
+      "timestamp_seconds": 8.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          701,
+          448
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 247,
+      "timestamp_seconds": 8.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          690,
+          448
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 248,
+      "timestamp_seconds": 8.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          678,
+          445
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 249,
+      "timestamp_seconds": 8.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          666,
+          445
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 250,
+      "timestamp_seconds": 8.333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          655,
+          446
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 251,
+      "timestamp_seconds": 8.366666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          645,
+          441
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 252,
+      "timestamp_seconds": 8.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          634,
+          441
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 253,
+      "timestamp_seconds": 8.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          625,
+          441
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 254,
+      "timestamp_seconds": 8.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          617,
+          440
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 255,
+      "timestamp_seconds": 8.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          604,
+          437
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 256,
+      "timestamp_seconds": 8.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          593,
+          438
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 257,
+      "timestamp_seconds": 8.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          584,
+          437
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 258,
+      "timestamp_seconds": 8.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          573,
+          435
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 259,
+      "timestamp_seconds": 8.633333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          564,
+          435
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 260,
+      "timestamp_seconds": 8.666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          557,
+          433
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 261,
+      "timestamp_seconds": 8.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          544,
+          430
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 262,
+      "timestamp_seconds": 8.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          533,
+          435
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 263,
+      "timestamp_seconds": 8.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          524,
+          430
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 264,
+      "timestamp_seconds": 8.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          516,
+          429
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 265,
+      "timestamp_seconds": 8.833333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          505,
+          426
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 266,
+      "timestamp_seconds": 8.866666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          495,
+          425
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 267,
+      "timestamp_seconds": 8.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          490,
+          425
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 268,
+      "timestamp_seconds": 8.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          477,
+          422
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 269,
+      "timestamp_seconds": 8.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          469,
+          420
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 270,
+      "timestamp_seconds": 9.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          459,
+          419
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 271,
+      "timestamp_seconds": 9.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          451,
+          418
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 272,
+      "timestamp_seconds": 9.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          442,
+          416
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 273,
+      "timestamp_seconds": 9.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          432,
+          414
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 274,
+      "timestamp_seconds": 9.133333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          424,
+          412
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 275,
+      "timestamp_seconds": 9.166666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          415,
+          411
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 276,
+      "timestamp_seconds": 9.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          405,
+          409
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 277,
+      "timestamp_seconds": 9.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          398,
+          408
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 278,
+      "timestamp_seconds": 9.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          387,
+          406
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 279,
+      "timestamp_seconds": 9.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          380,
+          405
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 280,
+      "timestamp_seconds": 9.333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          371,
+          401
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 281,
+      "timestamp_seconds": 9.366666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          364,
+          399
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 282,
+      "timestamp_seconds": 9.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          355,
+          398
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 283,
+      "timestamp_seconds": 9.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          347,
+          398
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 284,
+      "timestamp_seconds": 9.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          339,
+          395
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 285,
+      "timestamp_seconds": 9.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          330,
+          394
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 286,
+      "timestamp_seconds": 9.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          324,
+          394
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 287,
+      "timestamp_seconds": 9.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          315,
+          391
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 288,
+      "timestamp_seconds": 9.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          306,
+          390
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 289,
+      "timestamp_seconds": 9.633333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          296,
+          388
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 290,
+      "timestamp_seconds": 9.666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          289,
+          388
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 291,
+      "timestamp_seconds": 9.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          281,
+          386
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 292,
+      "timestamp_seconds": 9.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          275,
+          385
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 293,
+      "timestamp_seconds": 9.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          265,
+          382
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 294,
+      "timestamp_seconds": 9.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          259,
+          381
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 295,
+      "timestamp_seconds": 9.833333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          252,
+          381
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 296,
+      "timestamp_seconds": 9.866666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          251,
+          381
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 297,
+      "timestamp_seconds": 9.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          249,
+          379
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 298,
+      "timestamp_seconds": 9.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          241,
+          380
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 299,
+      "timestamp_seconds": 9.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          237,
+          379
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 300,
+      "timestamp_seconds": 10.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          232,
+          379
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 301,
+      "timestamp_seconds": 10.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          228,
+          378
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 302,
+      "timestamp_seconds": 10.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          232,
+          378
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 303,
+      "timestamp_seconds": 10.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          244,
+          379
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 304,
+      "timestamp_seconds": 10.133333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          252,
+          379
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 305,
+      "timestamp_seconds": 10.166666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          263,
+          387
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 306,
+      "timestamp_seconds": 10.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          273,
+          388
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 307,
+      "timestamp_seconds": 10.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          282,
+          389
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 308,
+      "timestamp_seconds": 10.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          291,
+          389
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 309,
+      "timestamp_seconds": 10.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          301,
+          390
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 310,
+      "timestamp_seconds": 10.333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          309,
+          380
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 311,
+      "timestamp_seconds": 10.366666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          317,
+          381
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 312,
+      "timestamp_seconds": 10.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          326,
+          382
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 313,
+      "timestamp_seconds": 10.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          335,
+          382
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 314,
+      "timestamp_seconds": 10.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          342,
+          383
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 315,
+      "timestamp_seconds": 10.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          350,
+          391
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 316,
+      "timestamp_seconds": 10.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          360,
+          391
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 317,
+      "timestamp_seconds": 10.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          369,
+          392
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 318,
+      "timestamp_seconds": 10.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          379,
+          392
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 319,
+      "timestamp_seconds": 10.633333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          364,
+          392
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 320,
+      "timestamp_seconds": 10.666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          350,
+          387
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 321,
+      "timestamp_seconds": 10.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          335,
+          389
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 322,
+      "timestamp_seconds": 10.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          320,
+          391
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 323,
+      "timestamp_seconds": 10.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          306,
+          392
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 324,
+      "timestamp_seconds": 10.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          292,
+          394
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 325,
+      "timestamp_seconds": 10.833333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          277,
+          398
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 326,
+      "timestamp_seconds": 10.866666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          262,
+          399
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 327,
+      "timestamp_seconds": 10.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          247,
+          400
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 328,
+      "timestamp_seconds": 10.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          232,
+          402
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 329,
+      "timestamp_seconds": 10.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          218,
+          404
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 330,
+      "timestamp_seconds": 11.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          202,
+          410
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 331,
+      "timestamp_seconds": 11.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          204,
+          425
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 332,
+      "timestamp_seconds": 11.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          214,
+          445
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 333,
+      "timestamp_seconds": 11.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          224,
+          470
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 334,
+      "timestamp_seconds": 11.133333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          235,
+          486
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 335,
+      "timestamp_seconds": 11.166666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          242,
+          510
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 336,
+      "timestamp_seconds": 11.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          255,
+          534
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 337,
+      "timestamp_seconds": 11.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          266,
+          558
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 338,
+      "timestamp_seconds": 11.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          277,
+          582
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 339,
+      "timestamp_seconds": 11.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          285,
+          607
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 340,
+      "timestamp_seconds": 11.333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          303,
+          640
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 341,
+      "timestamp_seconds": 11.366666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          317,
+          671
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 342,
+      "timestamp_seconds": 11.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          329,
+          693
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 343,
+      "timestamp_seconds": 11.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          335,
+          696
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 344,
+      "timestamp_seconds": 11.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          336,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 345,
+      "timestamp_seconds": 11.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          337,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 346,
+      "timestamp_seconds": 11.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          342,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 347,
+      "timestamp_seconds": 11.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          352,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 348,
+      "timestamp_seconds": 11.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          364,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 349,
+      "timestamp_seconds": 11.633333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          375,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 350,
+      "timestamp_seconds": 11.666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          387,
+          690
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 351,
+      "timestamp_seconds": 11.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          397,
+          690
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 352,
+      "timestamp_seconds": 11.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          408,
+          690
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 353,
+      "timestamp_seconds": 11.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          419,
+          690
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 354,
+      "timestamp_seconds": 11.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          425,
+          692
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 355,
+      "timestamp_seconds": 11.833333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          422,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 356,
+      "timestamp_seconds": 11.866666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          422,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 357,
+      "timestamp_seconds": 11.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          429,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 358,
+      "timestamp_seconds": 11.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          441,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 359,
+      "timestamp_seconds": 11.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          451,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 360,
+      "timestamp_seconds": 12.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          467,
+          692
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 361,
+      "timestamp_seconds": 12.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          479,
+          694
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 362,
+      "timestamp_seconds": 12.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          475,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 363,
+      "timestamp_seconds": 12.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          468,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 364,
+      "timestamp_seconds": 12.133333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          460,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 365,
+      "timestamp_seconds": 12.166666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          454,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 366,
+      "timestamp_seconds": 12.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          447,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 367,
+      "timestamp_seconds": 12.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          444,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 368,
+      "timestamp_seconds": 12.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          447,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 369,
+      "timestamp_seconds": 12.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          454,
+          691
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 370,
+      "timestamp_seconds": 12.333333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          462,
+          695
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 371,
+      "timestamp_seconds": 12.366666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          468,
+          694
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 372,
+      "timestamp_seconds": 12.4,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          467,
+          694
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 373,
+      "timestamp_seconds": 12.433333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          457,
+          693
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 374,
+      "timestamp_seconds": 12.466666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          442,
+          690
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 375,
+      "timestamp_seconds": 12.5,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          426,
+          694
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 376,
+      "timestamp_seconds": 12.533333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          411,
+          690
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 377,
+      "timestamp_seconds": 12.566666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          399,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 378,
+      "timestamp_seconds": 12.6,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          412,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 379,
+      "timestamp_seconds": 12.633333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          428,
+          689
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 380,
+      "timestamp_seconds": 12.666666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          448,
+          684
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 381,
+      "timestamp_seconds": 12.7,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          465,
+          684
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 382,
+      "timestamp_seconds": 12.733333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          484,
+          684
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 383,
+      "timestamp_seconds": 12.766666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          495,
+          684
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 384,
+      "timestamp_seconds": 12.8,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          494,
+          684
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 385,
+      "timestamp_seconds": 12.833333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          492,
+          683
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 386,
+      "timestamp_seconds": 12.866666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          489,
+          683
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 387,
+      "timestamp_seconds": 12.9,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          487,
+          683
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 388,
+      "timestamp_seconds": 12.933333333333334,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          490,
+          683
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 389,
+      "timestamp_seconds": 12.966666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          495,
+          683
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 390,
+      "timestamp_seconds": 13.0,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          502,
+          682
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 391,
+      "timestamp_seconds": 13.033333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          507,
+          682
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 392,
+      "timestamp_seconds": 13.066666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          516,
+          682
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 393,
+      "timestamp_seconds": 13.1,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          523,
+          682
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 394,
+      "timestamp_seconds": 13.133333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          522,
+          682
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 395,
+      "timestamp_seconds": 13.166666666666666,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          507,
+          681
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 396,
+      "timestamp_seconds": 13.2,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          480,
+          680
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 397,
+      "timestamp_seconds": 13.233333333333333,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          452,
+          679
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 398,
+      "timestamp_seconds": 13.266666666666667,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          424,
+          676
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 399,
+      "timestamp_seconds": 13.3,
+      "status": "detected",
+      "table": null,
+      "ball": {
+        "center": [
+          400,
+          673
+        ],
+        "radius": null,
+        "area": null,
+        "circularity": null,
+        "aspect_ratio": null,
+        "fill_ratio": null,
+        "score": null
+      },
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 400,
+      "timestamp_seconds": 13.333333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 401,
+      "timestamp_seconds": 13.366666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 402,
+      "timestamp_seconds": 13.4,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 403,
+      "timestamp_seconds": 13.433333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 404,
+      "timestamp_seconds": 13.466666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 405,
+      "timestamp_seconds": 13.5,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 406,
+      "timestamp_seconds": 13.533333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 407,
+      "timestamp_seconds": 13.566666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 408,
+      "timestamp_seconds": 13.6,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 409,
+      "timestamp_seconds": 13.633333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 410,
+      "timestamp_seconds": 13.666666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 411,
+      "timestamp_seconds": 13.7,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 412,
+      "timestamp_seconds": 13.733333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 413,
+      "timestamp_seconds": 13.766666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 414,
+      "timestamp_seconds": 13.8,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 415,
+      "timestamp_seconds": 13.833333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 416,
+      "timestamp_seconds": 13.866666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 417,
+      "timestamp_seconds": 13.9,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 418,
+      "timestamp_seconds": 13.933333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 419,
+      "timestamp_seconds": 13.966666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 420,
+      "timestamp_seconds": 14.0,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 421,
+      "timestamp_seconds": 14.033333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 422,
+      "timestamp_seconds": 14.066666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 423,
+      "timestamp_seconds": 14.1,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 424,
+      "timestamp_seconds": 14.133333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 425,
+      "timestamp_seconds": 14.166666666666666,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 426,
+      "timestamp_seconds": 14.2,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 427,
+      "timestamp_seconds": 14.233333333333333,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 428,
+      "timestamp_seconds": 14.266666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 429,
+      "timestamp_seconds": 14.3,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 430,
+      "timestamp_seconds": 14.333333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 431,
+      "timestamp_seconds": 14.366666666666667,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 432,
+      "timestamp_seconds": 14.4,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    },
+    {
+      "frame_index": 433,
+      "timestamp_seconds": 14.433333333333334,
+      "status": "missing",
+      "table": null,
+      "ball": null,
+      "candidates": [],
+      "prediction": null
+    }
+  ]
+}

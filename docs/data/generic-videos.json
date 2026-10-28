@@ -1,0 +1,762 @@
+{
+  "schema_version": 1,
+  "videos": [
+    {
+      "name": "video1",
+      "frames": 27544,
+      "detected": 17896,
+      "estimated": 3249,
+      "missing": 6399,
+      "observed_windows": [
+        61.10304789550073,
+        59.79680696661829,
+        51.889534883720934,
+        51.37880986937591,
+        76.45348837209302,
+        92.59796806966618,
+        62.554426705370105,
+        68.6046511627907,
+        34.83309143686502,
+        70.49418604651163,
+        83.59941944847606,
+        78.51959361393324,
+        54.21511627906976,
+        92.45283018867924,
+        89.09883720930233,
+        74.1654571843251,
+        87.08272859216255,
+        82.41279069767442,
+        63.42525399129173,
+        49.127906976744185,
+        79.82583454281567,
+        62.989840348330915,
+        74.56395348837209,
+        55.29753265602322,
+        74.4186046511628,
+        92.01741654571843,
+        71.26269956458636,
+        86.04651162790698,
+        11.756168359941945,
+        52.470930232558146,
+        59.07111756168359,
+        95.21044992743106,
+        91.56976744186046,
+        86.35703918722787,
+        17.587209302325583,
+        71.11756168359942,
+        64.29608127721336,
+        68.8953488372093,
+        0.29027576197387517,
+        0.0
+      ]
+    },
+    {
+      "name": "video2",
+      "frames": 30508,
+      "detected": 21139,
+      "estimated": 2672,
+      "missing": 6697,
+      "observed_windows": [
+        95.54390563564876,
+        97.50982961992136,
+        97.77195281782438,
+        71.65354330708661,
+        12.450851900393186,
+        91.61205766710354,
+        93.1758530183727,
+        51.63826998689384,
+        47.44429882044561,
+        49.4750656167979,
+        96.72346002621232,
+        66.84141546526867,
+        73.78768020969856,
+        92.1259842519685,
+        50.19659239842726,
+        79.29226736566186,
+        79.26509186351706,
+        91.61205766710354,
+        74.70511140235911,
+        49.343832020997375,
+        83.74836173001312,
+        66.57929226736566,
+        0.0,
+        69.5538057742782,
+        73.13237221494103,
+        91.34993446920052,
+        86.61417322834646,
+        72.47706422018348,
+        47.96854521625164,
+        80.5774278215223,
+        77.85058977719528,
+        73.39449541284404,
+        90.17038007863695,
+        64.82939632545933,
+        64.61336828309305,
+        44.56094364351245,
+        53.14960629921261,
+        59.76408912188729,
+        49.54128440366973,
+        59.580052493438316
+      ]
+    },
+    {
+      "name": "video3",
+      "frames": 54726,
+      "detected": 38944,
+      "estimated": 5531,
+      "missing": 10251,
+      "observed_windows": [
+        17.60409057706355,
+        63.59649122807017,
+        80.04385964912281,
+        59.356725146198826,
+        79.67836257309942,
+        59.210526315789465,
+        69.02848794740687,
+        83.47953216374269,
+        42.10526315789473,
+        73.02631578947368,
+        93.2017543859649,
+        66.15497076023392,
+        78.14327485380117,
+        95.836376917458,
+        61.8421052631579,
+        88.5233918128655,
+        91.37426900584795,
+        52.119883040935676,
+        63.888888888888886,
+        90.78947368421053,
+        63.91526661796932,
+        58.62573099415205,
+        77.99707602339181,
+        86.11111111111111,
+        87.64619883040936,
+        89.47368421052632,
+        76.0409057706355,
+        98.90350877192982,
+        97.953216374269,
+        47.88011695906433,
+        70.76023391812866,
+        62.86549707602339,
+        81.06725146198829,
+        77.94010226442659,
+        54.751461988304094,
+        56.4327485380117,
+        80.77485380116958,
+        93.05555555555556,
+        75.29239766081871,
+        0.0
+      ]
+    },
+    {
+      "name": "video4",
+      "frames": 32957,
+      "detected": 24511,
+      "estimated": 3401,
+      "missing": 5045,
+      "observed_windows": [
+        69.1747572815534,
+        62.13592233009708,
+        50.24271844660194,
+        81.79611650485437,
+        87.5,
+        62.25728155339806,
+        68.20388349514563,
+        93.44660194174757,
+        63.470873786407765,
+        83.7378640776699,
+        89.68446601941747,
+        83.37378640776699,
+        74.51456310679612,
+        90.64398541919806,
+        37.62135922330097,
+        77.30582524271846,
+        83.98058252427184,
+        71.2378640776699,
+        85.67961165048543,
+        81.6747572815534,
+        67.71844660194175,
+        88.22815533980582,
+        90.77669902912622,
+        86.52912621359224,
+        75.12135922330097,
+        54.247572815533985,
+        90.15795868772783,
+        71.11650485436894,
+        88.59223300970875,
+        70.50970873786407,
+        91.2621359223301,
+        71.48058252427184,
+        56.432038834951456,
+        51.69902912621359,
+        82.28155339805825,
+        89.92718446601941,
+        78.03398058252428,
+        90.29126213592234,
+        82.76699029126213,
+        0.0
+      ]
+    },
+    {
+      "name": "video5",
+      "frames": 44616,
+      "detected": 31243,
+      "estimated": 2909,
+      "missing": 10464,
+      "observed_windows": [
+        96.14695340501792,
+        77.48878923766817,
+        36.11111111111111,
+        77.9372197309417,
+        80.35874439461882,
+        80.64516129032258,
+        72.5560538116592,
+        87.09677419354838,
+        46.09865470852018,
+        74.61883408071749,
+        78.67383512544804,
+        96.14349775784753,
+        66.66666666666666,
+        20.44843049327354,
+        81.43497757847533,
+        56.98924731182796,
+        76.23318385650224,
+        66.66666666666666,
+        68.07174887892377,
+        54.61883408071749,
+        88.62007168458781,
+        86.63677130044843,
+        35.12544802867383,
+        52.46636771300448,
+        73.8116591928251,
+        90.50179211469535,
+        43.587443946188344,
+        72.75985663082437,
+        64.66367713004485,
+        91.74887892376682,
+        99.6415770609319,
+        100.0,
+        100.0,
+        100.0,
+        93.27354260089686,
+        94.89247311827957,
+        67.98206278026906,
+        50.26881720430107,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "output/video1.json",
+      "sha256": "3b8baae582aa335280c968bf4adac272bffc1fcb710b6a8a0515b95e7a60d5d0",
+      "configuration": {
+        "video_path": "video1.mp4",
+        "output_path": "output/video1.mp4",
+        "max_frames": null,
+        "processing": {
+          "workers": 16,
+          "buffer_size": 64,
+          "opencv_threads": 16
+        },
+        "table": {
+          "rgb": {
+            "lower": [
+              30,
+              160,
+              95
+            ],
+            "upper": [
+              165,
+              245,
+              200
+            ]
+          },
+          "detection_every": 60,
+          "scale": 0.5,
+          "minimum_area_ratio": 0.15,
+          "close_kernel_size": 7,
+          "close_iterations": 2,
+          "box_expansion": 1.1
+        },
+        "ball": {
+          "rgb": {
+            "lower": [
+              200,
+              220,
+              0
+            ],
+            "upper": [
+              255,
+              255,
+              170
+            ]
+          },
+          "minimum_area": 40.0,
+          "maximum_area": 1400.0,
+          "minimum_radius": 4.5,
+          "maximum_radius": 28.0,
+          "minimum_circularity": 0.3,
+          "maximum_aspect_ratio": 4.5,
+          "minimum_fill_ratio": 0.15,
+          "expected_radius": 14.0,
+          "blur_kernel_size": 3,
+          "close_kernel_size": 3
+        },
+        "tracking": {
+          "maximum_prediction_seconds": 0.4,
+          "velocity_smoothing": 0.7
+        },
+        "preview": {
+          "enabled": false,
+          "every_n_frames": 3,
+          "width": 1000,
+          "progress_every": 20
+        },
+        "drawing": {
+          "table_color": [
+            255,
+            255,
+            0
+          ],
+          "ball_color": [
+            0,
+            255,
+            255
+          ],
+          "draw_candidates": false,
+          "candidate_color": [
+            0,
+            165,
+            255
+          ],
+          "center_color": [
+            0,
+            0,
+            255
+          ],
+          "prediction_color": [
+            255,
+            0,
+            255
+          ]
+        }
+      },
+      "metadata": {
+        "frame_count": 27544,
+        "fps": 59.94005994005994,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "path": "output/video2.json",
+      "sha256": "04eafcfe27ec9f606353441b7b1e384f930c43cfae6127092185d9d15e0215e6",
+      "configuration": {
+        "video_path": "video2.mp4",
+        "output_path": "output/video2.mp4",
+        "max_frames": null,
+        "processing": {
+          "workers": 16,
+          "buffer_size": 64,
+          "opencv_threads": 16
+        },
+        "table": {
+          "rgb": {
+            "lower": [
+              30,
+              160,
+              95
+            ],
+            "upper": [
+              165,
+              245,
+              200
+            ]
+          },
+          "detection_every": 60,
+          "scale": 0.5,
+          "minimum_area_ratio": 0.15,
+          "close_kernel_size": 7,
+          "close_iterations": 2,
+          "box_expansion": 1.1
+        },
+        "ball": {
+          "rgb": {
+            "lower": [
+              200,
+              220,
+              0
+            ],
+            "upper": [
+              255,
+              255,
+              170
+            ]
+          },
+          "minimum_area": 40.0,
+          "maximum_area": 1400.0,
+          "minimum_radius": 4.5,
+          "maximum_radius": 28.0,
+          "minimum_circularity": 0.3,
+          "maximum_aspect_ratio": 4.5,
+          "minimum_fill_ratio": 0.15,
+          "expected_radius": 14.0,
+          "blur_kernel_size": 3,
+          "close_kernel_size": 3
+        },
+        "tracking": {
+          "maximum_prediction_seconds": 0.4,
+          "velocity_smoothing": 0.7
+        },
+        "preview": {
+          "enabled": true,
+          "every_n_frames": 3,
+          "width": 1000,
+          "progress_every": 20
+        },
+        "drawing": {
+          "table_color": [
+            255,
+            255,
+            0
+          ],
+          "ball_color": [
+            0,
+            255,
+            255
+          ],
+          "draw_candidates": false,
+          "candidate_color": [
+            0,
+            165,
+            255
+          ],
+          "center_color": [
+            0,
+            0,
+            255
+          ],
+          "prediction_color": [
+            255,
+            0,
+            255
+          ]
+        }
+      },
+      "metadata": {
+        "frame_count": 30508,
+        "fps": 59.94005994005994,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "path": "output/video3.json",
+      "sha256": "b6060be1c1aa7e77c901abd7232b4813c815dd8ee56a7e61504a2157f1f85ee3",
+      "configuration": {
+        "video_path": "video3.mp4",
+        "output_path": "output/video3.mp4",
+        "max_frames": null,
+        "processing": {
+          "workers": 16,
+          "buffer_size": 64,
+          "opencv_threads": 16
+        },
+        "table": {
+          "rgb": {
+            "lower": [
+              30,
+              160,
+              95
+            ],
+            "upper": [
+              165,
+              245,
+              200
+            ]
+          },
+          "detection_every": 60,
+          "scale": 0.5,
+          "minimum_area_ratio": 0.15,
+          "close_kernel_size": 7,
+          "close_iterations": 2,
+          "box_expansion": 1.1
+        },
+        "ball": {
+          "rgb": {
+            "lower": [
+              200,
+              220,
+              0
+            ],
+            "upper": [
+              255,
+              255,
+              170
+            ]
+          },
+          "minimum_area": 40.0,
+          "maximum_area": 1400.0,
+          "minimum_radius": 4.5,
+          "maximum_radius": 28.0,
+          "minimum_circularity": 0.3,
+          "maximum_aspect_ratio": 4.5,
+          "minimum_fill_ratio": 0.15,
+          "expected_radius": 14.0,
+          "blur_kernel_size": 3,
+          "close_kernel_size": 3
+        },
+        "tracking": {
+          "maximum_prediction_seconds": 0.4,
+          "velocity_smoothing": 0.7
+        },
+        "preview": {
+          "enabled": true,
+          "every_n_frames": 3,
+          "width": 1000,
+          "progress_every": 20
+        },
+        "drawing": {
+          "table_color": [
+            255,
+            255,
+            0
+          ],
+          "ball_color": [
+            0,
+            255,
+            255
+          ],
+          "draw_candidates": false,
+          "candidate_color": [
+            0,
+            165,
+            255
+          ],
+          "center_color": [
+            0,
+            0,
+            255
+          ],
+          "prediction_color": [
+            255,
+            0,
+            255
+          ]
+        }
+      },
+      "metadata": {
+        "frame_count": 54726,
+        "fps": 59.94005994005994,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "path": "output/video4.json",
+      "sha256": "9ceb77b2756076e538a2aa389d1ea24879d4ffa45131fd1af5f62b65164fb6c4",
+      "configuration": {
+        "video_path": "video4.mp4",
+        "output_path": "output/video4.mp4",
+        "max_frames": null,
+        "processing": {
+          "workers": 16,
+          "buffer_size": 64,
+          "opencv_threads": 16
+        },
+        "table": {
+          "rgb": {
+            "lower": [
+              30,
+              160,
+              95
+            ],
+            "upper": [
+              165,
+              245,
+              200
+            ]
+          },
+          "detection_every": 60,
+          "scale": 0.5,
+          "minimum_area_ratio": 0.15,
+          "close_kernel_size": 7,
+          "close_iterations": 2,
+          "box_expansion": 1.1
+        },
+        "ball": {
+          "rgb": {
+            "lower": [
+              200,
+              220,
+              0
+            ],
+            "upper": [
+              255,
+              255,
+              170
+            ]
+          },
+          "minimum_area": 40.0,
+          "maximum_area": 1400.0,
+          "minimum_radius": 4.5,
+          "maximum_radius": 28.0,
+          "minimum_circularity": 0.3,
+          "maximum_aspect_ratio": 4.5,
+          "minimum_fill_ratio": 0.15,
+          "expected_radius": 14.0,
+          "blur_kernel_size": 3,
+          "close_kernel_size": 3
+        },
+        "tracking": {
+          "maximum_prediction_seconds": 0.4,
+          "velocity_smoothing": 0.7
+        },
+        "preview": {
+          "enabled": true,
+          "every_n_frames": 3,
+          "width": 1000,
+          "progress_every": 20
+        },
+        "drawing": {
+          "table_color": [
+            255,
+            255,
+            0
+          ],
+          "ball_color": [
+            0,
+            255,
+            255
+          ],
+          "draw_candidates": false,
+          "candidate_color": [
+            0,
+            165,
+            255
+          ],
+          "center_color": [
+            0,
+            0,
+            255
+          ],
+          "prediction_color": [
+            255,
+            0,
+            255
+          ]
+        }
+      },
+      "metadata": {
+        "frame_count": 32957,
+        "fps": 59.94005994005994,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "path": "output/video5.json",
+      "sha256": "2aca923a4c38e4bec21233c307ac0ed420bd1549875a89be2cfa4041cfa0a537",
+      "configuration": {
+        "video_path": "video5.mp4",
+        "output_path": "output/video5.mp4",
+        "max_frames": null,
+        "processing": {
+          "workers": 16,
+          "buffer_size": 64,
+          "opencv_threads": 16
+        },
+        "table": {
+          "rgb": {
+            "lower": [
+              30,
+              160,
+              95
+            ],
+            "upper": [
+              165,
+              245,
+              200
+            ]
+          },
+          "detection_every": 60,
+          "scale": 0.5,
+          "minimum_area_ratio": 0.15,
+          "close_kernel_size": 7,
+          "close_iterations": 2,
+          "box_expansion": 1.1
+        },
+        "ball": {
+          "rgb": {
+            "lower": [
+              200,
+              220,
+              0
+            ],
+            "upper": [
+              255,
+              255,
+              170
+            ]
+          },
+          "minimum_area": 40.0,
+          "maximum_area": 1400.0,
+          "minimum_radius": 4.5,
+          "maximum_radius": 28.0,
+          "minimum_circularity": 0.3,
+          "maximum_aspect_ratio": 4.5,
+          "minimum_fill_ratio": 0.15,
+          "expected_radius": 14.0,
+          "blur_kernel_size": 3,
+          "close_kernel_size": 3
+        },
+        "tracking": {
+          "maximum_prediction_seconds": 0.4,
+          "velocity_smoothing": 0.7
+        },
+        "preview": {
+          "enabled": true,
+          "every_n_frames": 3,
+          "width": 1000,
+          "progress_every": 20
+        },
+        "drawing": {
+          "table_color": [
+            255,
+            255,
+            0
+          ],
+          "ball_color": [
+            0,
+            255,
+            255
+          ],
+          "draw_candidates": false,
+          "candidate_color": [
+            0,
+            165,
+            255
+          ],
+          "center_color": [
+            0,
+            0,
+            255
+          ],
+          "prediction_color": [
+            255,
+            0,
+            255
+          ]
+        }
+      },
+      "metadata": {
+        "frame_count": 44616,
+        "fps": 59.94010825654302,
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  ]
+}

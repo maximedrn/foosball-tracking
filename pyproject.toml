@@ -12,7 +12,8 @@ dependencies = [
 ]
 
 [project.scripts]
-foosball = "foosball_tracking.cli:main"
+tracking = "tracking.cli:main"
+reporting = "reporting.cli.main:main"
 
 [dependency-groups]
 dev = [
@@ -27,6 +28,9 @@ dev = [
 [build-system]
 requires = ["uv_build>=0.11,<0.12"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = ["tracking", "reporting"]
 
 [tool.uv]
 no-build = false
@@ -46,7 +50,7 @@ indent-style = "space"
 docstring-code-format = true
 
 [tool.pyright]
-include = ["src", "scripts"]
+include = ["src"]
 exclude = [".venv", "archive"]
 pythonVersion = "3.13"
 typeCheckingMode = "strict"
@@ -55,7 +59,7 @@ venv = ".venv"
 
 [tool.mypy]
 python_version = "3.13"
-files = ["src", "scripts"]
+files = ["src"]
 mypy_path = ["$MYPY_CONFIG_FILE_DIR/src", "$MYPY_CONFIG_FILE_DIR/typings"]
 
 [tool.pylint.main]
@@ -63,15 +67,30 @@ prefer-stubs = true
 
 [tool.poe.tasks.diagrams]
 help = "Build all TikZ diagrams or one by its stem."
-cmd = "python scripts/diagrams.py"
+cmd = "reporting diagrams"
 cwd = "."
 
 [tool.poe.tasks.diagrams-clean]
 help = "Remove generated SVG diagrams and temporary build files."
-cmd = "python scripts/diagrams.py --clean"
+cmd = "reporting diagrams --clean"
 cwd = "."
 
 [tool.poe.tasks.performance]
 help = "Plot ball detection and tracking coverage from JSON exports."
-cmd = "python scripts/performance.py"
+cmd = "reporting coverage"
+cwd = "."
+
+[tool.poe.tasks.evaluate]
+help = "Compare saved annotations and code output."
+cmd = "reporting evaluate"
+cwd = "."
+
+[tool.poe.tasks.figures]
+help = "Regenerate every quantitative chart from docs/data JSON files."
+cmd = "reporting figures"
+cwd = "."
+
+[tool.poe.tasks.review]
+help = "Generate source-frame examples and review videos."
+cmd = "reporting review"
 cwd = "."

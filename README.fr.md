@@ -1,7 +1,24 @@
-
 # Foosball Tracking
 
-Détecte le terrain de baby-foot et suit les déplacements de la balle dans une vidéo à l'aide d'[OpenCV](https://opencv.org/). Aucun apprentissage automatique n'est nécessaire.
+Détecte le terrain de baby-foot et suit la balle à l'aide des méthodes classiques d'[OpenCV](https://opencv.org/).
+
+> [English documentation](README.md)
+
+**Sommaire**
+
+- [Foosball Tracking](#foosball-tracking)
+  - [Installation](#installation)
+  - [Utilisation](#utilisation)
+  - [Développement](#développement)
+  - [Fonctionnement](#fonctionnement)
+    - [1. Détection du terrain](#1-détection-du-terrain)
+    - [2. Détection de la balle](#2-détection-de-la-balle)
+    - [3. Suivi de la balle](#3-suivi-de-la-balle)
+  - [Résultats](#résultats)
+    - [Paramètres](#paramètres)
+    - [Annotations et résultats du code](#annotations-et-résultats-du-code)
+    - [Résultats du code sur cinq autres vidéos](#résultats-du-code-sur-cinq-autres-vidéos)
+  - [Discussion et limites](#discussion-et-limites)
 
 ## Installation
 
@@ -12,138 +29,154 @@ uv sync --locked
 ## Utilisation
 
 ```bash
-# Traiter les 300 premières images sans afficher d'aperçu.
-uv run foosball video.mp4 --output output/extract.mp4 --max-frames 300
+# Traiter toutes les images avec la configuration du projet.
+uv run tracking --config config.jsonc
 
 # Afficher un aperçu en direct pendant le traitement.
-uv run foosball video.mp4 --output output/preview.mp4 --preview
+uv run tracking --config config.jsonc --preview
+```
 
-# Utiliser un fichier de configuration personnalisé.
-uv run foosball --config config.jsonc
+Le fichier [`config.jsonc`](config.jsonc) définit la vidéo source, les paramètres de sortie et les paramètres de détection. Adaptez cette configuration à la vidéo d'entrée avant de lancer le traitement.
 
-# Définir le nombre de workers pour la détection parallèle de la balle.
-uv run foosball --config config.jsonc --workers 4
+## Développement
+
+```bash
+# Vérifier le code Python avec Ruff.
+uv run ruff check .
+
+# Vérifier le formatage sans modifier les fichiers.
+uv run ruff format --check .
+
+# Vérifier les types avec MyPy.
+uv run mypy
+
+# Vérifier les types avec Pyright.
+uv run pyright
+
+# Vérifier les erreurs avec Pylint.
+uv run pylint --errors-only src
+
+# Construire le paquet Python.
+uv build
+```
+
+```bash
+# Régénérer tous les graphiques de résultats à partir des JSON uniquement.
+uv run poe figures
+
+# Recalculer la comparaison enregistrée.
+uv run poe evaluate
+
+# Régénérer les exemples d'images et les vidéos de vérification.
+uv run poe review
+
+# Compiler les illustrations de la méthode.
+uv run poe diagrams
 ```
 
 ## Fonctionnement
 
 ### 1. Détection du terrain
 
-L'image est redimensionnée selon le facteur `table.scale` afin d'accélérer le traitement, puis convertie de BGR en RGB. Un masque de couleur, délimité par `table.rgb.lower` et `table.rgb.upper`, permet d'isoler la surface de jeu. Une fermeture morphologique relie les régions séparées à l'aide de `table.close_kernel_size` et `table.close_iterations`. Le plus grand contour est conservé s'il occupe au moins la proportion de l'image définie par `table.minimum_area_ratio`.
+L'image est réduite, puis la surface verte est segmentée en RGB. Une fermeture morphologique comble les petits espaces, avant de conserver le plus grand contour suffisamment étendu. Un rectangle orienté est ajusté autour de ce contour, puis ses coordonnées sont rétablies dans le repère de l'image d'origine.
 
-La fonction `cv2.minAreaRect` ajuste ensuite un rectangle orienté autour du contour, tout en préservant l'orientation du terrain. Les coordonnées d'origine sont rétablies, puis le rectangle est agrandi selon `table.box_expansion` pour délimiter l'ensemble de la table. Le terrain est détecté à nouveau à la fréquence définie par `table.detection_every`.
-
-![Illustration de la détection du terrain](docs/field-detection.svg)
+![Illustration de la détection du terrain](docs/diagrams/figures/field-detection.svg)
 
 ### 2. Détection de la balle
 
-À chaque image, la détection est limitée au polygone du terrain. Après un flou gaussien (taille du noyau : `ball.blur_kernel_size`), un masque RGB défini par `ball.rgb.lower` et `ball.rgb.upper` identifie les balles potentielles. Les petits espaces sont comblés par une fermeture morphologique utilisant `ball.close_kernel_size`, avant l'extraction des contours.
+Les pixels jaunes sont segmentés à l'intérieur du terrain. Les contours sont filtrés selon leur aire, leur rayon, leur rapport d'aspect, leur circularité et leur taux de remplissage. Le candidat obtenant le score le plus élevé est ensuite sélectionné.
 
-Les candidats sont filtrés selon leur aire ($`A \in [A_{\min}, A_{\max}]`$), le rayon de leur cercle englobant ($`r \in [r_{\min}, r_{\max}]`$), leur rapport d'aspect, leur circularité et leur taux de remplissage. Ces seuils sont définis dans `config.jsonc` par `ball.minimum_area`, `ball.maximum_area`, `ball.minimum_radius`, `ball.maximum_radius`, `ball.maximum_aspect_ratio`, `ball.minimum_circularity` et `ball.minimum_fill_ratio`.
+![Illustration de la géométrie des candidats](docs/diagrams/figures/ball-geometry.svg)
 
-La circularité mesure à quel point un contour se rapproche d'un cercle :
-
-$$
-C = \frac{4\pi A}{P^2}
-$$
-
-où :
-
-- $`A`$ est l'aire du contour (px²).
-- $`P`$ est le périmètre du contour (px).
-- $`C`$ est le score de circularité (sans unité).
-
-Un cercle parfait possède une circularité $`C = 1`$, tandis que des valeurs plus faibles indiquent des formes de plus en plus irrégulières ou allongées.
-
-![Illustration de la géométrie des candidats](docs/ball-geometry.svg)
-
-Les candidats valides sont classés à l'aide d'un score pondéré :
+Le classement des candidats repose sur la formule suivante :
 
 $$
-S = 4C + 3F + 2\max\left(0,\ 1-\frac{|r-r_{\mathrm{ref}}|}{r_{\mathrm{ref}}}\right)
+S = 4C + 3F + 2\max\left(0, 1-\frac{|r-r_{\mathrm{ref}}|}{r_{\mathrm{ref}}}\right)
 $$
 
-où :
+Ici, $`C=4\pi A/P^2`$ mesure la circularité, $`F=A/(\pi r^2)`$ mesure le taux de remplissage et $`r_{\mathrm{ref}}`$ correspond à `ball.expected_radius`. En cas d'égalité des scores, le candidat dont le rayon est le plus proche du rayon attendu est privilégié.
 
-- $`C`$ est le score de circularité.
-- $`F = \dfrac{A}{\pi r^2}`$ est la fraction du cercle englobant minimal occupée par le contour.
-- $`A`$ est l'aire du contour (px²).
-- $`r`$ est le rayon du cercle englobant (px).
-- $`r_{\mathrm{ref}}`$ est le rayon attendu de la balle (px), défini par `ball.expected_radius`.
-
-Le score favorise les contours circulaires (poids 4), les contours qui remplissent leur cercle englobant (poids 3) et les candidats dont le rayon est proche de $`r_{\mathrm{ref}}`$ (poids 2). Ces coefficients sont fixes dans l'implémentation, tandis que le rayon attendu est configurable.
-
-Le candidat obtenant le score le plus élevé est sélectionné comme balle. En cas d'égalité, le candidat dont le rayon est le plus proche de $`r_{\mathrm{ref}}`$ est privilégié.
-
-![Illustration du calcul du score des candidats](docs/ball-scoring.svg)
+![Illustration du calcul du score des candidats](docs/diagrams/figures/ball-scoring.svg)
 
 ### 3. Suivi de la balle
 
-Le système de suivi estime la vitesse à partir de deux positions réellement observées de la balle, puis applique un lissage pour réduire le bruit :
+La vitesse calculée à partir des observations réelles est lissée afin de réduire le bruit de mesure.
 
-$$
-\mathbf{v}_t = \alpha\,\mathbf{v}_{\text{measured}} + (1-\alpha)\,\mathbf{v}_{t-1}
-$$
+![Illustration du lissage de la vitesse](docs/diagrams/figures/velocity-smoothing.svg)
 
-où :
+Lors de brèves occultations, la position est extrapolée à partir de la dernière observation et de la vitesse lissée. Une nouvelle observation est toujours prioritaire ; les prédictions ne sont jamais réutilisées comme observations.
 
-- $`\mathbf{v}_t`$ est la vitesse lissée à l'instant $`t`$.
-- $`\mathbf{v}_{\text{measured}}`$ est la vitesse calculée à partir des deux dernières observations réelles de la balle.
-- $`\mathbf{v}_{t-1}`$ est la vitesse lissée précédente.
-- $`\alpha`$ est le coefficient de lissage, défini par `tracking.velocity_smoothing`.
+![Illustration de la prédiction de position de la balle](docs/diagrams/figures/occlusion-prediction.svg)
 
-![Illustration du lissage de la vitesse](docs/velocity-smoothing.svg)
+## Résultats
 
-Lorsque la balle est temporairement masquée, sa position est extrapolée à partir de la dernière position observée, selon un modèle à vitesse constante :
+### Paramètres
 
-$$
-\hat{\mathbf{p}}(\Delta t) = \mathbf{p}_{\text{last}} + \mathbf{v}_t\Delta t
-$$
+Une seule configuration, [`config.jsonc`](config.jsonc), a été ajustée manuellement aux couleurs de la vidéo.
 
-où :
+| Composant | Paramètres |
+| --- | --- |
+| Couleur du terrain | RGB `[30, 110, 65]`–`[145, 200, 175]` |
+| Couleur de la balle | RGB `[170, 140, 0]`–`[255, 255, 90]` |
+| Géométrie du terrain | Échelle `0.5`, proportion minimale de surface `0.15`, redétection toutes les `60` images |
+| Taille de la balle | Aire `40–1400 px²`, rayon `4.5–28 px`, rayon privilégié `14 px` |
+| Forme de la balle | Circularité ≥ `0.3`, remplissage ≥ `0.15`, rapport d'aspect ≤ `4.5` |
+| Suivi | Prédiction ≤ `0.4 s`, lissage de la vitesse `0.7` |
 
-- $`\hat{\mathbf{p}}(\Delta t)`$ est la position prédite après un intervalle de temps $`\Delta t`$.
-- $`\mathbf{p}_{\text{last}}`$ est la dernière position de la balle observée visuellement.
-- $`\mathbf{v}_t`$ est la dernière estimation de vitesse lissée.
-- $`\Delta t`$ est le temps écoulé depuis la dernière observation réelle (secondes).
+### Annotations et résultats du code
 
-La prédiction est limitée à `tracking.maximum_prediction_seconds` secondes et s'arrête si le point estimé sort du terrain. Une nouvelle détection visuelle est toujours prioritaire ; les positions prédites ne sont jamais réutilisées comme observations.
+La vidéo de test contient 434 images à 30 images/s, avec une résolution de 898 × 1322 pixels.
 
-![Illustration de la prédiction de position de la balle](docs/occlusion-prediction.svg)
+- Les [annotations](docs/data/annotations.json) comprennent 378 centres de balle identifiables, 24 images incertaines exclues de l'évaluation et 32 images sans balle cible visible.
+- Le fichier de [provenance](docs/data/provenance.json) enregistre la visibilité et les empreintes numériques.
+- Le [JSON de comparaison](docs/data/comparison.json) associe les `frame_index` et évalue séparément les observations et les prédictions.
 
-Tous les seuils et paramètres de suivi peuvent être modifiés dans [`config.jsonc`](config.jsonc).
+| Mesure | Résultat |
+| --- | --- |
+| Localisations observées correctes à 20 px près | 373/378 (98,7 %) |
+| Précision / rappel / F1 des observations | 95,4 % / 98,7 % / 97,0 % |
+| Erreur médiane / moyenne de position | 3,16 px / 7,11 px |
+| Faux positifs observés sur les images sans balle cible visible | 15/32 |
 
-## Résultats de performance
+Le rappel de 98,7 % concerne les centres identifiables : 373 observations correctes, 3 localisations erronées et 2 images avec une prédiction uniquement. Le graphique complet inclut également 21 observations non évaluées et 15 fausses détections sur des images sans balle visible.
 
-![Résultats de performance](docs/performance.svg)
+![Trajectoires des annotations et des résultats du code](docs/figures/trajectories.svg)
 
-## Développement
+Les 412 observations sont conservées : les croix rouges indiquent les erreurs et les marqueurs gris les observations non évaluées. Le panneau temporel affiche l'erreur pour les 376 observations disposant d'un centre de référence identifiable ; les bandes grises signalent les intervalles sans centre identifiable.
+
+![Exemples d'images](docs/figures/examples.svg)
 
 ```bash
-# Formater les fichiers Python.
-uv run ruff format .
+# Traiter la vidéo entière.
+uv run tracking input/video.mp4 --config config.jsonc
 
-# Vérifier le code avec Ruff.
-uv run ruff check .
+# Sauvegarder l'export complet par image utilisé pour la comparaison.
+cp output/video.json docs/data/detections.json
 
-# Vérifier les types avec Pyright.
-uv run pyright
+# Comparer toutes les images aux annotations.
+uv run poe evaluate
 
-# Vérifier les types avec MyPy.
-uv run mypy
+# Régénérer les graphiques à partir des fichiers JSON enregistrés.
+uv run poe figures
 
-# Vérifier les erreurs avec Pylint.
-uv run pylint --errors-only src scripts
-
-# Construire le paquet.
-uv build
-
-# Générer tous les diagrammes.
-uv run poe diagrams
-
-# Supprimer tous les SVG des diagrammes générés.
-uv run poe diagrams-clean
-
-# Générer le rapport de performance à partir des vidéos testées.
-uv run poe performance <REPORTS...> --output <OUTPUT.svg>
+# Actualiser les exemples d'images et la vidéo complète de comparaison.
+uv run poe review
 ```
+
+### Résultats du code sur cinq autres vidéos
+
+Cinq vidéos supplémentaires totalisent 190 351 images, à environ 59,94 images/s et en résolution 1920 × 1080 pixels. Leurs exports enregistrés présentent une **couverture de 79,6 %**, correspondant à la proportion d'images pour lesquelles une observation ou une prédiction est disponible. Ces vidéos ne disposent pas d'annotations de référence : ce pourcentage ne mesure donc pas la précision de la localisation.
+
+![Couverture sur cinq autres vidéos](docs/figures/generic-videos.svg)
+
+```bash
+# Recalculer les comptes et les chronologies à partir des cinq exports JSON d'origine.
+uv run reporting coverage output/video[1-5].json \
+  --save-data docs/data/generic-videos.json
+```
+
+## Discussion et limites
+
+Les résultats dépendent fortement de la configuration d'entrée. Les bornes RGB doivent correspondre aux couleurs et à l'éclairage de la vidéo. Si le masque du terrain échoue, la détection de la balle ne peut pas démarrer ; des bornes trop larges peuvent inclure des objets de couleur similaire. La résolution, la distance de la caméra et la perspective influencent également les valeurs adaptées pour les seuils d'aire, de rayon et les tailles des noyaux.
+
+Dans cette évaluation, le réglage manuel fournit des localisations correctes pour la plupart des images dont la balle est identifiable. Cependant, les fausses observations sur les images sans balle cible visible montrent que l'algorithme confond encore certains objets avec la balle. Les paramètres de prédiction doivent également être adaptés à la vitesse du jeu et aux mouvements de caméra. L'extrapolation à vitesse constante ne peut pas prendre en compte les rebonds survenus pendant une occultation.

@@ -1,0 +1,41 @@
+% Semantic GitHub colors for the light theme.
+% The Poe task embeds the dark palette from theme-dark.css into each SVG.
+\usepackage{tikz}
+\usepackage{amsmath, amssymb}
+\usetikzlibrary{arrows.meta, calc, positioning, decorations.pathreplacing}
+
+% Text and surfaces.
+\definecolor{ghtext}{HTML}{1F2328}
+\definecolor{ghmuted}{HTML}{59636E}
+\definecolor{ghborder}{HTML}{D1D9E0}
+\definecolor{ghpanel}{HTML}{F6F8FA}
+
+% Accent colors and their softer backgrounds.
+\definecolor{ghblue}{HTML}{0969DA}
+\definecolor{ghbluesoft}{HTML}{DDF4FF}
+\definecolor{ghgreen}{HTML}{1A7F37}
+\definecolor{ghgreensoft}{HTML}{DAFBE1}
+\definecolor{ghpurple}{HTML}{8250DF}
+\definecolor{ghpurplesoft}{HTML}{FBEFFF}
+\definecolor{ghorange}{HTML}{9A6700}
+\definecolor{ghorangesoft}{HTML}{FFF8C5}
+\definecolor{ghred}{HTML}{CF222E}
+\definecolor{ghredsoft}{HTML}{FFEBE9}
+
+\tikzset{
+    >={Stealth[length=2.1mm, width=1.2mm]},
+    card/.style={
+        fill=ghpanel,
+        draw=ghborder,
+        rounded corners=2.6mm,
+        line width=0.6pt,
+    },
+    heading/.style={font=\sffamily\small\bfseries, text=ghtext},
+    regular/.style={font=\sffamily\small, text=ghtext},
+    note/.style={font=\sffamily\footnotesize, text=ghmuted},
+    tinylabel/.style={font=\sffamily\scriptsize, text=ghmuted},
+    mathlabel/.style={font=\sffamily\small, text=ghtext},
+    bluearrow/.style={-Stealth, draw=ghblue, line width=1.5pt},
+    purplearrow/.style={-Stealth, draw=ghpurple, line width=1.4pt},
+    thin/.style={draw=ghborder, line width=0.7pt},
+}

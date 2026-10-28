@@ -1,0 +1,2343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="864pt" height="468pt" viewBox="0 0 864 468" version="1.1">
+ <style type="text/css" id="github-adaptive-theme">/* GitHub Primer: https://primer.style/product/primitives/color/ */
+@media (prefers-color-scheme: dark) {
+  [style*="fill:#ffffff"] {
+    fill: #0d1117 !important;
+  }
+
+  [style*="stroke:#ffffff"] {
+    stroke: #0d1117 !important;
+  }
+
+  [style*="fill:#bc4c00"] {
+    fill: #db6d28 !important;
+  }
+
+  [style*="stroke:#bc4c00"] {
+    stroke: #db6d28 !important;
+  }
+
+  [style*="fill:#1f2328"] {
+    fill: #f0f6fc !important;
+  }
+
+  [style*="stroke:#1f2328"] {
+    stroke: #f0f6fc !important;
+  }
+
+  [style*="fill:#59636e"] {
+    fill: #9198a1 !important;
+  }
+
+  [style*="stroke:#59636e"] {
+    stroke: #9198a1 !important;
+  }
+
+  [style*="fill:#d1d9e0"] {
+    fill: #3d444d !important;
+  }
+
+  [style*="stroke:#d1d9e0"] {
+    stroke: #3d444d !important;
+  }
+
+  [style*="fill:#f6f8fa"] {
+    fill: #151b23 !important;
+  }
+
+  [style*="stroke:#f6f8fa"] {
+    stroke: #151b23 !important;
+  }
+
+  [style*="fill:#0969da"] {
+    fill: #4493f8 !important;
+  }
+
+  [style*="stroke:#0969da"] {
+    stroke: #4493f8 !important;
+  }
+
+  [style*="fill:#ddf4ff"] {
+    fill: #388bfd1a !important;
+  }
+
+  [style*="stroke:#ddf4ff"] {
+    stroke: #388bfd1a !important;
+  }
+
+  [style*="fill:#1a7f37"] {
+    fill: #3fb950 !important;
+  }
+
+  [style*="stroke:#1a7f37"] {
+    stroke: #3fb950 !important;
+  }
+
+  [style*="fill:#dafbe1"] {
+    fill: #2ea04326 !important;
+  }
+
+  [style*="stroke:#dafbe1"] {
+    stroke: #2ea04326 !important;
+  }
+
+  [style*="fill:#8250df"] {
+    fill: #ab7df8 !important;
+  }
+
+  [style*="stroke:#8250df"] {
+    stroke: #ab7df8 !important;
+  }
+
+  [style*="fill:#fbefff"] {
+    fill: #ab7df826 !important;
+  }
+
+  [style*="stroke:#fbefff"] {
+    stroke: #ab7df826 !important;
+  }
+
+  [style*="fill:#9a6700"] {
+    fill: #d29922 !important;
+  }
+
+  [style*="stroke:#9a6700"] {
+    stroke: #d29922 !important;
+  }
+
+  [style*="fill:#fff8c5"] {
+    fill: #bb800926 !important;
+  }
+
+  [style*="stroke:#fff8c5"] {
+    stroke: #bb800926 !important;
+  }
+
+  [style*="fill:#cf222e"] {
+    fill: #da3633 !important;
+  }
+
+  [style*="stroke:#cf222e"] {
+    stroke: #da3633 !important;
+  }
+
+  [style*="fill:#ffebe9"] {
+    fill: #f851491a !important;
+  }
+
+  [style*="stroke:#ffebe9"] {
+    stroke: #f851491a !important;
+  }
+}
+</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-28T20:51:16.597796</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 468  L 864 468  L 864 0  L 0 0  z " style="fill:#ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 126.037058 383.76  L 329.493155 383.76  L 329.493155 84.24  L 126.037058 84.24  z " style="fill:#ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mac2125425a" d="M 0 0  L 0 3.5  " style="stroke:#59636e; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#mac2125425a" x="126.037058" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      
+      <g style="fill:#59636e" transform="translate(122.855808 398.357656) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-13" d="M 2034 4250  Q 1547 4250 1301 3770  Q 1056 3291 1056 2328  Q 1056 1369 1301 889  Q 1547 409 2034 409  Q 2525 409 2770 889  Q 3016 1369 3016 2328  Q 3016 3291 2770 3770  Q 2525 4250 2034 4250  z M 2034 4750  Q 2819 4750 3233 4129  Q 3647 3509 3647 2328  Q 3647 1150 3233 529  Q 2819 -91 2034 -91  Q 1250 -91 836 529  Q 422 1150 422 2328  Q 422 3509 836 4129  Q 1250 4750 2034 4750  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-13" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#mac2125425a" x="171.35022" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      
+      <g style="fill:#59636e" transform="translate(161.80647 398.357656) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-15" d="M 1228 531  L 3431 531  L 3431 0  L 469 0  L 469 531  Q 828 903 1448 1529  Q 2069 2156 2228 2338  Q 2531 2678 2651 2914  Q 2772 3150 2772 3378  Q 2772 3750 2511 3984  Q 2250 4219 1831 4219  Q 1534 4219 1204 4116  Q 875 4013 500 3803  L 500 4441  Q 881 4594 1212 4672  Q 1544 4750 1819 4750  Q 2544 4750 2975 4387  Q 3406 4025 3406 3419  Q 3406 3131 3298 2873  Q 3191 2616 2906 2266  Q 2828 2175 2409 1742  Q 1991 1309 1228 531  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-15" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#mac2125425a" x="216.663382" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      
+      <g style="fill:#59636e" transform="translate(207.119632 398.357656) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-17" d="M 2419 4116  L 825 1625  L 2419 1625  L 2419 4116  z M 2253 4666  L 3047 4666  L 3047 1625  L 3713 1625  L 3713 1100  L 3047 1100  L 3047 0  L 2419 0  L 2419 1100  L 313 1100  L 313 1709  L 2253 4666  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-17" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#mac2125425a" x="261.976544" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      
+      <g style="fill:#59636e" transform="translate(252.432794 398.357656) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-19" d="M 2113 2584  Q 1688 2584 1439 2293  Q 1191 2003 1191 1497  Q 1191 994 1439 701  Q 1688 409 2113 409  Q 2538 409 2786 701  Q 3034 994 3034 1497  Q 3034 2003 2786 2293  Q 2538 2584 2113 2584  z M 3366 4563  L 3366 3988  Q 3128 4100 2886 4159  Q 2644 4219 2406 4219  Q 1781 4219 1451 3797  Q 1122 3375 1075 2522  Q 1259 2794 1537 2939  Q 1816 3084 2150 3084  Q 2853 3084 3261 2657  Q 3669 2231 3669 1497  Q 3669 778 3244 343  Q 2819 -91 2113 -91  Q 1303 -91 875 529  Q 447 1150 447 2328  Q 447 3434 972 4092  Q 1497 4750 2381 4750  Q 2619 4750 2861 4703  Q 3103 4656 3366 4563  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-19" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use ns4:href="#mac2125425a" x="307.289705" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      
+      <g style="fill:#59636e" transform="translate(297.745955 398.357656) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-1b" d="M 2034 2216  Q 1584 2216 1326 1975  Q 1069 1734 1069 1313  Q 1069 891 1326 650  Q 1584 409 2034 409  Q 2484 409 2743 651  Q 3003 894 3003 1313  Q 3003 1734 2745 1975  Q 2488 2216 2034 2216  z M 1403 2484  Q 997 2584 770 2862  Q 544 3141 544 3541  Q 544 4100 942 4425  Q 1341 4750 2034 4750  Q 2731 4750 3128 4425  Q 3525 4100 3525 3541  Q 3525 3141 3298 2862  Q 3072 2584 2669 2484  Q 3125 2378 3379 2068  Q 3634 1759 3634 1313  Q 3634 634 3220 271  Q 2806 -91 2034 -91  Q 1263 -91 848 271  Q 434 634 434 1313  Q 434 1759 690 2068  Q 947 2378 1403 2484  z M 1172 3481  Q 1172 3119 1398 2916  Q 1625 2713 2034 2713  Q 2441 2713 2670 2916  Q 2900 3119 2900 3481  Q 2900 3844 2670 4047  Q 2441 4250 2034 4250  Q 1625 4250 1398 4047  Q 1172 3844 1172 3481  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-1b" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="text_6">
+     
+     <g style="fill:#1f2328" transform="translate(204.876044 412.358437) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-5b" d="M 3513 3500  L 2247 1797  L 3578 0  L 2900 0  L 1881 1375  L 863 0  L 184 0  L 1544 1831  L 300 3500  L 978 3500  L 1906 2253  L 2834 3500  L 3513 3500  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-3" transform="scale(0.015625)" />
+       <path id="DejaVuSans-b" d="M 1984 4856  Q 1566 4138 1362 3434  Q 1159 2731 1159 2009  Q 1159 1288 1364 580  Q 1569 -128 1984 -844  L 1484 -844  Q 1016 -109 783 600  Q 550 1309 550 2009  Q 550 2706 781 3412  Q 1013 4119 1484 4856  L 1984 4856  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-53" d="M 1159 525  L 1159 -1331  L 581 -1331  L 581 3500  L 1159 3500  L 1159 2969  Q 1341 3281 1617 3432  Q 1894 3584 2278 3584  Q 2916 3584 3314 3078  Q 3713 2572 3713 1747  Q 3713 922 3314 415  Q 2916 -91 2278 -91  Q 1894 -91 1617 61  Q 1341 213 1159 525  z M 3116 1747  Q 3116 2381 2855 2742  Q 2594 3103 2138 3103  Q 1681 3103 1420 2742  Q 1159 2381 1159 1747  Q 1159 1113 1420 752  Q 1681 391 2138 391  Q 2594 391 2855 752  Q 3116 1113 3116 1747  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-4c" d="M 603 3500  L 1178 3500  L 1178 0  L 603 0  L 603 3500  z M 603 4863  L 1178 4863  L 1178 4134  L 603 4134  L 603 4863  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-48" d="M 3597 1894  L 3597 1613  L 953 1613  Q 991 1019 1311 708  Q 1631 397 2203 397  Q 2534 397 2845 478  Q 3156 559 3463 722  L 3463 178  Q 3153 47 2828 -22  Q 2503 -91 2169 -91  Q 1331 -91 842 396  Q 353 884 353 1716  Q 353 2575 817 3079  Q 1281 3584 2069 3584  Q 2775 3584 3186 3129  Q 3597 2675 3597 1894  z M 3022 2063  Q 3016 2534 2758 2815  Q 2500 3097 2075 3097  Q 1594 3097 1305 2825  Q 1016 2553 972 2059  L 3022 2063  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-4f" d="M 603 4863  L 1178 4863  L 1178 0  L 603 0  L 603 4863  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-56" d="M 2834 3397  L 2834 2853  Q 2591 2978 2328 3040  Q 2066 3103 1784 3103  Q 1356 3103 1142 2972  Q 928 2841 928 2578  Q 928 2378 1081 2264  Q 1234 2150 1697 2047  L 1894 2003  Q 2506 1872 2764 1633  Q 3022 1394 3022 966  Q 3022 478 2636 193  Q 2250 -91 1575 -91  Q 1294 -91 989 -36  Q 684 19 347 128  L 347 722  Q 666 556 975 473  Q 1284 391 1588 391  Q 1994 391 2212 530  Q 2431 669 2431 922  Q 2431 1156 2273 1281  Q 2116 1406 1581 1522  L 1381 1569  Q 847 1681 609 1914  Q 372 2147 372 2553  Q 372 3047 722 3315  Q 1072 3584 1716 3584  Q 2034 3584 2315 3537  Q 2597 3491 2834 3397  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-c" d="M 513 4856  L 1013 4856  Q 1481 4119 1714 3412  Q 1947 2706 1947 2009  Q 1947 1309 1714 600  Q 1481 -109 1013 -844  L 513 -844  Q 928 -128 1133 580  Q 1338 1288 1338 2009  Q 1338 2731 1133 3434  Q 928 4138 513 4856  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-5b" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(59.1875 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(90.96875 0)" />
+      <use ns4:href="#DejaVuSans-53" transform="translate(129.984375 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(193.46875 0)" />
+      <use ns4:href="#DejaVuSans-5b" transform="translate(221.25 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(277.359375 0)" />
+      <use ns4:href="#DejaVuSans-4f" transform="translate(338.890625 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(366.671875 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(418.765625 0)" />
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m4668775f15" d="M 0 0  L -3.5 0  " style="stroke:#59636e; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="84.24" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      
+      <g style="fill:#59636e" transform="translate(112.674558 88.038828) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-13" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="129.553162" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      
+      <g style="fill:#59636e" transform="translate(99.949558 133.35199) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-15" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="174.866324" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      
+      <g style="fill:#59636e" transform="translate(99.949558 178.665152) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-17" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="220.179486" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      
+      <g style="fill:#59636e" transform="translate(99.949558 223.978314) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-19" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_10">
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="265.492648" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      
+      <g style="fill:#59636e" transform="translate(99.949558 269.291476) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-1b" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="310.805809" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      
+      <g style="fill:#59636e" transform="translate(93.587058 314.604638) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-14" d="M 794 531  L 1825 531  L 1825 4091  L 703 3866  L 703 4441  L 1819 4666  L 2450 4666  L 2450 531  L 3481 531  L 3481 0  L 794 0  L 794 531  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-14" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(190.875 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_12">
+      <g>
+       <use ns4:href="#m4668775f15" x="126.037058" y="356.118971" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_13">
+      
+      <g style="fill:#59636e" transform="translate(93.587058 359.917799) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-14" />
+       <use ns4:href="#DejaVuSans-15" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(190.875 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="text_14">
+     
+     <g style="fill:#1f2328" transform="translate(87.184714 256.889063) rotate(-90) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-5c" d="M 2059 -325  Q 1816 -950 1584 -1140  Q 1353 -1331 966 -1331  L 506 -1331  L 506 -850  L 844 -850  Q 1081 -850 1212 -737  Q 1344 -625 1503 -206  L 1606 56  L 191 3500  L 800 3500  L 1894 763  L 2988 3500  L 3597 3500  L 2059 -325  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-5c" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(59.1875 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(90.96875 0)" />
+      <use ns4:href="#DejaVuSans-53" transform="translate(129.984375 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(193.46875 0)" />
+      <use ns4:href="#DejaVuSans-5b" transform="translate(221.25 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(277.359375 0)" />
+      <use ns4:href="#DejaVuSans-4f" transform="translate(338.890625 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(366.671875 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(418.765625 0)" />
+     </g>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 202.16317 174.413192  L 203.522565 174.639758  L 205.335091 174.639758  L 213.038329 175.319455  L 213.038329 175.772587  L 210.772671 175.772587  L 208.053881 175.546021  L 204.88196 176.905416  L 201.936604 177.358548  L 198.991249 178.038245  L 193.327103 179.850772  L 187.662958 180.757035  L 184.717603 181.436732  L 181.319115 181.889864  L 178.600326 183.022693  L 172.256483 184.382088  L 169.311128 188.913404  M 165.006377 201.601089  L 163.873548 204.546445  L 163.646982 204.773011  L 163.646982 204.773011  L 163.646982 204.546445  L 163.873548 204.773011  L 164.100114 205.226142  L 164.779811 204.319879  L 165.006377 203.413616  L 165.232943 203.866747  L 165.91264 202.733918  L 165.91264 203.18705  L 165.91264 200.694826  L 166.139206 200.694826  L 166.592338 200.241694  L 166.592338 200.015129  L 166.818904 199.788563  L 166.818904 199.561997  L 166.818904 199.561997  M 170.217391 199.788563  L 173.162746 200.46826  L 175.428404 200.241694  L 177.014365 200.694826  L 179.733155 201.601089  L 181.545681 202.054221  L 184.717603 203.866747  L 186.303563 204.319879  L 188.342656 205.226142  L 190.155182 205.679274  L 191.514577 207.038669  L 193.553669 207.944932  L 194.913064 208.851195  L 196.952156 209.304327  L 198.538117 210.663722  L 200.124078 211.116853  L 202.16317 212.023116  L 203.295999 213.609077  L 205.108525 214.741906  L 205.561657 214.062209  L 203.749131 214.288775  L 201.936604 214.288775  L 199.44438 214.062209  L 194.686498 214.288775  L 194.686498 214.062209  L 193.553669 214.062209  L 194.006801 214.062209  L 194.006801 214.288775  L 193.327103 213.609077  L 193.553669 213.609077  L 193.553669 213.609077  L 193.100538 212.92938  L 192.647406 213.382511  L 192.647406 213.155946  L 193.100538 212.92938  L 192.42084 212.92938  L 192.42084 212.92938  L 192.42084 212.476248  L 192.194274 212.702814  L 191.741143 212.702814  L 191.967709 212.476248  L 193.553669 212.476248  L 195.13963 212.023116  L 197.405288 211.569985  L 198.991249 210.890287  L 200.803775 210.663722  L 202.616302 211.116853  M 208.507013 208.851195  L 211.9055 207.4918  L 213.038329 207.4918  L 216.21025 206.585537  L 217.569645 205.90584  L 219.155606 206.132405  L 220.968132 205.679274  L 222.327527 204.319879  L 223.460356 205.226142  L 224.140053 204.999576  L 224.366619 203.413616  L 227.085409 202.960484  L 225.95258 201.827655  L 221.194698 200.921392  L 219.382171 198.429168  M 216.663382 192.538457  L 213.49146 190.72593  L 212.585197 188.233707  L 213.49146 186.42118  L 210.319539 182.342995  L 209.413276 180.303903  L 209.866407 179.624206  L 218.92904 180.077337  L 227.085409 180.757035  L 230.710462 182.342995  L 237.960568 181.436732  M 250.648253 183.022693  L 254.273306 181.436732  L 259.710886 181.663298  L 264.242202 183.022693  L 269.679781 182.796127  L 275.570492 182.796127  L 280.101808 183.249259  L 289.617572 183.249259  L 289.164441 183.249259  L 285.539388 184.155522  L 281.461203 184.608654  L 276.929887 184.382088  L 273.984531 184.835219  L 271.492308 185.514917  L 268.546952 185.514917  L 266.054728 185.741483  L 263.335938 186.42118  L 260.617149 187.327443  L 258.124925 187.554009  L 254.953004 188.233707  L 252.46078 188.007141  L 249.74199 188.460272  L 248.382595 188.233707  L 247.249766 188.686838  L 245.663805 188.460272  L 245.210674 188.233707  L 245.210674 188.913404  L 247.0232 188.913404  L 248.835727 188.007141  L 250.874819 188.007141  L 252.687345 187.100877  L 254.499872 185.741483  L 256.312398 185.288351  L 259.031188 183.475825  L 260.843715 182.796127  L 262.203109 181.889864  L 263.562504 180.757035  L 265.148465 179.624206  L 266.960991 179.171074  L 268.09382 178.264811  L 270.359479 176.905416  L 271.039176 176.905416  L 271.718873 176.452284  L 273.304834 176.452284  L 274.211097 176.225719  L 275.343926 176.225719  L 275.343926 176.452284  L 266.054728 177.358548  L 263.335938 178.491377  L 258.804622 178.944508  L 252.007648 180.530469  L 250.195122 181.210166  L 255.859267 184.608654  L 261.296846 187.554009  M 277.383019 197.522905  L 284.633125 200.46826  L 290.750401 204.319879  L 289.617572 204.546445  L 280.55494 203.413616  L 266.960991 202.507352  L 252.687345 201.374523  L 242.038752 201.147958  L 230.710462 199.788563  L 209.413276 198.429168  L 188.11609 196.616641  M 166.818904 195.030681  L 166.139206 192.991589  M 188.569221 192.538457  L 195.13963 193.671286  L 199.670946 194.124418  L 205.108525 192.991589  M 250.195122 189.593101  L 254.499872 188.686838  L 259.257754 188.686838  L 264.242202 188.233707  L 272.851702 188.233707  L 278.062716 186.647746  L 281.008072 186.874312  L 285.086256 186.874312  L 289.391007 186.42118  L 291.203533 185.741483  L 288.711309 185.514917  L 284.85969 185.741483  L 282.367466 185.741483  L 279.648677 185.061785  L 276.929887 185.061785  L 274.437663 185.288351  L 272.172005 184.155522  L 267.640689 184.155522  L 265.828162 183.928956  L 262.882807 183.249259  L 260.390583 183.475825  L 258.351491 183.249259  L 255.859267 182.796127  L 253.820174 182.796127  L 252.234214 182.342995  L 249.288858 181.663298  L 246.796634 182.796127  L 244.757542 181.663298  L 242.945016 181.436732  L 240.452792 180.757035  L 238.187134 180.530469  L 237.054305 180.530469  L 232.296423 179.39764  L 228.218238 178.944508  L 222.100961 177.585113  L 220.061869 177.358548  L 216.21025 176.67885  L 212.132066 175.999153  L 210.092973 175.09289  L 208.507013 174.639758  L 206.46792 174.413192  L 204.655394 174.413192  L 202.842867 173.733495  L 200.803775 173.506929  L 199.44438 173.506929  L 197.405288 172.827231  L 195.366196 172.600666  L 193.100538 172.147534  L 191.514577 172.147534  L 184.717603 170.561573  L 182.905076 170.561573  L 182.451945 170.108442  L 180.639418 170.335008  L 179.733155 170.108442  L 178.600326 170.108442  L 177.694063 169.881876  L 178.600326 169.881876  L 181.319115 170.108442  L 183.131642 170.108442  L 185.623866 171.920968  L 189.928616 172.3741  L 191.967709 172.3741  L 194.233367 172.600666  L 196.045893 170.335008  L 199.897512 170.788139  L 201.936604 170.788139  L 203.522565 171.014705  L 205.335091 172.827231  L 207.600749 172.827231  L 209.639842 173.053797  L 211.9055 173.053797  L 208.507013 173.053797  L 205.335091 171.920968  L 198.538117 172.827231  L 195.366196 173.053797  L 192.194274 173.506929  L 188.795787 174.413192  L 181.998813 174.866324  L 175.428404 175.772587  L 171.803351 177.131982  L 172.256483 180.530469  L 174.522141 185.061785  L 176.787799 190.72593  L 179.280023 194.350983  L 180.865984 199.788563  L 183.811339 205.226142  L 188.795787 216.101301  L 190.608314 221.765446  L 194.686498 229.242118  L 197.85842 236.265658  L 200.577209 241.250106  L 201.936604 241.929803  L 202.16317 241.703238  L 210.999236 241.703238  L 213.718026 240.570408  L 220.968132 240.570408  L 222.327527 241.02354  L 221.64783 241.703238  L 221.64783 241.703238  L 228.218238 241.703238  L 231.843291 241.02354  L 234.562081 241.476672  L 233.655817 241.703238  L 230.25733 241.703238  L 228.897935 240.343843  L 226.632277 240.343843  L 227.311975 240.343843  L 228.897935 240.796974  L 230.710462 241.703238  L 232.069857 241.476672  L 231.843291 241.476672  L 229.577633 241.250106  L 226.179146 240.570408  L 222.554093 241.476672  L 219.155606 240.570408  L 216.436816 240.343843  L 223.007224 240.343843  L 227.538541 239.211014  L 238.187134 239.211014  L 237.960568 239.211014  L 237.507436 238.984448  L 236.374607 238.984448  L 238.187134 238.984448  L 239.773094 238.757882  L 244.530976 238.757882  L 244.30441 238.757882  L 240.905923 238.531316  L 228.444804 238.078185  L 216.663382 236.71879  L 216.663382 236.71879  " clip-path="url(#pa694f3b361)" style="fill: none; stroke:#1a7f37; stroke-width: 1.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_14">
+    <defs>
+     <path id="ma7a5388fdc" d="M 0 1.75  C 0.464105 1.75 0.909265 1.565609 1.237437 1.237437  C 1.565609 0.909265 1.75 0.464105 1.75 0  C 1.75 -0.464105 1.565609 -0.909265 1.237437 -1.237437  C 0.909265 -1.565609 0.464105 -1.75 0 -1.75  C -0.464105 -1.75 -0.909265 -1.565609 -1.237437 -1.237437  C -1.565609 -0.909265 -1.75 -0.464105 -1.75 0  C -1.75 0.464105 -1.565609 0.909265 -1.237437 1.237437  C -0.909265 1.565609 -0.464105 1.75 0 1.75  z " style="stroke:#bc4c00; stroke-width: 0.8" />
+    </defs>
+    <g clip-path="url(#pa694f3b361)">
+     <use ns4:href="#ma7a5388fdc" x="202.616302" y="174.186626" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="203.749131" y="174.639758" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="205.561657" y="174.413192" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="207.827315" y="174.413192" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="210.546105" y="174.413192" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="212.585197" y="175.09289" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="213.038329" y="175.319455" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="210.999236" y="175.546021" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="208.053881" y="175.319455" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="204.88196" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="202.16317" y="177.131982" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="199.44438" y="177.358548" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="196.72559" y="178.264811" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="193.553669" y="178.944508" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="190.381748" y="179.850772" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="187.209827" y="180.530469" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="184.491037" y="180.983601" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="181.319115" y="181.663298" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="178.600326" y="182.342995" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="175.428404" y="182.796127" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="172.483049" y="183.475825" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="169.084562" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.006377" y="199.561997" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="163.873548" y="203.866747" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="164.100114" y="202.733918" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="164.100114" y="203.18705" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="164.100114" y="204.093313" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="163.646982" y="206.358971" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="163.873548" y="206.585537" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="164.100114" y="205.679274" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="164.32668" y="204.999576" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="164.553246" y="204.093313" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.006377" y="203.640182" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.232943" y="203.18705" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.459509" y="203.18705" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.459509" y="202.733918" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.459509" y="202.507352" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.686075" y="201.827655" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.686075" y="201.827655" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.686075" y="201.374523" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.686075" y="201.147958" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.686075" y="200.694826" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.686075" y="200.241694" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.91264" y="200.241694" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.91264" y="200.015129" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="166.365772" y="199.561997" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="166.365772" y="199.108865" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="166.592338" y="198.8823" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="166.818904" y="198.429168" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="167.272035" y="197.976036" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="166.818904" y="198.202602" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="171.576786" y="197.74947" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="173.389312" y="198.655734" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="175.428404" y="199.335431" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="177.240931" y="200.015129" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="179.053457" y="200.694826" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="180.865984" y="201.827655" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="182.905076" y="202.054221" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="184.717603" y="202.960484" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="186.530129" y="203.640182" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="188.342656" y="204.546445" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="189.928616" y="205.452708" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.514577" y="206.358971" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="193.100538" y="207.265234" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="194.913064" y="207.944932" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="196.499025" y="208.851195" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="198.311551" y="209.530893" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="199.897512" y="210.890287" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="201.710038" y="211.343419" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="203.295999" y="212.249682" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="204.88196" y="212.702814" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="205.561657" y="214.062209" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="202.16317" y="213.609077" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="199.897512" y="213.382511" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="197.178722" y="213.609077" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="194.913064" y="213.382511" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.873972" y="212.92938" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.873972" y="212.92938" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.873972" y="212.92938" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.647406" y="212.92938" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.42084" y="212.702814" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.194274" y="212.702814" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.194274" y="212.702814" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.967709" y="212.702814" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.967709" y="212.476248" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.741143" y="212.476248" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.741143" y="212.476248" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.741143" y="212.476248" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.514577" y="212.476248" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.514577" y="212.476248" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.514577" y="212.249682" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.741143" y="212.249682" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="193.100538" y="212.249682" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="195.366196" y="211.569985" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="197.178722" y="211.116853" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="198.991249" y="210.437156" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="200.577209" y="209.757458" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="201.710038" y="209.530893" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="208.960144" y="208.398064" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="209.866407" y="207.718366" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="211.452368" y="207.265234" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="213.038329" y="206.812103" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="214.624289" y="206.585537" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="216.21025" y="206.132405" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="217.569645" y="205.452708" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="219.155606" y="204.999576" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="220.741566" y="204.546445" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="222.100961" y="204.093313" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="223.460356" y="203.640182" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="224.593185" y="203.18705" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="225.95258" y="202.733918" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="227.311975" y="202.280787" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="225.726014" y="200.921392" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="222.327527" y="199.561997" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="219.382171" y="198.202602" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="214.850855" y="192.085325" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="213.718026" y="190.952496" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="212.358631" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="211.225802" y="185.061785" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="210.319539" y="182.342995" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="209.18671" y="179.624206" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="213.038329" y="178.944508" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="220.288435" y="179.624206" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="226.858843" y="179.850772" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="232.97612" y="180.530469" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="237.734002" y="180.530469" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="249.288858" y="181.210166" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="254.04674" y="181.436732" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="259.48432" y="181.663298" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="264.695333" y="181.889864" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="269.679781" y="181.889864" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="275.570492" y="182.11643" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="280.55494" y="182.342995" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="285.539388" y="182.342995" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="290.070704" y="180.303903" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="286.445651" y="181.889864" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="282.820598" y="183.249259" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="279.195545" y="183.928956" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="276.703321" y="183.928956" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="273.984531" y="184.382088" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="271.492308" y="185.061785" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="268.546952" y="185.514917" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="265.828162" y="185.741483" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="263.109373" y="185.968048" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="260.617149" y="186.647746" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="258.124925" y="186.874312" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="254.953004" y="187.100877" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="252.234214" y="186.874312" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="249.288858" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="247.702898" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="246.796634" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="246.116937" y="188.233707" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="245.663805" y="188.460272" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="245.890371" y="188.233707" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="246.796634" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="248.382595" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="250.648253" y="187.554009" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="252.46078" y="186.647746" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="254.273306" y="185.741483" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="255.859267" y="184.835219" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="257.671793" y="183.928956" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="259.031188" y="183.022693" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="260.617149" y="182.11643" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="262.203109" y="181.210166" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="263.562504" y="180.530469" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="264.921899" y="179.624206" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="266.50786" y="178.717943" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="267.867255" y="177.585113" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="269.226649" y="176.905416" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="270.132913" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="270.586044" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="271.492308" y="175.999153" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="272.398571" y="175.999153" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="273.304834" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="274.211097" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="274.890795" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="274.890795" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="272.625137" y="176.452284" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="271.039176" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="268.546952" y="176.452284" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="266.054728" y="177.131982" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="263.335938" y="177.358548" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="261.07028" y="178.264811" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="259.031188" y="178.717943" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="256.538964" y="179.171074" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="254.273306" y="179.624206" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="251.781082" y="180.077337" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="249.968556" y="180.757035" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="255.632701" y="184.155522" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="261.07028" y="187.100877" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="276.929887" y="196.616641" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="284.406559" y="199.788563" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="290.750401" y="203.640182" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="289.617572" y="204.319879" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="280.101808" y="202.960484" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="266.054728" y="202.054221" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="252.913911" y="201.147958" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="241.359055" y="200.46826" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="231.163594" y="199.788563" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="219.835303" y="198.8823" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="209.413276" y="197.976036" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="197.85842" y="196.616641" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="187.662958" y="196.390076" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="166.818904" y="194.124418" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="165.91264" y="192.311891" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="188.795787" y="192.538457" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="194.913064" y="192.991589" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="200.124078" y="192.991589" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="204.655394" y="193.218154" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="221.874395" y="192.991589" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="249.74199" y="188.007141" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="254.499872" y="187.554009" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="258.804622" y="187.780575" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="262.882807" y="187.327443" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="266.960991" y="187.100877" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="277.83615" y="187.100877" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="281.008072" y="186.874312" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="285.086256" y="186.42118" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="289.391007" y="186.194614" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="291.430099" y="184.835219" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="287.805046" y="185.288351" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="284.85969" y="185.514917" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="282.140901" y="185.288351" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="279.195545" y="184.835219" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="276.929887" y="184.382088" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="274.664229" y="184.155522" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="272.172005" y="184.155522" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="269.679781" y="183.70239" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="267.414123" y="183.475825" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="265.148465" y="183.022693" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="262.656241" y="183.022693" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="260.617149" y="183.022693" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="258.351491" y="182.342995" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="256.538964" y="182.569561" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="254.953004" y="182.342995" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="247.476332" y="181.663298" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="246.570069" y="181.436732" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="244.757542" y="181.210166" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="242.71845" y="180.757035" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="240.452792" y="180.757035" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="238.413699" y="180.303903" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="236.374607" y="179.850772" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="234.335515" y="179.624206" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="232.069857" y="179.39764" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="230.25733" y="178.944508" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="227.991672" y="178.491377" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="225.95258" y="178.038245" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="223.913488" y="178.038245" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="221.874395" y="177.585113" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="219.835303" y="177.131982" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="218.022777" y="176.452284" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="216.21025" y="176.225719" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="214.171158" y="175.772587" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="212.132066" y="175.319455" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="210.092973" y="174.866324" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="208.507013" y="174.186626" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="206.46792" y="173.960061" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="204.655394" y="173.733495" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="202.616302" y="173.280363" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="200.803775" y="173.053797" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="198.991249" y="172.3741" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="197.178722" y="172.147534" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="195.366196" y="171.694402" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="193.780235" y="171.920968" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.741143" y="171.467837" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="189.475485" y="171.014705" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="188.11609" y="170.561573" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="186.303563" y="170.335008" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="184.491037" y="170.108442" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="183.131642" y="169.881876" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="182.67851" y="170.108442" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="182.225379" y="170.108442" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="181.09255" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="179.733155" y="169.428744" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="178.600326" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="177.694063" y="169.428744" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="179.280023" y="169.881876" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="181.319115" y="169.428744" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="183.358208" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="185.623866" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="187.662958" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="189.70205" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.741143" y="169.65531" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="194.006801" y="170.108442" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="196.045893" y="170.108442" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="198.084985" y="170.561573" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="199.897512" y="170.788139" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="201.936604" y="170.561573" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="203.749131" y="170.788139" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="205.561657" y="170.788139" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="207.374184" y="171.241271" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="209.413276" y="171.241271" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="210.319539" y="171.467837" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="208.733578" y="171.694402" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="205.561657" y="171.467837" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="202.16317" y="172.147534" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="198.538117" y="172.600666" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="195.366196" y="172.827231" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="192.194274" y="173.280363" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="188.795787" y="173.733495" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="185.3973" y="174.413192" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="181.998813" y="174.866324" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="178.600326" y="175.09289" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="175.428404" y="175.546021" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="172.029917" y="175.772587" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="172.483049" y="179.171074" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="174.975273" y="183.70239" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="177.014365" y="189.593101" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="179.053457" y="193.218154" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="181.319115" y="198.655734" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="184.037905" y="204.093313" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="186.530129" y="209.530893" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="189.70205" y="214.288775" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="191.967709" y="221.312315" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="195.592761" y="227.429592" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="198.538117" y="234.453132" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="200.803775" y="239.890711" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="201.936604" y="239.890711" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="201.936604" y="240.117277" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="202.16317" y="240.117277" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="203.749131" y="240.117277" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="206.014789" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="208.507013" y="240.570408" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="211.225802" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="213.718026" y="240.117277" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="215.983684" y="240.570408" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="218.475908" y="240.570408" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="220.741566" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="222.554093" y="240.796974" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="221.64783" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="221.874395" y="240.796974" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="223.460356" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="225.95258" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="229.124501" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="232.069857" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="234.788646" y="240.570408" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="233.429252" y="240.570408" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="232.069857" y="240.796974" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="230.483896" y="240.796974" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="228.897935" y="240.570408" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="227.538541" y="240.117277" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="226.858843" y="239.890711" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="227.538541" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="229.124501" y="241.02354" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="231.163594" y="241.02354" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="232.069857" y="241.02354" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="231.616725" y="241.250106" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="229.577633" y="241.250106" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="226.179146" y="240.343843" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="222.780659" y="240.117277" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="219.608737" y="239.211014" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="216.663382" y="238.757882" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="220.061869" y="238.984448" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="222.100961" y="239.211014" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="227.311975" y="238.984448" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="231.390159" y="238.984448" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="235.241778" y="238.531316" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="234.788646" y="238.757882" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="238.866831" y="239.211014" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="237.960568" y="238.757882" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="237.507436" y="238.757882" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="238.187134" y="238.531316" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="239.546528" y="238.984448" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="239.546528" y="238.078185" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="240.679358" y="237.851619" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="242.71845" y="238.078185" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="244.30441" y="237.851619" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="244.530976" y="237.625053" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="241.585621" y="238.531316" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="234.562081" y="237.851619" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="228.67137" y="237.171921" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="222.327527" y="236.71879" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     <use ns4:href="#ma7a5388fdc" x="215.983684" y="236.265658" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+    </g>
+   </g>
+   <g id="line2d_15">
+    <defs>
+     <path id="mc6707809c5" d="M -2.5 2.5  L 2.5 -2.5  M -2.5 -2.5  L 2.5 2.5  " style="stroke:#cf222e; stroke-width: 0.8" />
+    </defs>
+    <g clip-path="url(#pa694f3b361)">
+     <use ns4:href="#mc6707809c5" x="128.07615" y="284.977307" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.726861" y="144.053374" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="179.280023" y="118.904569" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="139.631007" y="229.69525" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.500295" y="139.522057" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.27373" y="139.748623" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.500295" y="139.522057" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.726861" y="139.748623" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="302.758389" y="180.303903" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.27373" y="141.56115" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="283.500295" y="141.334584" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="298.680205" y="168.975613" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="298.680205" y="168.295915" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="298.906771" y="166.709955" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="301.398994" y="171.467837" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="301.398994" y="170.561573" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="302.305258" y="168.749047" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     <use ns4:href="#mc6707809c5" x="302.531823" y="166.93652" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+    </g>
+   </g>
+   <g id="line2d_16">
+    <defs>
+     <path id="m5a42d9e037" d="M -1.75 0  L 1.75 0  M 0 1.75  L 0 -1.75  " style="stroke:#59636e; stroke-width: 0.8" />
+    </defs>
+    <g clip-path="url(#pa694f3b361)">
+     <use ns4:href="#m5a42d9e037" x="181.09255" y="349.548563" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="165.91264" y="198.202602" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="155.717179" y="200.921392" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="155.490613" y="201.374523" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="182.451945" y="350.22826" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="182.67851" y="350.001694" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="169.084562" y="197.74947" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="202.616302" y="209.077761" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="208.053881" y="209.077761" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="266.734426" y="190.272799" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="291.88323" y="163.538033" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="179.506589" y="195.710378" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="283.726861" y="144.506505" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="283.726861" y="144.506505" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="283.27373" y="140.428321" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="217.116513" y="192.991589" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="225.726014" y="192.538457" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="128.07615" y="284.977307" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="283.500295" y="144.053374" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="224.593185" y="261.641029" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     <use ns4:href="#m5a42d9e037" x="139.857572" y="229.69525" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 126.037058 383.76  L 126.037058 84.24  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 329.493155 383.76  L 329.493155 84.24  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_5">
+    <path d="M 126.037058 383.76  L 329.493155 383.76  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_6">
+    <path d="M 126.037058 84.24  L 329.493155 84.24  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_15">
+    
+    <g style="fill:#1f2328" transform="translate(113.566356 78.24) scale(0.12 -0.12)">
+     <defs>
+      <path id="DejaVuSans-24" d="M 2188 4044  L 1331 1722  L 3047 1722  L 2188 4044  z M 1831 4666  L 2547 4666  L 4325 0  L 3669 0  L 3244 1197  L 1141 1197  L 716 0  L 50 0  L 1831 4666  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-52" d="M 1959 3097  Q 1497 3097 1228 2736  Q 959 2375 959 1747  Q 959 1119 1226 758  Q 1494 397 1959 397  Q 2419 397 2687 759  Q 2956 1122 2956 1747  Q 2956 2369 2687 2733  Q 2419 3097 1959 3097  z M 1959 3584  Q 2709 3584 3137 3096  Q 3566 2609 3566 1747  Q 3566 888 3137 398  Q 2709 -91 1959 -91  Q 1206 -91 779 398  Q 353 888 353 1747  Q 353 2609 779 3096  Q 1206 3584 1959 3584  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-45" d="M 3116 1747  Q 3116 2381 2855 2742  Q 2594 3103 2138 3103  Q 1681 3103 1420 2742  Q 1159 2381 1159 1747  Q 1159 1113 1420 752  Q 1681 391 2138 391  Q 2594 391 2855 752  Q 3116 1113 3116 1747  z M 1159 2969  Q 1341 3281 1617 3432  Q 1894 3584 2278 3584  Q 2916 3584 3314 3078  Q 3713 2572 3713 1747  Q 3713 922 3314 415  Q 2916 -91 2278 -91  Q 1894 -91 1617 61  Q 1341 213 1159 525  L 1159 0  L 581 0  L 581 4863  L 1159 4863  L 1159 2969  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-55" d="M 2631 2963  Q 2534 3019 2420 3045  Q 2306 3072 2169 3072  Q 1681 3072 1420 2755  Q 1159 2438 1159 1844  L 1159 0  L 581 0  L 581 3500  L 1159 3500  L 1159 2956  Q 1341 3275 1631 3429  Q 1922 3584 2338 3584  Q 2397 3584 2469 3576  Q 2541 3569 2628 3553  L 2631 2963  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-59" d="M 191 3500  L 800 3500  L 1894 563  L 2988 3500  L 3597 3500  L 2284 0  L 1503 0  L 191 3500  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-44" d="M 2194 1759  Q 1497 1759 1228 1600  Q 959 1441 959 1056  Q 959 750 1161 570  Q 1363 391 1709 391  Q 2188 391 2477 730  Q 2766 1069 2766 1631  L 2766 1759  L 2194 1759  z M 3341 1997  L 3341 0  L 2766 0  L 2766 531  Q 2569 213 2275 61  Q 1981 -91 1556 -91  Q 1019 -91 701 211  Q 384 513 384 1019  Q 384 1609 779 1909  Q 1175 2209 1959 2209  L 2766 2209  L 2766 2266  Q 2766 2663 2505 2880  Q 2244 3097 1772 3097  Q 1472 3097 1187 3025  Q 903 2953 641 2809  L 641 3341  Q 956 3463 1253 3523  Q 1550 3584 1831 3584  Q 2591 3584 2966 3190  Q 3341 2797 3341 1997  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-57" d="M 1172 4494  L 1172 3500  L 2356 3500  L 2356 3053  L 1172 3053  L 1172 1153  Q 1172 725 1289 603  Q 1406 481 1766 481  L 2356 481  L 2356 0  L 1766 0  Q 1100 0 847 248  Q 594 497 594 1153  L 594 3053  L 172 3053  L 172 3500  L 594 3500  L 594 4494  L 1172 4494  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-51" d="M 3513 2113  L 3513 0  L 2938 0  L 2938 2094  Q 2938 2591 2744 2837  Q 2550 3084 2163 3084  Q 1697 3084 1428 2787  Q 1159 2491 1159 1978  L 1159 0  L 581 0  L 581 3500  L 1159 3500  L 1159 2956  Q 1366 3272 1645 3428  Q 1925 3584 2291 3584  Q 2894 3584 3203 3211  Q 3513 2838 3513 2113  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-58" d="M 544 1381  L 544 3500  L 1119 3500  L 1119 1403  Q 1119 906 1312 657  Q 1506 409 1894 409  Q 2359 409 2629 706  Q 2900 1003 2900 1516  L 2900 3500  L 3475 3500  L 3475 0  L 2900 0  L 2900 538  Q 2691 219 2414 64  Q 2138 -91 1772 -91  Q 1169 -91 856 284  Q 544 659 544 1381  z M 1991 3584  L 1991 3584  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-46" d="M 3122 3366  L 3122 2828  Q 2878 2963 2633 3030  Q 2388 3097 2138 3097  Q 1578 3097 1268 2742  Q 959 2388 959 1747  Q 959 1106 1268 751  Q 1578 397 2138 397  Q 2388 397 2633 464  Q 2878 531 3122 666  L 3122 134  Q 2881 22 2623 -34  Q 2366 -91 2075 -91  Q 1284 -91 818 406  Q 353 903 353 1747  Q 353 2603 823 3093  Q 1294 3584 2113 3584  Q 2378 3584 2631 3529  Q 2884 3475 3122 3366  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-47" d="M 2906 2969  L 2906 4863  L 3481 4863  L 3481 0  L 2906 0  L 2906 525  Q 2725 213 2448 61  Q 2172 -91 1784 -91  Q 1150 -91 751 415  Q 353 922 353 1747  Q 353 2572 751 3078  Q 1150 3584 1784 3584  Q 2172 3584 2448 3432  Q 2725 3281 2906 2969  z M 947 1747  Q 947 1113 1208 752  Q 1469 391 1925 391  Q 2381 391 2643 752  Q 2906 1113 2906 1747  Q 2906 2381 2643 2742  Q 2381 3103 1925 3103  Q 1469 3103 1208 2742  Q 947 2381 947 1747  z " transform="scale(0.015625)" />
+     </defs>
+     <use ns4:href="#DejaVuSans-24" />
+     <use ns4:href="#DejaVuSans-4f" transform="translate(68.40625 0)" />
+     <use ns4:href="#DejaVuSans-4f" transform="translate(96.1875 0)" />
+     <use ns4:href="#DejaVuSans-3" transform="translate(123.96875 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(155.75 0)" />
+     <use ns4:href="#DejaVuSans-45" transform="translate(216.9375 0)" />
+     <use ns4:href="#DejaVuSans-56" transform="translate(280.421875 0)" />
+     <use ns4:href="#DejaVuSans-48" transform="translate(332.515625 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(394.046875 0)" />
+     <use ns4:href="#DejaVuSans-59" transform="translate(435.15625 0)" />
+     <use ns4:href="#DejaVuSans-44" transform="translate(494.34375 0)" />
+     <use ns4:href="#DejaVuSans-57" transform="translate(555.625 0)" />
+     <use ns4:href="#DejaVuSans-4c" transform="translate(594.828125 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(622.609375 0)" />
+     <use ns4:href="#DejaVuSans-51" transform="translate(683.796875 0)" />
+     <use ns4:href="#DejaVuSans-56" transform="translate(747.171875 0)" />
+     <use ns4:href="#DejaVuSans-3" transform="translate(799.265625 0)" />
+     <use ns4:href="#DejaVuSans-4c" transform="translate(831.046875 0)" />
+     <use ns4:href="#DejaVuSans-51" transform="translate(858.828125 0)" />
+     <use ns4:href="#DejaVuSans-3" transform="translate(922.203125 0)" />
+     <use ns4:href="#DejaVuSans-56" transform="translate(953.984375 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(1006.078125 0)" />
+     <use ns4:href="#DejaVuSans-58" transform="translate(1067.265625 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(1130.640625 0)" />
+     <use ns4:href="#DejaVuSans-46" transform="translate(1169.546875 0)" />
+     <use ns4:href="#DejaVuSans-48" transform="translate(1224.53125 0)" />
+     <use ns4:href="#DejaVuSans-3" transform="translate(1286.0625 0)" />
+     <use ns4:href="#DejaVuSans-46" transform="translate(1317.84375 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(1372.828125 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(1434.015625 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(1495.203125 0)" />
+     <use ns4:href="#DejaVuSans-47" transform="translate(1534.5625 0)" />
+     <use ns4:href="#DejaVuSans-4c" transform="translate(1598.046875 0)" />
+     <use ns4:href="#DejaVuSans-51" transform="translate(1625.828125 0)" />
+     <use ns4:href="#DejaVuSans-44" transform="translate(1689.203125 0)" />
+     <use ns4:href="#DejaVuSans-57" transform="translate(1750.484375 0)" />
+     <use ns4:href="#DejaVuSans-48" transform="translate(1789.6875 0)" />
+     <use ns4:href="#DejaVuSans-56" transform="translate(1851.21875 0)" />
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 187.804405 379.76  L 323.893155 379.76  Q 325.493155 379.76 325.493155 378.16  L 325.493155 330.9575  Q 325.493155 329.3575 323.893155 329.3575  L 187.804405 329.3575  Q 186.204405 329.3575 186.204405 330.9575  L 186.204405 378.16  Q 186.204405 379.76 187.804405 379.76  z " style="fill:#f6f8fa; opacity: 0.8; stroke:#d1d9e0; stroke-linejoin: miter" />
+    </g>
+    <g id="line2d_17">
+     <path d="M 189.404405 335.83625  L 197.404405 335.83625  L 205.404405 335.83625  " style="fill: none; stroke:#1a7f37; stroke-width: 1.2; stroke-linecap: square" />
+    </g>
+    <g id="text_16">
+     
+     <g style="fill:#1f2328" transform="translate(211.804405 338.63625) scale(0.08 -0.08)">
+      <use ns4:href="#DejaVuSans-24" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(68.40625 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(131.78125 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(195.15625 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(256.34375 0)" />
+      <use ns4:href="#DejaVuSans-44" transform="translate(295.546875 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(356.828125 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(396.03125 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(423.8125 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(485 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(548.375 0)" />
+     </g>
+    </g>
+    <g id="line2d_18">
+     <g>
+      <use ns4:href="#ma7a5388fdc" x="197.404405" y="347.836875" style="fill-opacity: 0; stroke:#bc4c00; stroke-width: 0.8" />
+     </g>
+    </g>
+    <g id="text_17">
+     
+     <g style="fill:#1f2328" transform="translate(211.804405 350.636875) scale(0.08 -0.08)">
+      <defs>
+       <path id="DejaVuSans-26" d="M 4122 4306  L 4122 3641  Q 3803 3938 3442 4084  Q 3081 4231 2675 4231  Q 1875 4231 1450 3742  Q 1025 3253 1025 2328  Q 1025 1406 1450 917  Q 1875 428 2675 428  Q 3081 428 3442 575  Q 3803 722 4122 1019  L 4122 359  Q 3791 134 3420 21  Q 3050 -91 2638 -91  Q 1578 -91 968 557  Q 359 1206 359 2328  Q 359 3453 968 4101  Q 1578 4750 2638 4750  Q 3056 4750 3426 4639  Q 3797 4528 4122 4306  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-16" d="M 2597 2516  Q 3050 2419 3304 2112  Q 3559 1806 3559 1356  Q 3559 666 3084 287  Q 2609 -91 1734 -91  Q 1441 -91 1130 -33  Q 819 25 488 141  L 488 750  Q 750 597 1062 519  Q 1375 441 1716 441  Q 2309 441 2620 675  Q 2931 909 2931 1356  Q 2931 1769 2642 2001  Q 2353 2234 1838 2234  L 1294 2234  L 1294 2753  L 1863 2753  Q 2328 2753 2575 2939  Q 2822 3125 2822 3475  Q 2822 3834 2567 4026  Q 2313 4219 1838 4219  Q 1578 4219 1281 4162  Q 984 4106 628 3988  L 628 4550  Q 988 4650 1302 4700  Q 1616 4750 1894 4750  Q 2613 4750 3031 4423  Q 3450 4097 3450 3541  Q 3450 3153 3228 2886  Q 3006 2619 2597 2516  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-1a" d="M 525 4666  L 3525 4666  L 3525 4397  L 1831 0  L 1172 0  L 2766 4134  L 525 4134  L 525 4666  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-26" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(69.828125 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(131.015625 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(170.375 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(209.28125 0)" />
+      <use ns4:href="#DejaVuSans-46" transform="translate(270.8125 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(325.796875 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(365 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(396.78125 0)" />
+      <use ns4:href="#DejaVuSans-45" transform="translate(457.96875 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(521.453125 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(573.546875 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(635.078125 0)" />
+      <use ns4:href="#DejaVuSans-59" transform="translate(676.1875 0)" />
+      <use ns4:href="#DejaVuSans-44" transform="translate(735.375 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(796.65625 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(835.859375 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(863.640625 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(924.828125 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(988.203125 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(1040.296875 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(1072.078125 0)" />
+      <use ns4:href="#DejaVuSans-16" transform="translate(1111.09375 0)" />
+      <use ns4:href="#DejaVuSans-1a" transform="translate(1174.71875 0)" />
+      <use ns4:href="#DejaVuSans-16" transform="translate(1238.34375 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(1301.96875 0)" />
+     </g>
+    </g>
+    <g id="line2d_19">
+     <g>
+      <use ns4:href="#mc6707809c5" x="197.404405" y="359.8375" style="fill-opacity: 0; stroke:#cf222e; stroke-width: 0.8" />
+     </g>
+    </g>
+    <g id="text_18">
+     
+     <g style="fill:#1f2328" transform="translate(211.804405 362.6375) scale(0.08 -0.08)">
+      <defs>
+       <path id="DejaVuSans-3a" d="M 213 4666  L 850 4666  L 1831 722  L 2809 4666  L 3519 4666  L 4500 722  L 5478 4666  L 6119 4666  L 4947 0  L 4153 0  L 3169 4050  L 2175 0  L 1381 0  L 213 4666  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-4a" d="M 2906 1791  Q 2906 2416 2648 2759  Q 2391 3103 1925 3103  Q 1463 3103 1205 2759  Q 947 2416 947 1791  Q 947 1169 1205 825  Q 1463 481 1925 481  Q 2391 481 2648 825  Q 2906 1169 2906 1791  z M 3481 434  Q 3481 -459 3084 -895  Q 2688 -1331 1869 -1331  Q 1566 -1331 1297 -1286  Q 1028 -1241 775 -1147  L 775 -588  Q 1028 -725 1275 -790  Q 1522 -856 1778 -856  Q 2344 -856 2625 -561  Q 2906 -266 2906 331  L 2906 616  Q 2728 306 2450 153  Q 2172 0 1784 0  Q 1141 0 747 490  Q 353 981 353 1791  Q 353 2603 747 3093  Q 1141 3584 1784 3584  Q 2172 3584 2450 3431  Q 2728 3278 2906 2969  L 2906 3500  L 3481 3500  L 3481 434  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-3a" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(94.390625 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(133.296875 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(194.484375 0)" />
+      <use ns4:href="#DejaVuSans-4a" transform="translate(257.859375 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(321.34375 0)" />
+      <use ns4:href="#DejaVuSans-47" transform="translate(353.125 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(416.609375 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(478.140625 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(517.34375 0)" />
+      <use ns4:href="#DejaVuSans-46" transform="translate(578.875 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(633.859375 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(673.0625 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(700.84375 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(762.03125 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(825.40625 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(877.5 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(909.28125 0)" />
+      <use ns4:href="#DejaVuSans-14" transform="translate(948.296875 0)" />
+      <use ns4:href="#DejaVuSans-1b" transform="translate(1011.921875 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(1075.546875 0)" />
+     </g>
+    </g>
+    <g id="line2d_20">
+     <g>
+      <use ns4:href="#m5a42d9e037" x="197.404405" y="371.838125" style="fill-opacity: 0; stroke:#59636e; stroke-width: 0.8" />
+     </g>
+    </g>
+    <g id="text_19">
+     
+     <g style="fill:#1f2328" transform="translate(211.804405 374.638125) scale(0.08 -0.08)">
+      <defs>
+       <path id="DejaVuSans-38" d="M 556 4666  L 1191 4666  L 1191 1831  Q 1191 1081 1462 751  Q 1734 422 2344 422  Q 2950 422 3222 751  Q 3494 1081 3494 1831  L 3494 4666  L 4128 4666  L 4128 1753  Q 4128 841 3676 375  Q 3225 -91 2344 -91  Q 1459 -91 1007 375  Q 556 841 556 1753  L 556 4666  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-38" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(73.1875 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(136.5625 0)" />
+      <use ns4:href="#DejaVuSans-46" transform="translate(188.65625 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(243.640625 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(304.828125 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(343.734375 0)" />
+      <use ns4:href="#DejaVuSans-47" transform="translate(405.265625 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(468.75 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(500.53125 0)" />
+      <use ns4:href="#DejaVuSans-45" transform="translate(561.71875 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(625.203125 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(677.296875 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(738.828125 0)" />
+      <use ns4:href="#DejaVuSans-59" transform="translate(779.9375 0)" />
+      <use ns4:href="#DejaVuSans-44" transform="translate(839.125 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(900.40625 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(939.609375 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(967.390625 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(1028.578125 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(1091.953125 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(1144.046875 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(1175.828125 0)" />
+      <use ns4:href="#DejaVuSans-15" transform="translate(1214.84375 0)" />
+      <use ns4:href="#DejaVuSans-14" transform="translate(1278.46875 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(1342.09375 0)" />
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 512.149787 383.76  L 846.72 383.76  L 846.72 84.24  L 512.149787 84.24  z " style="fill:#ffffff" />
+   </g>
+   <g id="patch_9">
+    <path d="M 529.109568 383.76  L 529.880467 383.76  L 529.880467 84.24  L 529.109568 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_10">
+    <path d="M 552.236541 383.76  L 553.00744 383.76  L 553.00744 84.24  L 552.236541 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_11">
+    <path d="M 553.00744 383.76  L 553.778339 383.76  L 553.778339 84.24  L 553.00744 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_12">
+    <path d="M 553.778339 383.76  L 554.549238 383.76  L 554.549238 84.24  L 553.778339 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_13">
+    <path d="M 554.549238 383.76  L 555.320137 383.76  L 555.320137 84.24  L 554.549238 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_14">
+    <path d="M 555.320137 383.76  L 556.091036 383.76  L 556.091036 84.24  L 555.320137 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_15">
+    <path d="M 556.091036 383.76  L 556.861935 383.76  L 556.861935 84.24  L 556.091036 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_16">
+    <path d="M 593.865093 383.76  L 594.635992 383.76  L 594.635992 84.24  L 593.865093 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_17">
+    <path d="M 594.635992 383.76  L 595.406891 383.76  L 595.406891 84.24  L 594.635992 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_18">
+    <path d="M 608.512176 383.76  L 609.283075 383.76  L 609.283075 84.24  L 608.512176 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_19">
+    <path d="M 617.762965 383.76  L 618.533864 383.76  L 618.533864 84.24  L 617.762965 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_20">
+    <path d="M 667.871407 383.76  L 668.642306 383.76  L 668.642306 84.24  L 667.871407 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_21">
+    <path d="M 668.642306 383.76  L 669.413205 383.76  L 669.413205 84.24  L 668.642306 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_22">
+    <path d="M 679.434894 383.76  L 680.205793 383.76  L 680.205793 84.24  L 679.434894 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_23">
+    <path d="M 681.747591 383.76  L 682.51849 383.76  L 682.51849 84.24  L 681.747591 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_24">
+    <path d="M 682.51849 383.76  L 683.289389 383.76  L 683.289389 84.24  L 682.51849 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_25">
+    <path d="M 686.372986 383.76  L 687.143885 383.76  L 687.143885 84.24  L 686.372986 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_26">
+    <path d="M 687.143885 383.76  L 687.914784 383.76  L 687.914784 84.24  L 687.143885 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_27">
+    <path d="M 688.685683 383.76  L 689.456582 383.76  L 689.456582 84.24  L 688.685683 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_28">
+    <path d="M 689.456582 383.76  L 690.227481 383.76  L 690.227481 84.24  L 689.456582 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_29">
+    <path d="M 690.99838 383.76  L 691.769279 383.76  L 691.769279 84.24  L 690.99838 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_30">
+    <path d="M 691.769279 383.76  L 692.540178 383.76  L 692.540178 84.24  L 691.769279 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_31">
+    <path d="M 820.50943 383.76  L 821.280329 383.76  L 821.280329 84.24  L 820.50943 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_32">
+    <path d="M 821.280329 383.76  L 822.051229 383.76  L 822.051229 84.24  L 821.280329 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_33">
+    <path d="M 822.051229 383.76  L 822.822128 383.76  L 822.822128 84.24  L 822.051229 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_34">
+    <path d="M 822.822128 383.76  L 823.593027 383.76  L 823.593027 84.24  L 822.822128 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_35">
+    <path d="M 823.593027 383.76  L 824.363926 383.76  L 824.363926 84.24  L 823.593027 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_36">
+    <path d="M 824.363926 383.76  L 825.134825 383.76  L 825.134825 84.24  L 824.363926 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_37">
+    <path d="M 825.134825 383.76  L 825.905724 383.76  L 825.905724 84.24  L 825.134825 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_38">
+    <path d="M 825.905724 383.76  L 826.676623 383.76  L 826.676623 84.24  L 825.905724 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_39">
+    <path d="M 826.676623 383.76  L 827.447522 383.76  L 827.447522 84.24  L 826.676623 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_40">
+    <path d="M 827.447522 383.76  L 828.218421 383.76  L 828.218421 84.24  L 827.447522 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_41">
+    <path d="M 828.218421 383.76  L 828.989321 383.76  L 828.989321 84.24  L 828.218421 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_42">
+    <path d="M 828.989321 383.76  L 829.76022 383.76  L 829.76022 84.24  L 828.989321 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_43">
+    <path d="M 829.76022 383.76  L 830.531119 383.76  L 830.531119 84.24  L 829.76022 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_44">
+    <path d="M 830.531119 383.76  L 831.302018 383.76  L 831.302018 84.24  L 830.531119 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_45">
+    <path d="M 831.302018 383.76  L 832.072917 383.76  L 832.072917 84.24  L 831.302018 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_46">
+    <path d="M 832.072917 383.76  L 832.843816 383.76  L 832.843816 84.24  L 832.072917 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_47">
+    <path d="M 832.843816 383.76  L 833.614715 383.76  L 833.614715 84.24  L 832.843816 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_48">
+    <path d="M 833.614715 383.76  L 834.385614 383.76  L 834.385614 84.24  L 833.614715 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_49">
+    <path d="M 834.385614 383.76  L 835.156513 383.76  L 835.156513 84.24  L 834.385614 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_50">
+    <path d="M 835.156513 383.76  L 835.927412 383.76  L 835.927412 84.24  L 835.156513 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_51">
+    <path d="M 835.927412 383.76  L 836.698312 383.76  L 836.698312 84.24  L 835.927412 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_52">
+    <path d="M 836.698312 383.76  L 837.469211 383.76  L 837.469211 84.24  L 836.698312 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_53">
+    <path d="M 837.469211 383.76  L 838.24011 383.76  L 838.24011 84.24  L 837.469211 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_54">
+    <path d="M 838.24011 383.76  L 839.011009 383.76  L 839.011009 84.24  L 838.24011 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_55">
+    <path d="M 839.011009 383.76  L 839.781908 383.76  L 839.781908 84.24  L 839.011009 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_56">
+    <path d="M 839.781908 383.76  L 840.552807 383.76  L 840.552807 84.24  L 839.781908 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_57">
+    <path d="M 840.552807 383.76  L 841.323706 383.76  L 841.323706 84.24  L 840.552807 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_58">
+    <path d="M 841.323706 383.76  L 842.094605 383.76  L 842.094605 84.24  L 841.323706 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_59">
+    <path d="M 842.094605 383.76  L 842.865504 383.76  L 842.865504 84.24  L 842.094605 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_60">
+    <path d="M 842.865504 383.76  L 843.636404 383.76  L 843.636404 84.24  L 842.865504 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_61">
+    <path d="M 843.636404 383.76  L 844.407303 383.76  L 844.407303 84.24  L 843.636404 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_62">
+    <path d="M 844.407303 383.76  L 845.178202 383.76  L 845.178202 84.24  L 844.407303 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_63">
+    <path d="M 845.178202 383.76  L 845.949101 383.76  L 845.949101 84.24  L 845.178202 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="patch_64">
+    <path d="M 845.949101 383.76  L 846.72 383.76  L 846.72 84.24  L 845.949101 84.24  z " clip-path="url(#pf48a225473)" style="fill:#59636e; opacity: 0.12" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_21">
+      <g>
+       <use ns4:href="#mac2125425a" x="512.149787" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_20">
+      
+      <g style="fill:#59636e" transform="translate(508.968537 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-13" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_22">
+      <g>
+       <use ns4:href="#mac2125425a" x="558.403734" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_21">
+      
+      <g style="fill:#59636e" transform="translate(555.222484 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-15" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_23">
+      <g>
+       <use ns4:href="#mac2125425a" x="604.65768" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_22">
+      
+      <g style="fill:#59636e" transform="translate(601.47643 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-17" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_24">
+      <g>
+       <use ns4:href="#mac2125425a" x="650.911627" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_23">
+      
+      <g style="fill:#59636e" transform="translate(647.730377 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-19" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_25">
+      <g>
+       <use ns4:href="#mac2125425a" x="697.165573" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_24">
+      
+      <g style="fill:#59636e" transform="translate(693.984323 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-1b" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_26">
+      <g>
+       <use ns4:href="#mac2125425a" x="743.41952" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_25">
+      
+      <g style="fill:#59636e" transform="translate(737.05702 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-14" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_27">
+      <g>
+       <use ns4:href="#mac2125425a" x="789.673466" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_26">
+      
+      <g style="fill:#59636e" transform="translate(783.310966 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-14" />
+       <use ns4:href="#DejaVuSans-15" transform="translate(63.625 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_28">
+      <g>
+       <use ns4:href="#mac2125425a" x="835.927412" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_27">
+      
+      <g style="fill:#59636e" transform="translate(829.564912 398.357656) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-14" />
+       <use ns4:href="#DejaVuSans-17" transform="translate(63.625 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="text_28">
+     
+     <g style="fill:#1f2328" transform="translate(641.270831 412.358437) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-37" d="M -19 4666  L 3928 4666  L 3928 4134  L 2272 4134  L 2272 0  L 1638 0  L 1638 4134  L -19 4134  L -19 4666  z " transform="scale(0.015625)" />
+       <path id="DejaVuSans-50" d="M 3328 2828  Q 3544 3216 3844 3400  Q 4144 3584 4550 3584  Q 5097 3584 5394 3201  Q 5691 2819 5691 2113  L 5691 0  L 5113 0  L 5113 2094  Q 5113 2597 4934 2840  Q 4756 3084 4391 3084  Q 3944 3084 3684 2787  Q 3425 2491 3425 1978  L 3425 0  L 2847 0  L 2847 2094  Q 2847 2600 2669 2842  Q 2491 3084 2119 3084  Q 1678 3084 1418 2786  Q 1159 2488 1159 1978  L 1159 0  L 581 0  L 581 3500  L 1159 3500  L 1159 2956  Q 1356 3278 1631 3431  Q 1906 3584 2284 3584  Q 2666 3584 2933 3390  Q 3200 3197 3328 2828  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-37" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(58 0)" />
+      <use ns4:href="#DejaVuSans-50" transform="translate(85.78125 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(183.1875 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(244.71875 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(276.5 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(315.515625 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(367.609375 0)" />
+      <use ns4:href="#DejaVuSans-46" transform="translate(429.140625 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(484.125 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(545.3125 0)" />
+      <use ns4:href="#DejaVuSans-47" transform="translate(608.6875 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(672.171875 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(724.265625 0)" />
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_29">
+      <path d="M 512.149787 383.76  L 846.72 383.76  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="383.76" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_29">
+      
+      <g style="fill:#59636e" transform="translate(498.787287 387.558828) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-13" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_31">
+      <path d="M 512.149787 340.507606  L 846.72 340.507606  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="340.507606" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_30">
+      
+      <g style="fill:#59636e" transform="translate(486.062287 344.306434) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-14" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_33">
+      <path d="M 512.149787 297.255213  L 846.72 297.255213  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="297.255213" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_31">
+      
+      <g style="fill:#59636e" transform="translate(486.062287 301.054041) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-15" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_35">
+      <path d="M 512.149787 254.002819  L 846.72 254.002819  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="254.002819" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_32">
+      
+      <g style="fill:#59636e" transform="translate(486.062287 257.801647) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-16" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_37">
+      <path d="M 512.149787 210.750425  L 846.72 210.750425  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_38">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="210.750425" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_33">
+      
+      <g style="fill:#59636e" transform="translate(486.062287 214.549253) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-17" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_39">
+      <path d="M 512.149787 167.498032  L 846.72 167.498032  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_40">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="167.498032" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_34">
+      
+      <g style="fill:#59636e" transform="translate(486.062287 171.29686) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-18" d="M 691 4666  L 3169 4666  L 3169 4134  L 1269 4134  L 1269 2991  Q 1406 3038 1543 3061  Q 1681 3084 1819 3084  Q 2600 3084 3056 2656  Q 3513 2228 3513 1497  Q 3513 744 3044 326  Q 2575 -91 1722 -91  Q 1428 -91 1123 -41  Q 819 9 494 109  L 494 744  Q 775 591 1075 516  Q 1375 441 1709 441  Q 2250 441 2565 725  Q 2881 1009 2881 1497  Q 2881 1984 2565 2268  Q 2250 2553 1709 2553  Q 1456 2553 1204 2497  Q 953 2441 691 2322  L 691 4666  z " transform="scale(0.015625)" />
+       </defs>
+       <use ns4:href="#DejaVuSans-18" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_41">
+      <path d="M 512.149787 124.245638  L 846.72 124.245638  " clip-path="url(#pf48a225473)" style="fill: none; stroke:#d1d9e0; stroke-width: 0.6; stroke-linecap: square" />
+     </g>
+     <g id="line2d_42">
+      <g>
+       <use ns4:href="#m4668775f15" x="512.149787" y="124.245638" style="fill:#59636e; stroke:#59636e; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_35">
+      
+      <g style="fill:#59636e" transform="translate(486.062287 128.044466) scale(0.1 -0.1)">
+       <use ns4:href="#DejaVuSans-19" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+       <use ns4:href="#DejaVuSans-13" transform="translate(127.25 0)" />
+      </g>
+     </g>
+    </g>
+    <g id="text_36">
+     
+     <g style="fill:#1f2328" transform="translate(479.659943 311.052344) rotate(-90) scale(0.1 -0.1)">
+      <defs>
+       <path id="DejaVuSans-27" d="M 1259 4147  L 1259 519  L 2022 519  Q 2988 519 3436 956  Q 3884 1394 3884 2338  Q 3884 3275 3436 3711  Q 2988 4147 2022 4147  L 1259 4147  z M 628 4666  L 1925 4666  Q 3281 4666 3915 4102  Q 4550 3538 4550 2338  Q 4550 1131 3912 565  Q 3275 0 1925 0  L 628 0  L 628 4666  z " transform="scale(0.015625)" />
+      </defs>
+      <use ns4:href="#DejaVuSans-27" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(77 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(104.78125 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(156.875 0)" />
+      <use ns4:href="#DejaVuSans-44" transform="translate(196.078125 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(257.359375 0)" />
+      <use ns4:href="#DejaVuSans-46" transform="translate(320.734375 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(375.71875 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(437.25 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(469.03125 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(508.234375 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(569.421875 0)" />
+      <use ns4:href="#DejaVuSans-44" transform="translate(601.203125 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(662.484375 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(725.859375 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(789.234375 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(850.421875 0)" />
+      <use ns4:href="#DejaVuSans-44" transform="translate(889.625 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(950.90625 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(990.109375 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(1017.890625 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(1079.078125 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(1142.453125 0)" />
+      <use ns4:href="#DejaVuSans-b" transform="translate(1174.234375 0)" />
+      <use ns4:href="#DejaVuSans-53" transform="translate(1213.25 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(1276.734375 0)" />
+      <use ns4:href="#DejaVuSans-5b" transform="translate(1304.515625 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(1360.625 0)" />
+      <use ns4:href="#DejaVuSans-4f" transform="translate(1422.15625 0)" />
+      <use ns4:href="#DejaVuSans-56" transform="translate(1449.9375 0)" />
+      <use ns4:href="#DejaVuSans-c" transform="translate(1502.03125 0)" />
+     </g>
+    </g>
+   </g>
+   <g id="line2d_43">
+    <defs>
+     <path id="m0995f6b8b2" d="M 0 1.5  C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066  C 1.341951 0.77937 1.5 0.397805 1.5 0  C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066  C 0.77937 -1.341951 0.397805 -1.5 0 -1.5  C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066  C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0  C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066  C -0.77937 1.341951 -0.397805 1.5 0 1.5  z " style="stroke:#bc4c00" />
+    </defs>
+    <g clip-path="url(#pf48a225473)">
+     <use ns4:href="#m0995f6b8b2" x="512.149787" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="512.920686" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="513.691585" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="514.462485" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="515.233384" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="516.004283" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="516.775182" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="517.546081" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="518.31698" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="519.087879" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="519.858778" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="520.629677" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="521.400577" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="522.171476" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="522.942375" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="523.713274" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="524.484173" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="525.255072" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="526.025971" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="526.79687" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="527.567769" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="528.338668" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="529.880467" y="379.867285" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="530.651366" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="531.422265" y="380.272881" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="532.193164" y="380.611178" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="532.964063" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="533.734962" y="380.732332" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="534.505861" y="379.843329" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="535.27676" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="536.04766" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="536.818559" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="537.589458" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="538.360357" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="539.131256" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="539.902155" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="540.673054" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="541.443953" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="542.214852" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="542.985752" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="543.756651" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="544.52755" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="545.298449" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="546.069348" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="546.840247" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="547.611146" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="548.382045" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="549.152944" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="549.923844" y="381.164856" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="550.694743" y="380.611178" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="551.465642" y="381.164856" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="556.861935" y="379.081538" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="557.632835" y="380.272881" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="558.403734" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="559.174633" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="559.945532" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="560.716431" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="561.48733" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="562.258229" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="563.029128" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="563.800027" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="564.570927" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="565.341826" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="566.112725" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="566.883624" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="567.654523" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="568.425422" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="569.196321" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="569.96722" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="570.738119" y="381.164856" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="571.509019" y="379.843329" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="572.279918" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="573.821716" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="574.592615" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="575.363514" y="378.828468" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="576.134413" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="576.905312" y="381.237974" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="577.676211" y="380.701594" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="578.447111" y="380.38188" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="579.21801" y="381.924956" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="579.988909" y="380.990495" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="580.759808" y="380.641026" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="581.530707" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="582.301606" y="381.924956" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="583.072505" y="381.924956" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="583.843404" y="381.024478" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="584.614303" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="585.385202" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="586.156102" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="586.927001" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="587.6979" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="588.468799" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="589.239698" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="590.010597" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="590.781496" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="591.552395" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="592.323294" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="593.094194" y="380.272881" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="595.406891" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="596.17779" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="596.948689" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="597.719588" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="598.490487" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="599.261386" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="600.032286" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="600.803185" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="601.574084" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="602.344983" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="603.115882" y="380.732332" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="603.886781" y="380.193316" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="604.65768" y="380.465996" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="605.428579" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="606.199478" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="606.970377" y="380.38188" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="607.741277" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="609.283075" y="380.193316" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="610.053974" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="610.824873" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="611.595772" y="378.715947" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="612.366671" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="613.13757" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="613.908469" y="377.5672" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="614.679369" y="381.024478" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="615.450268" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="616.221167" y="378.220991" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="616.992066" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="618.533864" y="379.434761" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="619.304763" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="620.075662" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="620.846561" y="381.430787" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="621.617461" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="622.38836" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="623.159259" y="381.825694" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="623.930158" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="624.701057" y="378.071036" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="625.471956" y="377.957082" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="626.242855" y="378.288957" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="627.013754" y="379.244318" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="627.784653" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="628.555553" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="629.326452" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="630.097351" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="630.86825" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="631.639149" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="632.410048" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="633.180947" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="633.951846" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="634.722745" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="635.493644" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="636.264544" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="637.035443" y="381.825694" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="637.806342" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="638.577241" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="639.34814" y="381.924956" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="640.119039" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="640.889938" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="641.660837" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="642.431736" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="643.202636" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="643.973535" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="644.744434" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="645.515333" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="646.286232" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="647.057131" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="647.82803" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="648.598929" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="649.369828" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="650.140728" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="650.911627" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="651.682526" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="652.453425" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="653.224324" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="653.995223" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="654.766122" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="655.537021" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="656.30792" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="657.078819" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="657.849719" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="658.620618" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="659.391517" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="660.162416" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="660.933315" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="661.704214" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="662.475113" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="663.246012" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="664.016911" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="664.787811" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="665.55871" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="666.329609" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="667.100508" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="669.413205" y="381.825694" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="670.184104" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="670.955003" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="671.725903" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="672.496802" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="673.267701" y="381.825694" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="674.0386" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="674.809499" y="381.924956" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="675.580398" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="676.351297" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="677.122196" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="677.893095" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="678.663995" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="680.205793" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="680.976692" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="683.289389" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="684.060288" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="684.831187" y="381.430787" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="685.602086" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="687.914784" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="690.227481" y="111.469091" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="692.540178" y="380.611178" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="693.311078" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="694.081977" y="381.825694" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="694.852876" y="380.641026" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="695.623775" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="696.394674" y="296.90019" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="697.165573" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="697.936472" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="698.707371" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="699.47827" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="700.24917" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="701.020069" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="701.790968" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="702.561867" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="703.332766" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="704.103665" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="704.874564" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="705.645463" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="706.416362" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="707.187261" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="707.958161" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="708.72906" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="709.499959" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="710.270858" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="711.041757" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="711.812656" y="381.430787" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="712.583555" y="199.196405" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="713.354454" y="380.299809" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="714.125353" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="714.896253" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="715.667152" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="716.438051" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="717.20895" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="717.979849" y="381.924956" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="718.750748" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="719.521647" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="720.292546" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="721.063445" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="721.834345" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="722.605244" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="723.376143" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="724.147042" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="724.917941" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="725.68884" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="726.459739" y="382.536638" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="727.230638" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="728.001537" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="728.772437" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="729.543336" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="730.314235" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="731.085134" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="731.856033" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="732.626932" y="381.430787" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="733.397831" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="734.16873" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="734.939629" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="735.710528" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="736.481428" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="737.252327" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="738.023226" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="738.794125" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="739.565024" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="740.335923" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="741.106822" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="741.877721" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="742.64862" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="743.41952" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="744.190419" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="744.961318" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="745.732217" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="746.503116" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="747.274015" y="379.434761" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="748.044914" y="378.982617" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="748.815813" y="378.551722" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="749.586712" y="378.551722" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="750.357612" y="378.982617" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="751.128511" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="751.89941" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="752.670309" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="753.441208" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="754.212107" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="754.983006" y="379.843329" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="755.753905" y="380.701594" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="756.524804" y="380.272881" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="757.295704" y="379.478231" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="758.066603" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="758.837502" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="759.608401" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="760.3793" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="761.150199" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="761.921098" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="762.691997" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="763.462896" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="764.233795" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="765.004695" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="765.775594" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="766.546493" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="767.317392" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="768.088291" y="381.024478" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="768.85919" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="769.630089" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="770.400988" y="381.430787" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="771.171887" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="771.942787" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="772.713686" y="379.891388" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="773.484585" y="381.024478" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="774.255484" y="379.891388" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="775.026383" y="380.064514" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="775.797282" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="776.568181" y="379.867285" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="777.33908" y="380.701594" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="778.109979" y="380.701594" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="778.880879" y="380.701594" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="779.651778" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="780.422677" y="381.59738" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="781.193576" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="781.964475" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="782.735374" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="783.506273" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="784.277172" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="785.048071" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="785.81897" y="381.164856" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="786.58987" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="787.360769" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="788.131668" y="381.164856" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="788.902567" y="380.641026" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="789.673466" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="790.444365" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="791.215264" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="791.986163" y="382.029904" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="792.757062" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="793.527962" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="794.298861" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="795.06976" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="795.840659" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="796.611558" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="797.382457" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="798.153356" y="382.894952" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="798.924255" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="799.695154" y="383.76" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="800.466054" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="801.236953" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="802.007852" y="381.024478" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="802.778751" y="380.701594" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="803.54965" y="380.858541" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="804.320549" y="380.990495" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="805.091448" y="383.148319" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="805.862347" y="383.327476" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="806.633246" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="808.175045" y="377.643188" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="808.945944" y="381.12906" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="809.716843" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="810.487742" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="811.258641" y="381.430787" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="812.02954" y="381.164856" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="812.800439" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="813.571338" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="814.342237" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="815.113137" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="815.884036" y="381.554552" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="816.654935" y="382.462428" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="817.425834" y="382.792847" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="818.196733" y="381.976658" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="818.967632" y="382.392239" style="fill:#bc4c00; stroke:#bc4c00" />
+     <use ns4:href="#m0995f6b8b2" x="819.738531" y="382.200513" style="fill:#bc4c00; stroke:#bc4c00" />
+    </g>
+   </g>
+   <g id="line2d_44">
+    <defs>
+     <path id="ma4c619e362" d="M -3 3  L 3 -3  M -3 -3  L 3 3  " style="stroke:#cf222e" />
+    </defs>
+    <g clip-path="url(#pf48a225473)">
+     <use ns4:href="#ma4c619e362" x="690.227481" y="111.469091" style="fill:#cf222e; stroke:#cf222e" />
+     <use ns4:href="#ma4c619e362" x="696.394674" y="296.90019" style="fill:#cf222e; stroke:#cf222e" />
+     <use ns4:href="#ma4c619e362" x="712.583555" y="199.196405" style="fill:#cf222e; stroke:#cf222e" />
+    </g>
+   </g>
+   <g id="line2d_45">
+    <path d="M 512.149787 375.109521  L 846.72 375.109521  " clip-path="url(#pf48a225473)" style="fill: none; stroke-dasharray: 3.33,1.44; stroke-dashoffset: 0; stroke:#cf222e; stroke-width: 0.9" />
+   </g>
+   <g id="patch_65">
+    <path d="M 512.149787 383.76  L 512.149787 84.24  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_66">
+    <path d="M 846.72 383.76  L 846.72 84.24  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_67">
+    <path d="M 512.149787 383.76  L 846.72 383.76  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_68">
+    <path d="M 512.149787 84.24  L 846.72 84.24  " style="fill: none; stroke:#d1d9e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_37">
+    
+    <g style="fill:#1f2328" transform="translate(598.260519 78.24) scale(0.12 -0.12)">
+     <defs>
+      <path id="DejaVuSans-32" d="M 2522 4238  Q 1834 4238 1429 3725  Q 1025 3213 1025 2328  Q 1025 1447 1429 934  Q 1834 422 2522 422  Q 3209 422 3611 934  Q 4013 1447 4013 2328  Q 4013 3213 3611 3725  Q 3209 4238 2522 4238  z M 2522 4750  Q 3503 4750 4090 4092  Q 4678 3434 4678 2328  Q 4678 1225 4090 567  Q 3503 -91 2522 -91  Q 1538 -91 948 565  Q 359 1222 359 2328  Q 359 3434 948 4092  Q 1538 4750 2522 4750  z " transform="scale(0.015625)" />
+      <path id="DejaVuSans-5d" d="M 353 3500  L 3084 3500  L 3084 2975  L 922 459  L 3084 459  L 3084 0  L 275 0  L 275 525  L 2438 3041  L 353 3041  L 353 3500  z " transform="scale(0.015625)" />
+     </defs>
+     <use ns4:href="#DejaVuSans-32" />
+     <use ns4:href="#DejaVuSans-45" transform="translate(78.71875 0)" />
+     <use ns4:href="#DejaVuSans-56" transform="translate(142.203125 0)" />
+     <use ns4:href="#DejaVuSans-48" transform="translate(194.296875 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(255.828125 0)" />
+     <use ns4:href="#DejaVuSans-59" transform="translate(296.9375 0)" />
+     <use ns4:href="#DejaVuSans-48" transform="translate(356.125 0)" />
+     <use ns4:href="#DejaVuSans-47" transform="translate(417.65625 0)" />
+     <use ns4:href="#DejaVuSans-3" transform="translate(481.140625 0)" />
+     <use ns4:href="#DejaVuSans-4f" transform="translate(512.921875 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(540.703125 0)" />
+     <use ns4:href="#DejaVuSans-46" transform="translate(601.890625 0)" />
+     <use ns4:href="#DejaVuSans-44" transform="translate(656.875 0)" />
+     <use ns4:href="#DejaVuSans-4f" transform="translate(718.15625 0)" />
+     <use ns4:href="#DejaVuSans-4c" transform="translate(745.9375 0)" />
+     <use ns4:href="#DejaVuSans-5d" transform="translate(773.71875 0)" />
+     <use ns4:href="#DejaVuSans-44" transform="translate(826.203125 0)" />
+     <use ns4:href="#DejaVuSans-57" transform="translate(887.484375 0)" />
+     <use ns4:href="#DejaVuSans-4c" transform="translate(926.6875 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(954.46875 0)" />
+     <use ns4:href="#DejaVuSans-51" transform="translate(1015.65625 0)" />
+     <use ns4:href="#DejaVuSans-3" transform="translate(1079.03125 0)" />
+     <use ns4:href="#DejaVuSans-48" transform="translate(1110.8125 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(1172.34375 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(1211.703125 0)" />
+     <use ns4:href="#DejaVuSans-52" transform="translate(1250.609375 0)" />
+     <use ns4:href="#DejaVuSans-55" transform="translate(1311.796875 0)" />
+    </g>
+   </g>
+   <g id="legend_2">
+    <g id="patch_69">
+     <path d="M 745.780781 104.940703  L 840.42 104.940703  Q 842.22 104.940703 842.22 103.140703  L 842.22 90.54  Q 842.22 88.74 840.42 88.74  L 745.780781 88.74  Q 743.980781 88.74 743.980781 90.54  L 743.980781 103.140703  Q 743.980781 104.940703 745.780781 104.940703  z " style="fill:#f6f8fa; opacity: 0.8; stroke:#d1d9e0; stroke-linejoin: miter" />
+    </g>
+    <g id="line2d_46">
+     <path d="M 747.580781 96.028594  L 756.580781 96.028594  L 765.580781 96.028594  " style="fill: none; stroke-dasharray: 3.33,1.44; stroke-dashoffset: 0; stroke:#cf222e; stroke-width: 0.9" />
+    </g>
+    <g id="text_38">
+     
+     <g style="fill:#1f2328" transform="translate(772.780781 99.178594) scale(0.09 -0.09)">
+      <use ns4:href="#DejaVuSans-15" />
+      <use ns4:href="#DejaVuSans-13" transform="translate(63.625 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(127.25 0)" />
+      <use ns4:href="#DejaVuSans-53" transform="translate(159.03125 0)" />
+      <use ns4:href="#DejaVuSans-5b" transform="translate(222.515625 0)" />
+      <use ns4:href="#DejaVuSans-3" transform="translate(281.703125 0)" />
+      <use ns4:href="#DejaVuSans-46" transform="translate(313.484375 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(368.46875 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(409.578125 0)" />
+      <use ns4:href="#DejaVuSans-57" transform="translate(437.359375 0)" />
+      <use ns4:href="#DejaVuSans-48" transform="translate(476.5625 0)" />
+      <use ns4:href="#DejaVuSans-55" transform="translate(538.09375 0)" />
+      <use ns4:href="#DejaVuSans-4c" transform="translate(579.203125 0)" />
+      <use ns4:href="#DejaVuSans-52" transform="translate(606.984375 0)" />
+      <use ns4:href="#DejaVuSans-51" transform="translate(668.171875 0)" />
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="text_39">
+   
+   <g style="fill:#1f2328" transform="translate(34.56 18.72) scale(0.16 -0.16)">
+    <defs>
+     <path id="DejaVuSans-Bold-24" d="M 3419 850  L 1538 850  L 1241 0  L 31 0  L 1759 4666  L 3194 4666  L 4922 0  L 3713 0  L 3419 850  z M 1838 1716  L 3116 1716  L 2478 3572  L 1838 1716  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-51" d="M 4056 2131  L 4056 0  L 2931 0  L 2931 347  L 2931 1631  Q 2931 2084 2911 2256  Q 2891 2428 2841 2509  Q 2775 2619 2662 2680  Q 2550 2741 2406 2741  Q 2056 2741 1856 2470  Q 1656 2200 1656 1722  L 1656 0  L 538 0  L 538 3500  L 1656 3500  L 1656 2988  Q 1909 3294 2193 3439  Q 2478 3584 2822 3584  Q 3428 3584 3742 3212  Q 4056 2841 4056 2131  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-52" d="M 2203 2784  Q 1831 2784 1636 2517  Q 1441 2250 1441 1747  Q 1441 1244 1636 976  Q 1831 709 2203 709  Q 2569 709 2762 976  Q 2956 1244 2956 1747  Q 2956 2250 2762 2517  Q 2569 2784 2203 2784  z M 2203 3584  Q 3106 3584 3614 3096  Q 4122 2609 4122 1747  Q 4122 884 3614 396  Q 3106 -91 2203 -91  Q 1297 -91 786 396  Q 275 884 275 1747  Q 275 2609 786 3096  Q 1297 3584 2203 3584  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-57" d="M 1759 4494  L 1759 3500  L 2913 3500  L 2913 2700  L 1759 2700  L 1759 1216  Q 1759 972 1856 886  Q 1953 800 2241 800  L 2816 800  L 2816 0  L 1856 0  Q 1194 0 917 276  Q 641 553 641 1216  L 641 2700  L 84 2700  L 84 3500  L 641 3500  L 641 4494  L 1759 4494  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-44" d="M 2106 1575  Q 1756 1575 1579 1456  Q 1403 1338 1403 1106  Q 1403 894 1545 773  Q 1688 653 1941 653  Q 2256 653 2472 879  Q 2688 1106 2688 1447  L 2688 1575  L 2106 1575  z M 3816 1997  L 3816 0  L 2688 0  L 2688 519  Q 2463 200 2181 54  Q 1900 -91 1497 -91  Q 953 -91 614 226  Q 275 544 275 1050  Q 275 1666 698 1953  Q 1122 2241 2028 2241  L 2688 2241  L 2688 2328  Q 2688 2594 2478 2717  Q 2269 2841 1825 2841  Q 1466 2841 1156 2769  Q 847 2697 581 2553  L 581 3406  Q 941 3494 1303 3539  Q 1666 3584 2028 3584  Q 2975 3584 3395 3211  Q 3816 2838 3816 1997  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-4c" d="M 538 3500  L 1656 3500  L 1656 0  L 538 0  L 538 3500  z M 538 4863  L 1656 4863  L 1656 3950  L 538 3950  L 538 4863  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-56" d="M 3272 3391  L 3272 2541  Q 2913 2691 2578 2766  Q 2244 2841 1947 2841  Q 1628 2841 1473 2761  Q 1319 2681 1319 2516  Q 1319 2381 1436 2309  Q 1553 2238 1856 2203  L 2053 2175  Q 2913 2066 3209 1816  Q 3506 1566 3506 1031  Q 3506 472 3093 190  Q 2681 -91 1863 -91  Q 1516 -91 1145 -36  Q 775 19 384 128  L 384 978  Q 719 816 1070 734  Q 1422 653 1784 653  Q 2113 653 2278 743  Q 2444 834 2444 1013  Q 2444 1163 2330 1236  Q 2216 1309 1875 1350  L 1678 1375  Q 931 1469 631 1722  Q 331 1975 331 2491  Q 331 3047 712 3315  Q 1094 3584 1881 3584  Q 2191 3584 2531 3537  Q 2872 3491 3272 3391  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-3" transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-47" d="M 2919 2988  L 2919 4863  L 4044 4863  L 4044 0  L 2919 0  L 2919 506  Q 2688 197 2409 53  Q 2131 -91 1766 -91  Q 1119 -91 703 423  Q 288 938 288 1747  Q 288 2556 703 3070  Q 1119 3584 1766 3584  Q 2128 3584 2408 3439  Q 2688 3294 2919 2988  z M 2181 722  Q 2541 722 2730 984  Q 2919 1247 2919 1747  Q 2919 2247 2730 2509  Q 2541 2772 2181 2772  Q 1825 2772 1636 2509  Q 1447 2247 1447 1747  Q 1447 1247 1636 984  Q 1825 722 2181 722  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-46" d="M 3366 3391  L 3366 2478  Q 3138 2634 2908 2709  Q 2678 2784 2431 2784  Q 1963 2784 1702 2511  Q 1441 2238 1441 1747  Q 1441 1256 1702 982  Q 1963 709 2431 709  Q 2694 709 2930 787  Q 3166 866 3366 1019  L 3366 103  Q 3103 6 2833 -42  Q 2563 -91 2291 -91  Q 1344 -91 809 395  Q 275 881 275 1747  Q 275 2613 809 3098  Q 1344 3584 2291 3584  Q 2566 3584 2833 3536  Q 3100 3488 3366 3391  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-48" d="M 4031 1759  L 4031 1441  L 1416 1441  Q 1456 1047 1700 850  Q 1944 653 2381 653  Q 2734 653 3104 758  Q 3475 863 3866 1075  L 3866 213  Q 3469 63 3072 -14  Q 2675 -91 2278 -91  Q 1328 -91 801 392  Q 275 875 275 1747  Q 275 2603 792 3093  Q 1309 3584 2216 3584  Q 3041 3584 3536 3087  Q 4031 2591 4031 1759  z M 2881 2131  Q 2881 2450 2695 2645  Q 2509 2841 2209 2841  Q 1884 2841 1681 2658  Q 1478 2475 1428 2131  L 2881 2131  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-45" d="M 2400 722  Q 2759 722 2948 984  Q 3138 1247 3138 1747  Q 3138 2247 2948 2509  Q 2759 2772 2400 2772  Q 2041 2772 1848 2508  Q 1656 2244 1656 1747  Q 1656 1250 1848 986  Q 2041 722 2400 722  z M 1656 2988  Q 1888 3294 2169 3439  Q 2450 3584 2816 3584  Q 3463 3584 3878 3070  Q 4294 2556 4294 1747  Q 4294 938 3878 423  Q 3463 -91 2816 -91  Q 2450 -91 2169 54  Q 1888 200 1656 506  L 1656 0  L 538 0  L 538 4863  L 1656 4863  L 1656 2988  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-55" d="M 3138 2547  Q 2991 2616 2845 2648  Q 2700 2681 2553 2681  Q 2122 2681 1889 2404  Q 1656 2128 1656 1613  L 1656 0  L 538 0  L 538 3500  L 1656 3500  L 1656 2925  Q 1872 3269 2151 3426  Q 2431 3584 2822 3584  Q 2878 3584 2943 3579  Q 3009 3575 3134 3559  L 3138 2547  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-Bold-59" d="M 97 3500  L 1216 3500  L 2088 1081  L 2956 3500  L 4078 3500  L 2700 0  L 1472 0  L 97 3500  z " transform="scale(0.015625)" />
+    </defs>
+    <use ns4:href="#DejaVuSans-Bold-24" />
+    <use ns4:href="#DejaVuSans-Bold-51" transform="translate(77.390625 0)" />
+    <use ns4:href="#DejaVuSans-Bold-51" transform="translate(148.578125 0)" />
+    <use ns4:href="#DejaVuSans-Bold-52" transform="translate(219.765625 0)" />
+    <use ns4:href="#DejaVuSans-Bold-57" transform="translate(288.46875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-44" transform="translate(336.265625 0)" />
+    <use ns4:href="#DejaVuSans-Bold-57" transform="translate(403.75 0)" />
+    <use ns4:href="#DejaVuSans-Bold-4c" transform="translate(451.546875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-52" transform="translate(485.828125 0)" />
+    <use ns4:href="#DejaVuSans-Bold-51" transform="translate(554.53125 0)" />
+    <use ns4:href="#DejaVuSans-Bold-56" transform="translate(625.71875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-3" transform="translate(685.234375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-44" transform="translate(720.046875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-51" transform="translate(787.53125 0)" />
+    <use ns4:href="#DejaVuSans-Bold-47" transform="translate(858.71875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-3" transform="translate(930.296875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-46" transform="translate(965.109375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-52" transform="translate(1024.390625 0)" />
+    <use ns4:href="#DejaVuSans-Bold-47" transform="translate(1093.09375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-48" transform="translate(1164.671875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-3" transform="translate(1232.5 0)" />
+    <use ns4:href="#DejaVuSans-Bold-52" transform="translate(1267.3125 0)" />
+    <use ns4:href="#DejaVuSans-Bold-45" transform="translate(1336.015625 0)" />
+    <use ns4:href="#DejaVuSans-Bold-56" transform="translate(1407.59375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-48" transform="translate(1467.109375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-55" transform="translate(1534.9375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-59" transform="translate(1584.25 0)" />
+    <use ns4:href="#DejaVuSans-Bold-44" transform="translate(1649.4375 0)" />
+    <use ns4:href="#DejaVuSans-Bold-57" transform="translate(1716.921875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-4c" transform="translate(1764.71875 0)" />
+    <use ns4:href="#DejaVuSans-Bold-52" transform="translate(1799 0)" />
+    <use ns4:href="#DejaVuSans-Bold-51" transform="translate(1867.703125 0)" />
+    <use ns4:href="#DejaVuSans-Bold-56" transform="translate(1938.890625 0)" />
+   </g>
+  </g>
+  <g id="text_40">
+   
+   <g style="fill:#1f2328" transform="translate(34.56 42.12) scale(0.1 -0.1)">
+    <defs>
+     <path id="DejaVuSans-12" d="M 1625 4666  L 2156 4666  L 531 -594  L 0 -594  L 1625 4666  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-49" d="M 2375 4863  L 2375 4384  L 1825 4384  Q 1516 4384 1395 4259  Q 1275 4134 1275 3809  L 1275 3500  L 2222 3500  L 2222 3053  L 1275 3053  L 1275 0  L 697 0  L 697 3053  L 147 3053  L 147 3500  L 697 3500  L 697 3744  Q 697 4328 969 4595  Q 1241 4863 1831 4863  L 2375 4863  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-5a" d="M 269 3500  L 844 3500  L 1563 769  L 2278 3500  L 2956 3500  L 3675 769  L 4391 3500  L 4966 3500  L 4050 0  L 3372 0  L 2619 2869  L 1863 0  L 1184 0  L 269 3500  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-4b" d="M 3513 2113  L 3513 0  L 2938 0  L 2938 2094  Q 2938 2591 2744 2837  Q 2550 3084 2163 3084  Q 1697 3084 1428 2787  Q 1159 2491 1159 1978  L 1159 0  L 581 0  L 581 4863  L 1159 4863  L 1159 2956  Q 1366 3272 1645 3428  Q 1925 3584 2291 3584  Q 2894 3584 3203 3211  Q 3513 2838 3513 2113  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-79" d="M 684 2619  L 1344 2619  L 1344 1825  L 684 1825  L 684 2619  z " transform="scale(0.015625)" />
+    </defs>
+    <use ns4:href="#DejaVuSans-16" />
+    <use ns4:href="#DejaVuSans-1a" transform="translate(63.625 0)" />
+    <use ns4:href="#DejaVuSans-16" transform="translate(127.25 0)" />
+    <use ns4:href="#DejaVuSans-12" transform="translate(190.875 0)" />
+    <use ns4:href="#DejaVuSans-16" transform="translate(224.5625 0)" />
+    <use ns4:href="#DejaVuSans-1a" transform="translate(288.1875 0)" />
+    <use ns4:href="#DejaVuSans-1b" transform="translate(351.8125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(415.4375 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(447.21875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(486.125 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(547.65625 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(608.9375 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(672.421875 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(733.703125 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(797.1875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(824.96875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(886.5 0)" />
+    <use ns4:href="#DejaVuSans-49" transform="translate(918.28125 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(953.484375 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(994.59375 0)" />
+    <use ns4:href="#DejaVuSans-50" transform="translate(1055.875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(1153.28125 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(1214.8125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1266.90625 0)" />
+    <use ns4:href="#DejaVuSans-5a" transform="translate(1298.6875 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(1380.46875 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(1408.25 0)" />
+    <use ns4:href="#DejaVuSans-4b" transform="translate(1447.453125 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(1510.828125 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(1538.609375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1601.984375 0)" />
+    <use ns4:href="#DejaVuSans-15" transform="translate(1633.765625 0)" />
+    <use ns4:href="#DejaVuSans-13" transform="translate(1697.390625 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1761.015625 0)" />
+    <use ns4:href="#DejaVuSans-53" transform="translate(1792.796875 0)" />
+    <use ns4:href="#DejaVuSans-5b" transform="translate(1856.28125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1915.46875 0)" />
+    <use ns4:href="#DejaVuSans-79" transform="translate(1947.25 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1979.03125 0)" />
+    <use ns4:href="#DejaVuSans-14" transform="translate(2010.8125 0)" />
+    <use ns4:href="#DejaVuSans-18" transform="translate(2074.4375 0)" />
+    <use ns4:href="#DejaVuSans-12" transform="translate(2138.0625 0)" />
+    <use ns4:href="#DejaVuSans-16" transform="translate(2171.75 0)" />
+    <use ns4:href="#DejaVuSans-15" transform="translate(2235.375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2299 0)" />
+    <use ns4:href="#DejaVuSans-49" transform="translate(2330.78125 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(2365.984375 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(2427.265625 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(2455.046875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2507.140625 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2568.671875 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(2600.453125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2663.9375 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(2725.46875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2764.671875 0)" />
+    <use ns4:href="#DejaVuSans-46" transform="translate(2826.203125 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(2881.1875 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(2920.390625 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(2948.171875 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(3009.359375 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(3072.734375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3124.828125 0)" />
+    <use ns4:href="#DejaVuSans-5a" transform="translate(3156.609375 0)" />
+    <use ns4:href="#DejaVuSans-4b" transform="translate(3238.390625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3301.765625 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(3363.296875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3426.671875 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(3458.453125 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(3521.828125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3583.015625 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(3614.796875 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(3678.28125 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(3739.5625 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(3767.34375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3795.125 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(3826.90625 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(3854.6875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3906.78125 0)" />
+    <use ns4:href="#DejaVuSans-59" transform="translate(3938.5625 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(3997.75 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(4025.53125 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(4077.625 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(4105.40625 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(4168.890625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(4196.671875 0)" />
+   </g>
+  </g>
+  <g id="text_41">
+   
+   <g style="fill:#59636e" transform="translate(34.56 437.58) scale(0.1 -0.1)">
+    <defs>
+     <path id="DejaVuSans-4e" d="M 581 4863  L 1159 4863  L 1159 1991  L 2875 3500  L 3609 3500  L 1753 1863  L 3688 0  L 2938 0  L 1159 1709  L 1159 0  L 581 0  L 581 4863  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-1e" d="M 750 3309  L 1409 3309  L 1409 2516  L 750 2516  L 750 3309  z M 750 794  L 1409 794  L 1409 256  L 897 -744  L 494 -744  L 750 256  L 750 794  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-11" d="M 684 794  L 1344 794  L 1344 0  L 684 0  L 684 794  z " transform="scale(0.015625)" />
+    </defs>
+    <use ns4:href="#DejaVuSans-24" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(68.40625 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(96.1875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(123.96875 0)" />
+    <use ns4:href="#DejaVuSans-17" transform="translate(155.75 0)" />
+    <use ns4:href="#DejaVuSans-14" transform="translate(219.375 0)" />
+    <use ns4:href="#DejaVuSans-15" transform="translate(283 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(346.625 0)" />
+    <use ns4:href="#DejaVuSans-46" transform="translate(378.40625 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(433.390625 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(494.578125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(558.0625 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(619.59375 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(651.375 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(712.5625 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(776.046875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(828.140625 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(889.671875 0)" />
+    <use ns4:href="#DejaVuSans-59" transform="translate(930.78125 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(989.96875 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(1051.25 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(1090.453125 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(1118.234375 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(1179.421875 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(1242.796875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1294.890625 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(1326.671875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(1387.953125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(1426.859375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1488.390625 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(1520.171875 0)" />
+    <use ns4:href="#DejaVuSans-4b" transform="translate(1572.265625 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(1635.640625 0)" />
+    <use ns4:href="#DejaVuSans-5a" transform="translate(1696.828125 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(1778.609375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1841.984375 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(1873.765625 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(1935.046875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1987.140625 0)" />
+    <use ns4:href="#DejaVuSans-50" transform="translate(2018.921875 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(2116.328125 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(2177.609375 0)" />
+    <use ns4:href="#DejaVuSans-4e" transform="translate(2218.71875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2273.0625 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(2334.59375 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(2375.703125 0)" />
+    <use ns4:href="#DejaVuSans-1e" transform="translate(2427.796875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2461.484375 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(2493.265625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2532.171875 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(2593.703125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2657.1875 0)" />
+    <use ns4:href="#DejaVuSans-46" transform="translate(2688.96875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(2743.953125 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(2782.859375 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(2844.046875 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(2896.140625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2948.234375 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(3009.765625 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3061.859375 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(3093.640625 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(3121.421875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3184.90625 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(3246.4375 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(3309.8125 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(3349.015625 0)" />
+    <use ns4:href="#DejaVuSans-49" transform="translate(3376.796875 0)" />
+    <use ns4:href="#DejaVuSans-5c" transform="translate(3410.25 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3469.4375 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3501.21875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(3562.75 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(3602.109375 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(3641.015625 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(3702.203125 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(3743.3125 0)" />
+    <use ns4:href="#DejaVuSans-11" transform="translate(3795.40625 0)" />
+   </g>
+  </g>
+  <g id="text_42">
+   
+   <g style="fill:#59636e" transform="translate(34.56 456.3) scale(0.1 -0.1)">
+    <defs>
+     <path id="DejaVuSans-28" d="M 628 4666  L 3578 4666  L 3578 4134  L 1259 4134  L 1259 2753  L 3481 2753  L 3481 2222  L 1259 2222  L 1259 531  L 3634 531  L 3634 0  L 628 0  L 628 4666  z " transform="scale(0.015625)" />
+     <path id="DejaVuSans-2a" d="M 3809 666  L 3809 1919  L 2778 1919  L 2778 2438  L 4434 2438  L 4434 434  Q 4069 175 3628 42  Q 3188 -91 2688 -91  Q 1594 -91 976 548  Q 359 1188 359 2328  Q 359 3472 976 4111  Q 1594 4750 2688 4750  Q 3144 4750 3555 4637  Q 3966 4525 4313 4306  L 4313 3634  Q 3963 3931 3569 4081  Q 3175 4231 2741 4231  Q 1884 4231 1454 3753  Q 1025 3275 1025 2328  Q 1025 1384 1454 906  Q 1884 428 2741 428  Q 3075 428 3337 486  Q 3600 544 3809 666  z " transform="scale(0.015625)" />
+    </defs>
+    <use ns4:href="#DejaVuSans-28" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(63.1875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(102.546875 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(141.453125 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(202.640625 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(243.75 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(275.53125 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(303.3125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(355.40625 0)" />
+    <use ns4:href="#DejaVuSans-50" transform="translate(387.1875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(484.59375 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(546.125 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(607.40625 0)" />
+    <use ns4:href="#DejaVuSans-58" transform="translate(659.5 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(722.875 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(763.984375 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(825.265625 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(888.75 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(916.53125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(978.0625 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(1009.84375 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(1071.03125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1134.40625 0)" />
+    <use ns4:href="#DejaVuSans-16" transform="translate(1166.1875 0)" />
+    <use ns4:href="#DejaVuSans-1a" transform="translate(1229.8125 0)" />
+    <use ns4:href="#DejaVuSans-19" transform="translate(1293.4375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(1357.0625 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(1388.84375 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(1450.03125 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(1513.515625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(1565.609375 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(1627.140625 0)" />
+    <use ns4:href="#DejaVuSans-59" transform="translate(1668.25 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(1727.4375 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(1788.71875 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(1827.921875 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(1855.703125 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(1916.890625 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(1980.265625 0)" />
+    <use ns4:href="#DejaVuSans-11" transform="translate(2032.359375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2064.140625 0)" />
+    <use ns4:href="#DejaVuSans-2a" transform="translate(2095.921875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(2173.40625 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(2214.515625 0)" />
+    <use ns4:href="#DejaVuSans-5c" transform="translate(2275.796875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2334.984375 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(2366.765625 0)" />
+    <use ns4:href="#DejaVuSans-4c" transform="translate(2405.96875 0)" />
+    <use ns4:href="#DejaVuSans-50" transform="translate(2433.75 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(2531.15625 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2592.6875 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(2624.46875 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(2687.953125 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(2749.234375 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(2812.609375 0)" />
+    <use ns4:href="#DejaVuSans-56" transform="translate(2876.09375 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(2928.1875 0)" />
+    <use ns4:href="#DejaVuSans-4b" transform="translate(2959.96875 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(3023.34375 0)" />
+    <use ns4:href="#DejaVuSans-59" transform="translate(3084.625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3143.8125 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3205.34375 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(3237.125 0)" />
+    <use ns4:href="#DejaVuSans-52" transform="translate(3300.5 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3361.6875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(3393.46875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3432.375 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(3493.90625 0)" />
+    <use ns4:href="#DejaVuSans-47" transform="translate(3555.1875 0)" />
+    <use ns4:href="#DejaVuSans-44" transform="translate(3618.671875 0)" />
+    <use ns4:href="#DejaVuSans-45" transform="translate(3679.953125 0)" />
+    <use ns4:href="#DejaVuSans-4f" transform="translate(3743.4375 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3771.21875 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(3832.75 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(3864.53125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(3903.4375 0)" />
+    <use ns4:href="#DejaVuSans-49" transform="translate(3964.96875 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(4000.171875 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(4061.703125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(4100.609375 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(4162.140625 0)" />
+    <use ns4:href="#DejaVuSans-46" transform="translate(4225.515625 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(4280.5 0)" />
+    <use ns4:href="#DejaVuSans-3" transform="translate(4342.03125 0)" />
+    <use ns4:href="#DejaVuSans-46" transform="translate(4373.8125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(4428.796875 0)" />
+    <use ns4:href="#DejaVuSans-51" transform="translate(4490.328125 0)" />
+    <use ns4:href="#DejaVuSans-57" transform="translate(4553.703125 0)" />
+    <use ns4:href="#DejaVuSans-48" transform="translate(4592.90625 0)" />
+    <use ns4:href="#DejaVuSans-55" transform="translate(4654.4375 0)" />
+    <use ns4:href="#DejaVuSans-11" transform="translate(4686.375 0)" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa694f3b361">
+   <rect x="126.037058" y="84.24" width="203.456097" height="299.52" />
+  </clipPath>
+  <clipPath id="pf48a225473">
+   <rect x="512.149787" y="84.24" width="334.570213" height="299.52" />
+  </clipPath>
+ </defs>
+</svg>
