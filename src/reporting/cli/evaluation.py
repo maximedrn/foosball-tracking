@@ -91,7 +91,6 @@ def main(argv: list[str] | None = None) -> int:
         "reference_sha256": sha256(reference_bytes).hexdigest(),
         "detections_sha256": sha256(detected_bytes).hexdigest(),
         "source_sha256": provenance.source_sha256,
-        "human_verified": provenance.human_verified,
         "sample_stride": provenance.sample_stride,
         "thresholds_px": results,
     }

@@ -27,8 +27,6 @@ class ReferenceProvenance(BaseModel):
     :type canonical_annotations_sha256: str
     :param sample_stride: Distance between annotated source frame indices.
     :type sample_stride: int
-    :param human_verified: Whether a person has independently checked labels.
-    :type human_verified: bool
     :param review: Visibility decisions for every sampled frame.
     :type review: list[FrameReview]
     """
@@ -36,5 +34,4 @@ class ReferenceProvenance(BaseModel):
     source_sha256: str
     canonical_annotations_sha256: str
     sample_stride: int
-    human_verified: bool
     review: list[FrameReview]
