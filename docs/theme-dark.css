@@ -1,0 +1,113 @@
+@media (prefers-color-scheme: dark) {
+  [style*="fill:#1f2328"] {
+    fill: #e6edf3 !important;
+  }
+
+  [style*="stroke:#1f2328"] {
+    stroke: #e6edf3 !important;
+  }
+
+  [style*="fill:#59636e"] {
+    fill: #9198a1 !important;
+  }
+
+  [style*="stroke:#59636e"] {
+    stroke: #9198a1 !important;
+  }
+
+  [style*="fill:#d0d7de"] {
+    fill: #30363d !important;
+  }
+
+  [style*="stroke:#d0d7de"] {
+    stroke: #30363d !important;
+  }
+
+  [style*="fill:#f6f8fa"] {
+    fill: #161b22 !important;
+  }
+
+  [style*="stroke:#f6f8fa"] {
+    stroke: #161b22 !important;
+  }
+
+  [style*="fill:#0969da"] {
+    fill: #58a6ff !important;
+  }
+
+  [style*="stroke:#0969da"] {
+    stroke: #58a6ff !important;
+  }
+
+  [style*="fill:#ddf4ff"] {
+    fill: #1b3655 !important;
+  }
+
+  [style*="stroke:#ddf4ff"] {
+    stroke: #1b3655 !important;
+  }
+
+  [style*="fill:#1a7f37"] {
+    fill: #3fb950 !important;
+  }
+
+  [style*="stroke:#1a7f37"] {
+    stroke: #3fb950 !important;
+  }
+
+  [style*="fill:#dafbe1"] {
+    fill: #1a3d2a !important;
+  }
+
+  [style*="stroke:#dafbe1"] {
+    stroke: #1a3d2a !important;
+  }
+
+  [style*="fill:#8250df"] {
+    fill: #bc8cff !important;
+  }
+
+  [style*="stroke:#8250df"] {
+    stroke: #bc8cff !important;
+  }
+
+  [style*="fill:#fbefff"] {
+    fill: #34214c !important;
+  }
+
+  [style*="stroke:#fbefff"] {
+    stroke: #34214c !important;
+  }
+
+  [style*="fill:#9a6700"] {
+    fill: #d29922 !important;
+  }
+
+  [style*="stroke:#9a6700"] {
+    stroke: #d29922 !important;
+  }
+
+  [style*="fill:#fff1ba"] {
+    fill: #4b3512 !important;
+  }
+
+  [style*="stroke:#fff1ba"] {
+    stroke: #4b3512 !important;
+  }
+
+  [style*="fill:#cf222e"] {
+    fill: #ff7b72 !important;
+  }
+
+  [style*="stroke:#cf222e"] {
+    stroke: #ff7b72 !important;
+  }
+
+  [style*="fill:#ffebe9"] {
+    fill: #4c2427 !important;
+  }
+
+  [style*="stroke:#ffebe9"] {
+    stroke: #4c2427 !important;
+  }
+}

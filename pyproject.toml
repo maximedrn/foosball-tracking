@@ -16,8 +16,10 @@ foosball = "foosball_tracking.cli:main"
 
 [dependency-groups]
 dev = [
+    "matplotlib>=3.10,<4",
     "mypy>=2.4,<3",
     "pylint>=4.1,<5",
+    "poethepoet>=0.35,<1",
     "pyright>=1.1.400,<2",
     "ruff>=0.11,<1",
 ]
@@ -44,7 +46,7 @@ indent-style = "space"
 docstring-code-format = true
 
 [tool.pyright]
-include = ["src"]
+include = ["src", "scripts"]
 exclude = [".venv", "archive"]
 pythonVersion = "3.13"
 typeCheckingMode = "strict"
@@ -53,8 +55,23 @@ venv = ".venv"
 
 [tool.mypy]
 python_version = "3.13"
-files = ["src"]
-mypy_path = "$MYPY_CONFIG_FILE_DIR/typings"
+files = ["src", "scripts"]
+mypy_path = ["$MYPY_CONFIG_FILE_DIR/src", "$MYPY_CONFIG_FILE_DIR/typings"]
 
 [tool.pylint.main]
 prefer-stubs = true
+
+[tool.poe.tasks.diagrams]
+help = "Build all TikZ diagrams or one by its stem."
+cmd = "python scripts/diagrams.py"
+cwd = "."
+
+[tool.poe.tasks.diagrams-clean]
+help = "Remove generated SVG diagrams and temporary build files."
+cmd = "python scripts/diagrams.py --clean"
+cwd = "."
+
+[tool.poe.tasks.performance]
+help = "Plot ball detection and tracking coverage from JSON exports."
+cmd = "python scripts/performance.py"
+cwd = "."

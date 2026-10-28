@@ -2,7 +2,7 @@
     // Source video to process.
     "video_path": "video.mp4",
     // Annotated MP4 destination; reruns replace this video and its detection JSON.
-    "output_path": "output/tracking.mp4",
+    "output_path": "output/video.mp4",
     // Maximum number of frames to process; null processes the entire video.
     "max_frames": null,
     // Parallel processing; queues bound memory usage on long videos.
