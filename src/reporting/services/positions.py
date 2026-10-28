@@ -7,7 +7,7 @@ from reporting.models.provenance import ReferenceProvenance
 from reporting.services.evaluation import validate_reference
 from reporting.services.inputs import align_frames
 from tracking.models import Point
-from tracking.models.export import DetectionExport, FrameExport
+from tracking.models.export import DetectionExport
 
 
 def classify_position(
@@ -81,9 +81,7 @@ def compare_frames(
     ):
         raise ValueError("Source metadata differs between the exports")
     excluded: set[int] = validate_reference(reference, provenance)
-    frame: FrameExport
     comparisons: list[PositionComparison] = []
-    sample: FrameExport
     for sample, frame in align_frames(reference, detected):
         if abs(frame.timestamp_seconds - sample.timestamp_seconds) > 1e-6:
             raise ValueError("Code timestamp differs from the reference")
@@ -93,8 +91,6 @@ def compare_frames(
         observation: Point | None = (
             frame.ball.center if frame.ball is not None else None
         )
-        status: ComparisonStatus
-        error: float | None
         status, error = classify_position(
             annotation,
             observation,

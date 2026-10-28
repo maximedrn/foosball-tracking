@@ -35,8 +35,6 @@ def load_comparison_data(data_dir: Path) -> ComparisonInputs:
     :return: Validated inputs for examples and quantitative figures.
     :rtype: ComparisonInputs
     """
-    annotations: DetectionExport
-    detections: DetectionExport
     annotations, detections = load_comparison_inputs(data_dir)
     provenance: ReferenceProvenance = ReferenceProvenance.model_validate_json(
         (data_dir / "provenance.json").read_bytes()
@@ -54,7 +52,6 @@ def index_frames(report: DetectionExport) -> dict[int, FrameExport]:
     :raises ValueError: If any source index is repeated.
     """
     lookup: dict[int, FrameExport] = {}
-    frame: FrameExport
     for frame in report.frames:
         if frame.frame_index in lookup:
             raise ValueError("Duplicate automatic frame index")
@@ -76,7 +73,6 @@ def align_frames(
     :raises ValueError: If an index is duplicated or a frame is missing.
     """
     lookup: dict[int, FrameExport] = index_frames(detected)
-    sample: FrameExport
     for sample in reference.frames:
         if sample.frame_index not in lookup:
             raise ValueError(f"Missing exported frame {sample.frame_index}")

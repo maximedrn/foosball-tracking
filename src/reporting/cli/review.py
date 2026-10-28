@@ -3,9 +3,6 @@
 from reporting.cli.figures import parse_arguments
 from reporting.models.arguments import FigureArguments
 from reporting.models.inputs import ComparisonInputs
-from reporting.models.provenance import (
-    FrameReview,
-)
 from reporting.paths import REVIEW_DIR
 from reporting.plots.examples import render_examples
 from reporting.services.inputs import load_comparison_data
@@ -25,7 +22,6 @@ def main(argv: list[str] | None = None) -> int:
     args: FigureArguments = parse_arguments(argv)
     inputs: ComparisonInputs = load_comparison_data(args.data_dir)
     not_visible: set[int] = set()
-    review: FrameReview
     for review in inputs.provenance.review:
         if review.visibility == "not_visible":
             not_visible.add(review.frame_index)

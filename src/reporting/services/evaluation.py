@@ -6,10 +6,7 @@ from collections import Counter
 from math import hypot, sqrt
 from statistics import fmean, median
 
-from reporting.models.provenance import (
-    FrameReview,
-    ReferenceProvenance,
-)
+from reporting.models.provenance import ReferenceProvenance
 from reporting.services.inputs import align_frames
 from tracking.models import Point
 from tracking.models.export import DetectionExport, FrameExport
@@ -141,7 +138,6 @@ def evaluate(
         or reference.source_video.name != detected.source_video.name
     ):
         raise ValueError("Source metadata differs between the exports")
-    frame: FrameExport
     counts: Counter[str] = Counter(
         visible_samples=0,
         negative_samples=0,
@@ -158,7 +154,6 @@ def evaluate(
     )
     observed_errors: list[float] = []
     combined_errors: list[float] = []
-    sample: FrameExport
     for sample, frame in align_frames(reference, detected):
         if sample.frame_index in excluded:
             counts["excluded_samples"] += 1
@@ -170,8 +165,6 @@ def evaluate(
             counts["current_run"] = 0
             continue
         counts["visible_samples"] += 1
-        observed_error: float | None
-        combined_error: float | None
         observed_error, combined_error = frame_errors(
             sample.ball.center, frame
         )
@@ -267,13 +260,11 @@ def validate_reference(
     :raises ValueError: If visibility, timestamps or coordinates disagree.
     """
     decisions: dict[int, str] = {}
-    review: FrameReview
     for review in provenance.review:
         if review.frame_index in decisions:
             raise ValueError("Duplicate reviewed frame index")
         decisions[review.frame_index] = review.visibility
     excluded: set[int] = set()
-    sample: FrameExport
     previous_index: int = -1
     for sample in reference.frames:
         if sample.frame_index <= previous_index:

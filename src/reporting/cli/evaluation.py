@@ -78,7 +78,6 @@ def main(argv: list[str] | None = None) -> int:
         raise ValueError("Source video hash differs from the reference")
     excluded: set[int] = validate_reference(reference, provenance)
     results: dict[str, Measurements] = {}
-    threshold: int
     for threshold in (10, 20, 30):
         results[str(threshold)] = evaluate(
             reference,

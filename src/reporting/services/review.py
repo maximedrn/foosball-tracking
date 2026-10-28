@@ -16,7 +16,6 @@ from cv2 import (
     rectangle,
     resize,
 )
-from cv2.typing import MatLike
 from numpy import full, uint8
 
 from reporting.models.positions import ComparisonStatus
@@ -130,8 +129,6 @@ def example_caption(
     :return: Source frame index and measured error or availability status.
     :rtype: str
     """
-    status: ComparisonStatus
-    error: float | None
     status, error = classify_position(
         reference.ball.center if reference.ball is not None else None,
         automatic.ball.center if automatic.ball is not None else None,
@@ -193,11 +190,8 @@ def render_review(
     if not reference_writer.isOpened() or not comparison_writer.isOpened():
         raise RuntimeError("Unable to create review videos")
     panels: list[Image] = []
-    frame: FrameExport
     try:
         for frame in automatic.frames:
-            success: bool
-            decoded_frame: MatLike
             success, decoded_frame = capture.read()
             if not success:
                 raise RuntimeError(f"Missing source frame {frame.frame_index}")
@@ -260,14 +254,9 @@ def write_sheets(panels: list[Image], output_dir: Path) -> None:
     :rtype: None
     :raises OSError: If a review sheet cannot be saved.
     """
-    page: int
     for page in range((len(panels) + 9) // 10):
         sheet: Image = full((1322, 2245, 3), 255, dtype=uint8)
-        cell: int
-        panel: Image
         for cell, panel in enumerate(panels[page * 10 : (page + 1) * 10]):
-            row: int
-            column: int
             row, column = divmod(cell, 5)
             sheet[
                 row * 661 : (row + 1) * 661,

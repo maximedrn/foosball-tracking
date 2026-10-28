@@ -107,8 +107,6 @@ def render_examples(
         hspace=0.26,
         wspace=0.08,
     )
-    number: int
-    index: int
     try:
         for number, index in enumerate(EXAMPLE_FRAMES, start=1):
             capture.set(CAP_PROP_POS_FRAMES, index)

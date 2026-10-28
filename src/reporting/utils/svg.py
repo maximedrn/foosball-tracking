@@ -58,12 +58,10 @@ def apply_adaptive_theme(
     if root.tag != SVG_ROOT_TAG:
         raise ValueError(f"Not an SVG document: {root.tag}")
 
-    child: ElementTree.Element[str]
     for child in list(root):
         if child.tag == SVG_STYLE_TAG and child.get("id") == THEME_STYLE_ID:
             root.remove(child)
 
-    element: ElementTree.Element[str]
     for element in root.iter():
         style: str | None = element.get("style")
         if style:

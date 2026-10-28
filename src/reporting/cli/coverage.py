@@ -48,11 +48,9 @@ def main(argv: list[str] | None = None) -> int:
     :rtype: int
     """
     args: PlotArguments = parse_arguments(argv)
-    report: CoverageReport
     if args.reports:
         statistics: list[VideoStatistics] = []
         sources: list[CoverageSource] = []
-        path: Path
         for path in args.reports:
             statistics.append(load_statistics(path, layout=ChartLayout()))
             source_bytes: bytes = path.read_bytes()

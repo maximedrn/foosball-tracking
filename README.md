@@ -181,3 +181,5 @@ uv run reporting coverage output/video[1-5].json \
 Results depend strongly on the input configuration. RGB bounds must match the video's colors and lighting. If the field mask fails, ball detection cannot start; overly broad bounds admit similarly colored objects. Resolution, camera distance and perspective also change the appropriate area, radius and kernel settings.
 
 The manual configuration gives accurate locations on most readable frames here, but the false observations on nonvisible-target frames show that it still confuses some objects with the ball. Prediction settings must also match game speed and camera motion. Constant-velocity extrapolation cannot account for hidden rebounds.
+
+> Note: The `reporting` module and the results export code in the `tracking` module were developed with AI assistance.

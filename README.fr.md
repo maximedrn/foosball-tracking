@@ -179,3 +179,5 @@ uv run reporting coverage output/video[1-5].json \
 Les résultats dépendent fortement de la configuration d'entrée. Les bornes RGB doivent correspondre aux couleurs et à l'éclairage de la vidéo. Si le masque du terrain échoue, la détection de la balle ne peut pas démarrer ; des bornes trop larges peuvent inclure des objets de couleur similaire. La résolution, la distance de la caméra et la perspective influencent également les valeurs adaptées pour les seuils d'aire, de rayon et les tailles des noyaux.
 
 Dans cette évaluation, le réglage manuel fournit des localisations correctes pour la plupart des images dont la balle est identifiable. Cependant, les fausses observations sur les images sans balle cible visible montrent que l'algorithme confond encore certains objets avec la balle. Les paramètres de prédiction doivent également être adaptés à la vitesse du jeu et aux mouvements de caméra. L'extrapolation à vitesse constante ne peut pas prendre en compte les rebonds survenus pendant une occultation.
+
+> Remarque : le module `reporting` et le code d'exportation des résultats du module `tracking` ont été développés à l'aide de l'IA.
