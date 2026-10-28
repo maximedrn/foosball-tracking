@@ -2,11 +2,10 @@
 
 Détecte le terrain de baby-foot et suit la balle à l'aide des méthodes classiques d'[OpenCV](https://opencv.org/).
 
-> [English documentation](README.md)
-
-**Sommaire**
+## Sommaire
 
 - [Foosball Tracking](#foosball-tracking)
+  - [Sommaire](#sommaire)
   - [Installation](#installation)
   - [Utilisation](#utilisation)
   - [Développement](#développement)
@@ -84,7 +83,7 @@ L'image est réduite, puis la surface verte est segmentée en RGB. Une fermeture
 
 ### 2. Détection de la balle
 
-Les pixels jaunes sont segmentés à l'intérieur du terrain. Les contours sont filtrés selon leur aire, leur rayon, leur rapport d'aspect, leur circularité et leur taux de remplissage. Le candidat obtenant le score le plus élevé est ensuite sélectionné.
+Les pixels sont segmentés à l'intérieur du terrain. Les contours sont filtrés selon leur aire, leur rayon, leur rapport d'aspect, leur circularité et leur taux de remplissage. Le candidat obtenant le score le plus élevé est ensuite sélectionné.
 
 ![Illustration de la géométrie des candidats](docs/diagrams/figures/ball-geometry.svg)
 
@@ -114,14 +113,14 @@ Lors de brèves occultations, la position est extrapolée à partir de la derni�
 
 Une seule configuration, [`config.jsonc`](config.jsonc), a été ajustée manuellement aux couleurs de la vidéo.
 
-| Composant | Paramètres |
-| --- | --- |
-| Couleur du terrain | RGB `[30, 110, 65]`–`[145, 200, 175]` |
-| Couleur de la balle | RGB `[170, 140, 0]`–`[255, 255, 90]` |
+| Composant            | Paramètres                                                                               |
+| -------------------- | ---------------------------------------------------------------------------------------- |
+| Couleur du terrain   | RGB `[30, 110, 65]` – `[145, 200, 175]`                                                  |
+| Couleur de la balle  | RGB `[170, 140, 0]` – `[255, 255, 90]`                                                   |
 | Géométrie du terrain | Échelle `0.5`, proportion minimale de surface `0.15`, redétection toutes les `60` images |
-| Taille de la balle | Aire `40–1400 px²`, rayon `4.5–28 px`, rayon privilégié `14 px` |
-| Forme de la balle | Circularité ≥ `0.3`, remplissage ≥ `0.15`, rapport d'aspect ≤ `4.5` |
-| Suivi | Prédiction ≤ `0.4 s`, lissage de la vitesse `0.7` |
+| Taille de la balle   | Aire `40–1400 px²`, rayon `4.5–28 px`, rayon privilégié `14 px`                          |
+| Forme de la balle    | Circularité ≥ `0.3`, remplissage ≥ `0.15`, rapport d'aspect ≤ `4.5`                      |
+| Suivi                | Prédiction ≤ `0.4 s`, lissage de la vitesse `0.7`                                        |
 
 ### Annotations et résultats du code
 
@@ -131,12 +130,12 @@ La vidéo de test contient 434 images à 30 images/s, avec une résolution de 89
 - Le fichier de [provenance](docs/data/provenance.json) enregistre la visibilité et les empreintes numériques.
 - Le [JSON de comparaison](docs/data/comparison.json) associe les `frame_index` et évalue séparément les observations et les prédictions.
 
-| Mesure | Résultat |
-| --- | --- |
-| Localisations observées correctes à 20 px près | 373/378 (98,7 %) |
-| Précision / rappel / F1 des observations | 95,4 % / 98,7 % / 97,0 % |
-| Erreur médiane / moyenne de position | 3,16 px / 7,11 px |
-| Faux positifs observés sur les images sans balle cible visible | 15/32 |
+| Mesure                                                         | Résultat                 |
+| -------------------------------------------------------------- | ------------------------ |
+| Localisations observées correctes à 20 px près                 | 373/378 (98,7 %)         |
+| Précision / rappel / F1 des observations                       | 95,4 % / 98,7 % / 97,0 % |
+| Erreur médiane / moyenne de position                           | 3,16 px / 7,11 px        |
+| Faux positifs observés sur les images sans balle cible visible | 15/32                    |
 
 Le rappel de 98,7 % concerne les centres identifiables : 373 observations correctes, 3 localisations erronées et 2 images avec une prédiction uniquement. Le graphique complet inclut également 21 observations non évaluées et 15 fausses détections sur des images sans balle visible.
 

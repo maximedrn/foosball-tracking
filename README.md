@@ -4,9 +4,10 @@ Detect the playing field and track the ball with classical [OpenCV](https://open
 
 > [Documentation française](README.fr.md)
 
-**Contents**
+## Contents
 
 - [Foosball Tracking](#foosball-tracking)
+  - [Contents](#contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Development](#development)
@@ -84,7 +85,7 @@ Downscale the frame, segment its green surface in RGB, close small gaps and reta
 
 ### 2. Ball detection
 
-Segment yellow pixels inside the field. Filter contours by area, radius, aspect ratio, circularity and fill ratio, then select the highest-scoring candidate.
+Segment pixels inside the field. Filter contours by area, radius, aspect ratio, circularity and fill ratio, then select the highest-scoring candidate.
 
 ![Ball geometry illustration](docs/diagrams/figures/ball-geometry.svg)
 
@@ -116,8 +117,8 @@ One configuration, [`config.jsonc`](config.jsonc), was manually adjusted to the 
 
 | Component      | Settings                                                              |
 | -------------- | --------------------------------------------------------------------- |
-| Field color    | RGB `[30, 110, 65]`–`[145, 200, 175]`                                 |
-| Ball color     | RGB `[170, 140, 0]`–`[255, 255, 90]`                                  |
+| Field color    | RGB `[30, 110, 65]` – `[145, 200, 175]`                               |
+| Ball color     | RGB `[170, 140, 0]` – `[255, 255, 90]`                                |
 | Field geometry | Scale `0.5`, minimum area ratio `0.15`, redetection every `60` frames |
 | Ball size      | Area `40–1400 px²`, radius `4.5–28 px`, preferred radius `14 px`      |
 | Ball shape     | Circularity ≥ `0.3`, fill ≥ `0.15`, aspect ratio ≤ `4.5`              |
