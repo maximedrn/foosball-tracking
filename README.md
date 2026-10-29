@@ -75,6 +75,18 @@ uv run poe review
 uv run poe diagrams
 ```
 
+```bash
+# Generate PDF from README file.
+pandoc README.md \
+  --from=gfm+tex_math_dollars \
+  --standalone \
+  --top-level-division=section \
+  -V documentclass=report \
+  -V lang=fr-FR \
+  -o README.tex \
+&& latexmk -xelatex -shell-escape -halt-on-error README.tex
+```
+
 ## How it works
 
 ### 1. Field detection

@@ -1,7 +1,28 @@
+# Operating system files.
+.DS_Store
+Thumbs.db
+
+# LaTeX intermediate files.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.xdv
+*.tex
+*.toc
+*.pdf
+*.bak*
+indent.log
+
 # Project related.
 *.mp4
 output/*
-.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
