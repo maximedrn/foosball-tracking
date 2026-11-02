@@ -24,7 +24,7 @@
             "upper": [145, 200, 175]
         },
         // Run table detection every N frames; reuse its last position between runs.
-        "detection_every": 60,
+        "detection_every": 1,
         // Resize factor for table detection; 0.5 halves both image dimensions.
         "scale": 0.5,
         // Minimum fraction of the image occupied by the playing surface.
@@ -78,11 +78,11 @@
         // Open a preview window; Q or Escape stops processing.
         "enabled": false,
         // Refresh the preview every N processed frames.
-        "every_n_frames": 3,
+        "every_n_frames": 1,
         // Maximum preview width in pixels; the output resolution is unchanged.
         "width": 1000,
         // Print console progress every N processed frames.
-        "progress_every": 20
+        "progress_every": 1
     },
     // Overlay colors use OpenCV BGR order: [blue, green, red].
     "drawing": {
